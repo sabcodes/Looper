@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "purpose": "Five hand-arranged procedural accompaniments around the user's supplied verse-2-plus-chorus vocal. This is a creative remix listening set, not a natural-language parser benchmark or a faithful transcription of the original backing.",
+  "input": "vocals/Radiohead - Let Down vocals merged.wav",
+  "key": "A major",
+  "bpm": 125,
+  "timingSource": "User-specified key/BPM. The complete 49.92-second file equals 26 bars of 4/4 at 125 BPM.",
+  "bars": 26,
+  "gridOriginSeconds": 0,
+  "chorusStartBar": 16,
+  "alignmentCaveat": "Grid starts at the supplied file boundary; vocal onset around 0.73 seconds is retained as a late entrance. Verse/chorus boundary at bar 17 (30.72 seconds) is inferred from the stated excerpt and form, not manually tapped or lyric-force-aligned. Musical alignment still needs listening.",
+  "storageLimitBytes": 10000000,
+  "research": [
+    {"url":"https://music.apple.com/us/song/1097861834","use":"Song identity/credits."},
+    {"url":"https://citizeninsane.eu/music/okc/letdown.html","use":"Verse/chorus lyric order, cross-checked with the user's supplied excerpt. Lyrics are not reproduced in this fixture."},
+    {"url":"https://www.musicradar.com/artists/if-the-point-of-radiohead-songs-isnt-to-make-you-feel-good-what-is-their-music-for-a-music-professor-breaks-down-the-theory-behind-radioheads-let-down","use":"Ethan Hein's published analysis: A-major verse/chorus harmony and ambiguous mood. Our sparse shared reharmonization is an arrangement choice, not an exact transcription."}
+  ],
+  "cases": [
+    {"id":"01","title":"After-hours trip-hop / 808","prompt":"Trip hop in A major at 125bpm, 26 bars in 4/4; halftime snare, saturated 808 sub, sparse warm Rhodes broken chords, no lead or arpeggios.","seed":"let-down-20261101-trip-hop","bass":"saturated_808","harmony":"rhodes_stabs","bassMode":"unison_lock","style":"broken","swing":54,"snare":[8],"kicks":[[0,6],[0,10,14],[0,7,12],[0,6,11]],"hats":[0,2,4,6,10,12,14],"musicRms":0.065},
+    {"id":"02","title":"Skipping UK garage","prompt":"UK garage in A major at 125bpm, 26 bars in 4/4; skipping 2-step drums, garage sub strictly between kicks, sparse offbeat organ chords, no lead or arpeggios.","seed":"let-down-20261101-garage","bass":"garage_sub","harmony":"organ","bassMode":"counterpoint","style":"offbeat","swing":59,"snare":[4,12],"kicks":[[0,7,10],[0,6],[0,10,14],[0,7]],"hats":[0,2,3,6,8,10,11,14],"musicRms":0.065},
+    {"id":"03","title":"Warm late-night deep house","prompt":"Deep house in A major at 125bpm, 26 bars in 4/4; four-on-the-floor kick, rounded dark analog bass on upbeats, soft sustained analog pads, no piano or lead or arpeggios.","seed":"let-down-20261101-deep-house","bass":"dark_analog_bass","harmony":"analog_saw_pad","bassMode":"offbeat_pump","style":"sustain","swing":51,"snare":[4,12],"kicks":[[0,4,8,12]],"hats":[0,2,4,6,8,10,12,14],"musicRms":0.065},
+    {"id":"04","title":"Airy indie-electronic guitar","prompt":"Indie pop in A major at 125bpm, 26 bars in 4/4; fingerpicked acoustic guitar, warm electric bass, restrained live-style backbeat, no synth lead or arpeggios.","seed":"let-down-20261101-indie","bass":"electric_bass","harmony":"acoustic_guitar","bassMode":"root_fifth","style":"fingerpick","swing":50,"snare":[4,12],"kicks":[[0,8],[0,7,10],[0,8],[0,6,10]],"hats":[0,2,4,6,8,10,12,14],"musicRms":0.065},
+    {"id":"05","title":"Shadowy breakbeat / soft sub","prompt":"Trip hop breakbeat electronica in A major at 125bpm, 26 bars in 4/4; syncopated broken drums, soft sub foundations, restrained dark pads, no metallic bass, piano or lead or arpeggios.","seed":"let-down-20261101-breakbeat","bass":"sine_sub","harmony":"dark_pad","bassMode":"liquid_phrases","style":"sustain","swing":52,"snare":[4,12],"kicks":[[0,3,10],[0,6,11],[0,7,10,14],[0,3,8,11]],"hats":[0,2,5,6,8,10,13,14,15],"musicRms":0.065}
+  ]
+}

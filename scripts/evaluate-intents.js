@@ -1,0 +1,21 @@
+import { readFile, mkdir } from 'node:fs/promises';
+import { parseArgs } from 'node:util';
+import { basename } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { classify } from '../src/parser.js';
+import { writeJson } from '../src/export.js';
+const { values } = parseArgs({ options: { output: { type: 'string', default: 'intent-evaluation.json' }, force: { type: 'boolean' } } });
+if (basename(values.output) !== values.output || /[\\/\0]/.test(values.output) || !values.output.endsWith('.json')) throw new Error('Use a JSON filename in generated_beats/.');
+const fixture = JSON.parse(await readFile(new URL('../data/intent-evaluation.json', import.meta.url), 'utf8'));
+const cases = fixture.cases.map((test) => {
+  const result = classify(test.prompt);
+  return { ...test, actual: result.intent, passed: result.intent === test.expected, scores: result.scores.slice(0, 3) };
+});
+const passed = cases.filter((c) => c.passed).length;
+const report = { fixtureVersion: fixture.version, caveat: fixture.purpose, passed, total: cases.length, cases };
+const target = fileURLToPath(new URL('../generated_beats/' + values.output, import.meta.url));
+await mkdir(new URL('../generated_beats/', import.meta.url), { recursive: true });
+await writeJson(target, report, values.force);
+console.log(passed + '/' + cases.length + ' intent regression cases passed. Report: ' + target);
+for (const c of cases.filter((c) => !c.passed)) console.log(c.id + ': expected ' + c.expected + ', got ' + c.actual + ' — ' + c.prompt);
+if (passed !== cases.length) process.exitCode = 1;

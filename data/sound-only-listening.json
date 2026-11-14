@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "referenceFolder": "set6",
+  "referenceStage": "after",
+  "purpose": "Compare existing instrument sounds on preferred B phrasing, changing one primary voice at a time. Deliberate evaluation overrides of named instruments; not ordinary prompt/seed rerolls.",
+  "previewSeconds": 16,
+  "storageLimitBytes": 4000000,
+  "cases": [
+    {"id":"02","variants":[{"label":"B-bass","role":"bass","profile":"warm_sub","description":"Round warm sub instead of upright bass"},{"label":"C-harmony","role":"keys","profile":"rhodes_stabs","description":"Rhodes instead of PWM harmony"}]},
+    {"id":"08","variants":[{"label":"B-bass","role":"bass","profile":"electric_bass","description":"Electric bass instead of upright bass"},{"label":"C-harmony","role":"keys","profile":"acoustic_piano","description":"Acoustic piano instead of vibraphone"}]},
+    {"id":"09","variants":[{"label":"B-bass","role":"bass","profile":"dark_analog_bass","description":"Deep analog bass instead of acid bass"},{"label":"C-harmony","role":"keys","profile":"organ","description":"Organ instead of vibraphone; answering piano remains"}]}
+  ]
+}

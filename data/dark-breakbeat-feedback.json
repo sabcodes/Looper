@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "set": "set11",
+  "date": "2026-11-01",
+  "verbatim": "I like 05-N1 / N2: Two new dark-breakbeat seeds more but we still need the vocals to be alot quiter. Do another -12dB. And add some violins and darker piano tunes/sadder for other seeds. Lets get 3 more for this style",
+  "favoriteCases": [
+    "05-N1",
+    "05-N2"
+  ],
+  "manifestSha256": "d8e2129c66d48cddb54ad981fd7ee7969ef741151ddbc87b8c2a21d2ee1a62c0",
+  "cases": [
+    {
+      "id": "05-N1",
+      "seed": "let-down-20261101-breakbeat-new-1",
+      "audio": "05-N1-shadowy-breakbeat-soft-sub-new-seed-1.mp3",
+      "score": "05-N1-shadowy-breakbeat-soft-sub-new-seed-1.score.json.gz",
+      "audioSha256": "b8b5cdf0e6b2454a26a0b77ebced8bd1e93a2d07715a32ef0edad80e60c6d476",
+      "scoreSha256": "ea5e7cfe49adb845d6bc71de891da3191e34d9bf8cc3b217312b9281f774640c"
+    },
+    {
+      "id": "05-N2",
+      "seed": "let-down-20261101-breakbeat-new-2",
+      "audio": "05-N2-shadowy-breakbeat-soft-sub-new-seed-2.mp3",
+      "score": "05-N2-shadowy-breakbeat-soft-sub-new-seed-2.score.json.gz",
+      "audioSha256": "39469c09086b3aa9a36a0c8a6c8a2addd90f4a4446e5875f21618bddf7d0abd0",
+      "scoreSha256": "07ca76faf1f72ddcb53b3cb75a802c0e31855179c8b1e65dbdc5f38fef8969c7"
+    }
+  ],
+  "mixChange": {
+    "additionalVocalDb": -12,
+    "previousVocalDb": -6,
+    "totalVocalDbFromSet10": -18
+  },
+  "requestedColors": [
+    "violin",
+    "darker/sadder piano"
+  ],
+  "newCasesRequested": 3,
+  "scope": "Preference for these exact dark-breakbeat examples, plus explicit vocal balance and orchestration requests. No general genre ranking or numeric quality ratings."
+}

@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "set": "set5",
+  "sourceCommit": "7ad049e438f75f632211ad3164df2cf2f4fb68db",
+  "scope": "Human preference for these specific seeded 16-second indie-pop excerpts; not instrument or genre rules.",
+  "favorites": [
+    "01",
+    "02",
+    "04",
+    "05",
+    "06",
+    "09",
+    "11",
+    "13",
+    "14",
+    "15",
+    "16",
+    "18"
+  ],
+  "disliked": [
+    "08",
+    "12",
+    "20"
+  ],
+  "otherPositive": [
+    "03",
+    "07",
+    "10",
+    "17",
+    "19"
+  ],
+  "ratings": [
+    {
+      "id": "01",
+      "seed": "3737817790",
+      "preference": "favorite"
+    },
+    {
+      "id": "02",
+      "seed": "2961965966",
+      "preference": "favorite"
+    },
+    {
+      "id": "03",
+      "seed": "2866351082",
+      "preference": "positive_not_marked_favorite"
+    },
+    {
+      "id": "04",
+      "seed": "1102660791",
+      "preference": "favorite"
+    },
+    {
+      "id": "05",
+      "seed": "1556454211",
+      "preference": "favorite"
+    },
+    {
+      "id": "06",
+      "seed": "3732857488",
+      "preference": "favorite"
+    },
+    {
+      "id": "07",
+      "seed": "3525302082",
+      "preference": "positive_not_marked_favorite"
+    },
+    {
+      "id": "08",
+      "seed": "1870912561",
+      "preference": "disliked"
+    },
+    {
+      "id": "09",
+      "seed": "4093001357",
+      "preference": "favorite"
+    },
+    {
+      "id": "10",
+      "seed": "3239659670",
+      "preference": "positive_not_marked_favorite"
+    },
+    {
+      "id": "11",
+      "seed": "2065940605",
+      "preference": "favorite"
+    },
+    {
+      "id": "12",
+      "seed": "2858271316",
+      "preference": "disliked"
+    },
+    {
+      "id": "13",
+      "seed": "1259808245",
+      "preference": "favorite"
+    },
+    {
+      "id": "14",
+      "seed": "3650945637",
+      "preference": "favorite"
+    },
+    {
+      "id": "15",
+      "seed": "543200882",
+      "preference": "favorite"
+    },
+    {
+      "id": "16",
+      "seed": "86235174",
+      "preference": "favorite"
+    },
+    {
+      "id": "17",
+      "seed": "3115999217",
+      "preference": "positive_not_marked_favorite"
+    },
+    {
+      "id": "18",
+      "seed": "3368329452",
+      "preference": "favorite"
+    },
+    {
+      "id": "19",
+      "seed": "4143659171",
+      "preference": "positive_not_marked_favorite"
+    },
+    {
+      "id": "20",
+      "seed": "2730281480",
+      "preference": "disliked"
+    }
+  ],
+  "dislikeReason": "Rhythm of an unidentified metallic-sounding synth/brass/bass-like part felt off. Voice not isolated.",
+  "instrumentsNotGloballyRejected": {
+    "pwm": {
+      "favorite": "02",
+      "disliked": "12"
+    },
+    "vibraphone": {
+      "favorite": "09",
+      "disliked": "08"
+    },
+    "acoustic_guitar": {
+      "favorite": "13",
+      "disliked": "20"
+    }
+  },
+  "confirmedDefect": "Drum call-and-response cue leaks into bass phrasing; affects 05,07,12, while 11 also explicitly requests bass call-and-response. Correctness defect, not a proven explanation of subjective dislike.",
+  "futureUse": "Use favorites as positive examples and the three dislikes as targeted rhythm/coordination review cases. Preserve explicit intent and compare one factor at a time; do not fit broad musical rules to this small mixed-factor set."
+}

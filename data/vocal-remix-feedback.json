@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "set": "set10",
+  "recordedDate": "2026-11-01",
+  "verbatim": "3 and 5 are my favoirte so more of that seeds plz. ANd make the vocals less loud. Its way too loud compared to the rest of the track",
+  "manifestSha256": "4173fa8e0db5f5d16f5132b85da1adec0be0a8006a9323e311ed254b7475500b",
+  "favoriteCases": [
+    "03",
+    "05"
+  ],
+  "scope": "Favorites among five exact full-excerpt vocal mixes; not a global genre ranking. No numeric ratings or timing/harmony acceptance supplied.",
+  "mixFeedback": {
+    "issue": "Vocal too loud relative to accompaniment",
+    "requestedChange": "Reduce vocal relative to the backing",
+    "chosenTrialVocalGainDb": -6,
+    "trialAmountSource": "Engineering choice; user did not specify a dB value."
+  },
+  "cases": [
+    {
+      "id": "03",
+      "title": "Warm late-night deep house",
+      "seed": "let-down-20261101-deep-house",
+      "audio": "03-warm-late-night-deep-house.mp3",
+      "score": "03-warm-late-night-deep-house.score.json.gz",
+      "audioSha256": "6b2e9288a6f2b8bcb59266d878aa95f9e6a88ec9ec3c9ba94dbb65df2ca2024f",
+      "scoreSha256": "b11c4c6496a5dfc845115ad2b080fabde4c14cdedb9d1a76f9445cb58d599547",
+      "bass": "dark_analog_bass",
+      "harmony": "analog_saw_pad"
+    },
+    {
+      "id": "05",
+      "title": "Shadowy breakbeat / soft sub",
+      "seed": "let-down-20261101-breakbeat",
+      "audio": "05-shadowy-breakbeat-soft-sub.mp3",
+      "score": "05-shadowy-breakbeat-soft-sub.score.json.gz",
+      "audioSha256": "533ef3f15db77ff5ebd17a4460bcf386dcc5a9a4714e9fc602b689ba6e13f439",
+      "scoreSha256": "559c88a9d676cbc74063887dab2f67fe9dba5795e2ded3b0341326752d7f7fc7",
+      "bass": "sine_sub",
+      "harmony": "dark_pad"
+    }
+  ],
+  "originalAudioScoresAndManifestUnchanged": true,
+  "engineDefaultsChanged": false
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "purpose": "Exploratory matched listening comparison: deep analog, distorted analog and dark wide pad. No subjective ratings assigned.",
+  "basePrompt": "industrial bass in F minor at 100bpm, 32 bars, sustained bass throughout the song, slow filter movement, sparse drums, dark pads, no piano, no lead, no arpeggios",
+  "seed": "202",
+  "sauce": 0,
+  "previewStartBar": 20,
+  "previewSeconds": 16,
+  "controls": "Compose once. Freeze bass/chord pitches and onset/duration data plus all drum events. Lower the common chord register by one octave. Apply parsed timbre controls and declared pad level/width changes; match final encoded integrated loudness with linear gain only.",
+  "cases": [
+    {
+      "id": "A-analog",
+      "label": "A \u2014 Deep dark analog synth",
+      "prompt": "industrial bass in F minor at 100bpm, 32 bars, sustained deep dark analog synth bass and soft dark pads, bass throughout the song, slow filter movement, sparse drums, no piano, no lead, no arpeggios",
+      "padGain": 0.35,
+      "padWidth": 0.35,
+      "expectedBassProfile": "dark_analog_bass",
+      "expectedPadProfile": "dark_pad"
+    },
+    {
+      "id": "B-distorted",
+      "label": "B \u2014 Heavy distorted dark synth",
+      "prompt": "industrial bass in F minor at 100bpm, 32 bars, sustained distorted deep dark analog synth bass and soft dark pads, bass throughout the song, slow filter movement, sparse drums, no piano, no lead, no arpeggios",
+      "padGain": 0.35,
+      "padWidth": 0.35,
+      "expectedBassProfile": "dark_distorted_bass",
+      "expectedPadProfile": "dark_pad"
+    },
+    {
+      "id": "C-pad",
+      "label": "C \u2014 Slow wide dark synth pad",
+      "prompt": "industrial bass in F minor at 100bpm, 32 bars, sustained deep dark analog synth bass under wide slow attack dark synth pads, bass throughout the song, slow filter movement, sparse drums, no piano, no lead, no arpeggios",
+      "padGain": 1.5,
+      "padWidth": 1.5,
+      "expectedBassProfile": "dark_analog_bass",
+      "expectedPadProfile": "dark_wide_pad"
+    }
+  ]
+}

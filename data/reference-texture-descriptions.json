@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "purpose": "Fixed exploratory texture/instrument-family descriptions; ranking is diagnostic and cannot identify the true source instrument.",
+  "descriptions": {
+    "low_distorted_synth": "Music featuring a deep low pitched distorted synthesizer playing a crunchy sustained riff.",
+    "detuned_analog_bass": "Music featuring a deep detuned analog synthesizer bass with a warm dark sustained tone.",
+    "crunchy_poly_synth": "Music featuring low crunchy synthesizer chords with heavy saturated harmonics.",
+    "low_distorted_guitar": "Music featuring a low tuned distorted electric guitar playing a heavy crunchy riff.",
+    "electric_bass": "Music featuring a low electric bass guitar playing a rhythmic grooving bassline.",
+    "sliding_808": "Music featuring a deep sliding 808 sub bass with gliding notes.",
+    "clean_sub": "Music featuring a very deep clean sine wave sub bass.",
+    "dark_pad": "Music featuring long soft dark atmospheric synthesizer pads.",
+    "growling_bass": "Music featuring a moving growling wobbling synthesizer bass with resonant filter motion.",
+    "electric_piano": "Music featuring mellow electric piano chords and rhythmic keyboard stabs.",
+    "plucked_synth": "Music featuring a low plucked synthesizer bass playing short sharp rhythmic notes.",
+    "organ_synth": "Music featuring a dark low organ-like synthesizer tone with rich sustained harmonics."
+  }
+}

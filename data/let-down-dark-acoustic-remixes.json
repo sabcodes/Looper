@@ -1,0 +1,210 @@
+{
+  "version": 1,
+  "purpose": "Three new favorite-style dark-breakbeat remixes with much quieter vocals and optional darker piano/violin counterlines.",
+  "input": "vocals/Radiohead - Let Down vocals merged.wav",
+  "key": "A major",
+  "bpm": 125,
+  "timingSource": "User-specified key/BPM. The complete 49.92-second file equals 26 bars of 4/4 at 125 BPM.",
+  "bars": 26,
+  "gridOriginSeconds": 0,
+  "chorusStartBar": 16,
+  "alignmentCaveat": "Grid starts at the supplied file boundary; vocal onset around 0.73 seconds is retained as a late entrance. Verse/chorus boundary at bar 17 (30.72 seconds) is inferred from the stated excerpt and form, not manually tapped or lyric-force-aligned. Musical alignment still needs listening.",
+  "storageLimitBytes": 6000000,
+  "research": [
+    {
+      "url": "https://music.apple.com/us/song/1097861834",
+      "use": "Song identity/credits."
+    },
+    {
+      "url": "https://citizeninsane.eu/music/okc/letdown.html",
+      "use": "Verse/chorus lyric order, cross-checked with the user's supplied excerpt. Lyrics are not reproduced in this fixture."
+    },
+    {
+      "url": "https://www.musicradar.com/artists/if-the-point-of-radiohead-songs-isnt-to-make-you-feel-good-what-is-their-music-for-a-music-professor-breaks-down-the-theory-behind-radioheads-let-down",
+      "use": "Ethan Hein's published analysis: A-major verse/chorus harmony and ambiguous mood. Our sparse shared reharmonization is an arrangement choice, not an exact transcription."
+    }
+  ],
+  "cases": [
+    {
+      "id": "05",
+      "title": "Rain-room piano",
+      "prompt": "Trip hop breakbeat electronica in A major at 125bpm, 26 bars in 4/4; syncopated broken drums, deep soft sub and dark pads, sparse descending dark acoustic piano phrases, no metallic bass or synth lead.",
+      "seed": "let-down-20261101-dark-acoustic-1",
+      "bass": "dark_analog_bass",
+      "harmony": "dark_pad",
+      "bassMode": "liquid_phrases",
+      "style": "sustain",
+      "swing": 53,
+      "snare": [
+        4,
+        12
+      ],
+      "kicks": [
+        [
+          0,
+          3,
+          10
+        ],
+        [
+          0,
+          6,
+          11
+        ],
+        [
+          0,
+          7,
+          10,
+          14
+        ],
+        [
+          0,
+          3,
+          8,
+          11
+        ]
+      ],
+      "hats": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "musicRms": 0.065,
+      "variation": {
+        "voicingRotation": 2,
+        "register": 0,
+        "padGate": 0.92,
+        "bassPhase": 0,
+        "bassGate": 3.2
+      },
+      "label": "DB-1",
+      "referenceType": "new-orchestration-seed",
+      "parentCase": "05-N1",
+      "layers": "piano"
+    },
+    {
+      "id": "05",
+      "title": "Falling violin",
+      "prompt": "Trip hop breakbeat electronica in A major at 125bpm, 26 bars in 4/4; syncopated broken drums, deep soft sub and dark pads, restrained bowed violin counterlines, no metallic bass or synth lead.",
+      "seed": "let-down-20261101-dark-acoustic-2",
+      "bass": "dark_analog_bass",
+      "harmony": "dark_pad",
+      "bassMode": "liquid_phrases",
+      "style": "sustain",
+      "swing": 56,
+      "snare": [
+        4,
+        12
+      ],
+      "kicks": [
+        [
+          0,
+          3,
+          10
+        ],
+        [
+          0,
+          6,
+          11
+        ],
+        [
+          0,
+          7,
+          10,
+          14
+        ],
+        [
+          0,
+          3,
+          8,
+          11
+        ]
+      ],
+      "hats": [
+        0,
+        2,
+        6,
+        8,
+        10,
+        14
+      ],
+      "musicRms": 0.065,
+      "variation": {
+        "voicingRotation": 1,
+        "register": 0,
+        "padGate": 0.8,
+        "bassPhase": 0,
+        "bassGate": 3.2
+      },
+      "label": "DB-2",
+      "referenceType": "new-orchestration-seed",
+      "parentCase": "05-N2",
+      "layers": "violin"
+    },
+    {
+      "id": "05",
+      "title": "Piano and violin dusk",
+      "prompt": "Trip hop breakbeat electronica in A major at 125bpm, 26 bars in 4/4; syncopated broken drums, deep soft sub and dark pads, sparse dark acoustic piano phrases and restrained bowed violin counterlines, no metallic bass or synth lead.",
+      "seed": "let-down-20261101-dark-acoustic-3",
+      "bass": "dark_analog_bass",
+      "harmony": "dark_pad",
+      "bassMode": "liquid_phrases",
+      "style": "sustain",
+      "swing": 55,
+      "snare": [
+        4,
+        12
+      ],
+      "kicks": [
+        [
+          0,
+          6,
+          11
+        ],
+        [
+          0,
+          7,
+          10,
+          14
+        ],
+        [
+          0,
+          3,
+          8,
+          11
+        ],
+        [
+          0,
+          3,
+          10
+        ]
+      ],
+      "hats": [
+        0,
+        2,
+        6,
+        8,
+        10,
+        14
+      ],
+      "musicRms": 0.065,
+      "variation": {
+        "voicingRotation": 1,
+        "register": 0,
+        "padGate": 0.8,
+        "bassPhase": 1,
+        "bassGate": 3.2
+      },
+      "label": "DB-3",
+      "referenceType": "new-orchestration-seed",
+      "parentCase": "05-N1",
+      "layers": "both"
+    }
+  ],
+  "vocalDb": -18,
+  "balanceNote": "Another 12 dB below set11 (-18 dB total from set10). These are three new dark-breakbeat seeds with piano, violin, or both; earlier mixes are preserved."
+}

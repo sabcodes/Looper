@@ -1,0 +1,339 @@
+{
+  "version": 1,
+  "purpose": "Twenty additional evaluation requests for the completed v1.6 palette. IDs continue the earlier 25-case set. Do not add these requests to the intent training corpus before evaluating them. No audio was generated when writing this fixture.",
+  "seedBase": 16000,
+  "cases": [
+    {
+      "id": "26",
+      "title": "Soulful Sunday dancefloor",
+      "level": "vague",
+      "prompt": "A warm Sunday dancefloor groove with rich Hammond organ chords, plucked electric bass, tambourine and a steady kick. Add one brief, quiet female spoken hook near the drop: Stay a little longer. Keep the organ and bass in front.",
+      "vocal": {
+        "voice": "samantha",
+        "lyrics": "Stay a little longer.",
+        "hook": "Stay a little longer",
+        "vocalDensity": 0.25,
+        "vocalChops": 0,
+        "vocalEvery": 8,
+        "vocalSection": "drop"
+      },
+      "expect": {
+        "profiles": [
+          "organ",
+          "electric_bass"
+        ]
+      },
+      "review": "Check whether soulful dance context selects a suitable house family without requiring an explicit genre name."
+    },
+    {
+      "id": "27",
+      "title": "Clavinet tech house",
+      "level": "explicit",
+      "prompt": "Minimal tech house at 126 BPM in A minor, with clipped clavinet chords, a bouncy bassline, dry 909 kit, rimshots and open hats. No piano, no lead melody, no vocals.",
+      "expect": {
+        "intent": "tech_house",
+        "bpm": 126,
+        "root": 9,
+        "scale": "minor",
+        "profiles": [
+          "clavinet"
+        ],
+        "noPiano": true,
+        "noLead": true
+      }
+    },
+    {
+      "id": "28",
+      "title": "FM bassline pressure",
+      "level": "explicit",
+      "prompt": "UK bassline at 138 BPM in F minor, with short rubbery FM bass responses, shuffled hats and punchy claps. Keep the bass rhythmic rather than continuously held. No piano or vocals.",
+      "expect": {
+        "intent": "bassline",
+        "bpm": 138,
+        "root": 5,
+        "scale": "minor",
+        "profiles": [
+          "fm_bass"
+        ],
+        "noPiano": true
+      }
+    },
+    {
+      "id": "29",
+      "title": "Marimba UK funky",
+      "level": "explicit",
+      "prompt": "UK funky at 130 BPM with marimba chords, interlocking congas and agogo, pushed percussion and a 3 against 2 polyrhythm. Keep the bass warm and the groove playful. Instrumental only.",
+      "expect": {
+        "intent": "uk_funky",
+        "bpm": 130,
+        "profiles": [
+          "marimba"
+        ],
+        "polyrhythm": true
+      }
+    },
+    {
+      "id": "30",
+      "title": "Reese jungle breaks",
+      "level": "explicit",
+      "prompt": "1990s jungle at 166 BPM in G minor, with repeating broken drum phrases, ghost snares, ride cymbal and deep Reese bass answers. No piano or lead melody. Instrumental only.",
+      "expect": {
+        "intent": "jungle",
+        "bpm": 166,
+        "root": 7,
+        "scale": "minor",
+        "bassProfile": "reese_bass",
+        "noPiano": true,
+        "noLead": true
+      }
+    },
+    {
+      "id": "31",
+      "title": "Jump-up bass answers",
+      "level": "explicit",
+      "prompt": "Jump-up drum and bass at 175 BPM with short aggressive FM bass calls, answering gaps, punchy snares and an 808 kit. Sparse chords, no long pads, no piano, no vocals.",
+      "expect": {
+        "intent": "jump_up",
+        "bpm": 175,
+        "profiles": [
+          "fm_bass"
+        ],
+        "noPiano": true
+      }
+    },
+    {
+      "id": "32",
+      "title": "Neurofunk filter motion",
+      "level": "explicit",
+      "prompt": "Neurofunk at 174 BPM in D minor, with dark moving growl bass, tight rolling drums and quiet atmospheric pads. Alternate bass phrases with breathing room. No piano or vocals.",
+      "expect": {
+        "intent": "neurofunk",
+        "bpm": 174,
+        "root": 2,
+        "scale": "minor",
+        "bassProfile": "growl_bass",
+        "noPiano": true
+      }
+    },
+    {
+      "id": "33",
+      "title": "Minimal techno in five",
+      "level": "meter",
+      "prompt": "Minimal techno in 5/4 at 128 BPM, with sparse FM plucks, a clean sine sub, dry rimshots and a woodblock percussion cycle of 15 steps crossing bar lines. No vocals.",
+      "expect": {
+        "intent": "minimal_techno",
+        "bpm": 128,
+        "timeSignature": "5/4",
+        "bassProfile": "sine_sub"
+      },
+      "review": "The natural wording percussion cycle of 15 steps intentionally tests whether optional filler words are accepted."
+    },
+    {
+      "id": "34",
+      "title": "Dub techno space",
+      "level": "explicit",
+      "prompt": "Dub techno at 124 BPM in C minor, with sparse delayed synth chords, warm sub-bass, open hats and long spaces between phrases. No piano, no arpeggios, no lead melody and no vocals.",
+      "expect": {
+        "intent": "dub_techno",
+        "bpm": 124,
+        "root": 0,
+        "scale": "minor",
+        "noPiano": true,
+        "noArp": true,
+        "noLead": true
+      }
+    },
+    {
+      "id": "35",
+      "title": "Resonant acid techno",
+      "level": "explicit",
+      "prompt": "Acid techno at 136 BPM in F# minor, with resonant 303 bass, short slides, a driving 909 kit, open hats and occasional crash cymbals. No piano or acoustic guitar. Instrumental only.",
+      "expect": {
+        "intent": "acid_techno",
+        "bpm": 136,
+        "root": 6,
+        "scale": "minor",
+        "profiles": [
+          "acid_bass"
+        ],
+        "noPiano": true
+      }
+    },
+    {
+      "id": "36",
+      "title": "Intimate kalimba night groove",
+      "level": "vague",
+      "prompt": "An intimate late-night groove with delicate kalimba chords, plucked electric bass, soft drums and a laid-back snare. Add one brief, quiet female spoken hook near the drop: Stay here with me. Keep the rest instrumental.",
+      "vocal": {
+        "voice": "karen",
+        "lyrics": "Stay here with me.",
+        "hook": "Stay here with me",
+        "vocalDensity": 0.25,
+        "vocalChops": 0,
+        "vocalEvery": 8,
+        "vocalSection": "drop"
+      },
+      "expect": {
+        "profiles": [
+          "kalimba",
+          "electric_bass"
+        ]
+      },
+      "review": "Evaluate alternative-R&B, soul or restrained downtempo fit without forcing one genre label."
+    },
+    {
+      "id": "37",
+      "title": "Memphis bells and 808",
+      "level": "explicit",
+      "prompt": "Dark Memphis rap at 140 BPM in C minor, with a repeating bell riff, saturated 808 bass and triplet hats. No cowbells. Add one brief, quiet male spoken hook near the drop: Keep the night moving. Keep the rest instrumental.",
+      "vocal": {
+        "voice": "fred",
+        "lyrics": "Keep the night moving.",
+        "hook": "Keep the night moving",
+        "vocalDensity": 0.25,
+        "vocalChops": 0,
+        "vocalEvery": 8,
+        "vocalSection": "drop"
+      },
+      "expect": {
+        "intent": "memphis",
+        "bpm": 140,
+        "root": 0,
+        "scale": "minor"
+      },
+      "review": "Verify both percussion cowbells and the melodic cowbell profile are absent."
+    },
+    {
+      "id": "38",
+      "title": "Cowbell phonk",
+      "level": "explicit",
+      "prompt": "Phonk at 150 BPM in C minor, with a pitched melodic cowbell hook, distorted 808 bass and tight rolling hats. Keep the hook audible above the bass. No piano or vocals.",
+      "expect": {
+        "intent": "phonk",
+        "bpm": 150,
+        "root": 0,
+        "scale": "minor",
+        "profiles": [
+          "cowbell_melody"
+        ],
+        "noPiano": true
+      }
+    },
+    {
+      "id": "39",
+      "title": "Sparse gqom pressure",
+      "level": "explicit",
+      "prompt": "Gqom at 126 BPM with ominous broken kick phrases, deep sine sub-bass and sparse woody percussion. Leave large gaps and almost no harmony. No piano, no lead, no arpeggios, no vocals.",
+      "expect": {
+        "intent": "gqom",
+        "bpm": 126,
+        "bassProfile": "sine_sub",
+        "noPiano": true,
+        "noLead": true,
+        "noArp": true
+      }
+    },
+    {
+      "id": "40",
+      "title": "Private-school piano warmth",
+      "level": "explicit",
+      "prompt": "Private-school piano at 112 BPM in D dorian, with lush Rhodes ninth chords, rounded resonant log-drum bass phrases and soft shakers. Keep the harmony warm and the percussion restrained. No vocals.",
+      "expect": {
+        "intent": "private_school_piano",
+        "bpm": 112,
+        "root": 2,
+        "scale": "dorian",
+        "piano": true
+      },
+      "review": "Distinguish private-school piano from generic amapiano even when log-drum language appears."
+    },
+    {
+      "id": "41",
+      "title": "Percussive sgija",
+      "level": "explicit",
+      "prompt": "Sgija at 114 BPM in D minor, focused on syncopated log-drum phrases, claps, shakers and call-and-response drums. No keys, no piano, no lead melody and no vocals.",
+      "expect": {
+        "intent": "sgija",
+        "bpm": 114,
+        "root": 2,
+        "scale": "minor",
+        "noHarmony": true,
+        "noLead": true,
+        "noArp": true,
+        "bass": true
+      },
+      "review": "The log drum occupies the bass role and should survive the no-keys exclusion."
+    },
+    {
+      "id": "42",
+      "title": "Steelpan Caribbean courtyard",
+      "level": "vague",
+      "prompt": "A warm Caribbean courtyard party with a relaxed bouncing riddim, steelpan chords, bongos and deep rounded bass. Keep it spacious and easy to move to, with no piano or vocals.",
+      "expect": {
+        "profiles": [
+          "steelpan"
+        ],
+        "noPiano": true
+      },
+      "review": "Allow plausible dancehall, dub or neighboring Caribbean interpretations; check the requested instruments independently."
+    },
+    {
+      "id": "43",
+      "title": "Reggaeton marimba and clave",
+      "level": "explicit",
+      "prompt": "Reggaeton at 94 BPM in A minor, with marimba chords, bongos and a 2-3 son clave beneath a steady dance groove. Keep the lead sparse. No piano or vocals.",
+      "expect": {
+        "intent": "reggaeton",
+        "bpm": 94,
+        "root": 9,
+        "scale": "minor",
+        "profiles": [
+          "marimba"
+        ],
+        "noPiano": true
+      },
+      "review": "Verify two-bar clave direction separately from the core drum pattern."
+    },
+    {
+      "id": "44",
+      "title": "Dominican dembow percussion",
+      "level": "explicit",
+      "prompt": "Dominican dembow at 118 BPM, with short kalimba accents, punchy bass, rimshots and tambourine. Make the percussion busy but the melody sparse. No congas, no claps and no vocals.",
+      "expect": {
+        "intent": "dominican_dembow",
+        "bpm": 118,
+        "profiles": [
+          "kalimba"
+        ]
+      },
+      "review": "Distinguish the dembow preset from reggaeton and verify the individual percussion exclusions."
+    },
+    {
+      "id": "45",
+      "title": "Progressive trance release",
+      "level": "explicit",
+      "prompt": "Progressive trance at 132 BPM in E minor, with wide sustained pads, an energetic lead synth melody, bright arpeggios and an eight-bar build into the drop. Add one brief, quiet robotic spoken hook at the drop: Into the light. Keep the build instrumental.",
+      "vocal": {
+        "voice": "zarvox",
+        "lyrics": "Into the light.",
+        "hook": "Into the light",
+        "vocalDensity": 0.25,
+        "vocalChops": 0,
+        "vocalEvery": 8,
+        "vocalSection": "drop"
+      },
+      "expect": {
+        "intent": "progressive_trance",
+        "bpm": 132,
+        "root": 4,
+        "scale": "minor",
+        "lead": true,
+        "arp": true,
+        "harmonyRole": "pads"
+      },
+      "review": "Check that the build spans bars 12–19 and that vocal scheduling follows the actual section boundaries."
+    }
+  ],
+  "verifiedMainCommit": "54d9e133c3444b5deb7745b83a725bdb8367fde8",
+  "vocalPolicy": "16 instrumentals; four optional quiet spoken hooks, restricted to one phrase opportunity at the drop, no chops or stutters. No audio generated."
+}

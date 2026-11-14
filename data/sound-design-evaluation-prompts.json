@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "purpose": "Sound-design contrast targets agreed after listening to the first ten-style batch. Test articulation, continuous bass, instrument exclusions, lead hooks and phrase variation separately. Human quality ratings are unfilled.",
+  "previewSeconds": 16,
+  "cases": [
+    {
+      "id": "synthpop",
+      "label": "80s synth-pop \u2014 lead hook and arpeggios",
+      "expectedIntent": "synthpop_80s",
+      "prompt": "80s synth pop instrumental in D major at 112bpm, 32 bars, with a memorable lead melody, warm sustained pads, bright arpeggios, octave bass and gated snares, no piano",
+      "seed": "201",
+      "sauce": 0.18,
+      "expectations": {
+        "noPiano": true,
+        "minLeadPitches": 5,
+        "minLeadRhythms": 3,
+        "minArpNotes": 100
+      }
+    },
+    {
+      "id": "metallic-bass",
+      "label": "Dark metallic bass \u2014 held throughout",
+      "expectedIntent": "industrial_bass",
+      "prompt": "dark heavy metallic bass in F minor at 100bpm, 32 bars, with deep crunchy extended bass throughout the song, slow filter movement, a clean sub underneath, sparse drums, dark pads and no piano",
+      "seed": "202",
+      "sauce": 0.12,
+      "expectations": {
+        "noPiano": true,
+        "minBassGateCoverage": 0.999,
+        "minBassMedianBeats": 7.9
+      }
+    },
+    {
+      "id": "dubstep",
+      "label": "Halftime dubstep \u2014 growls and bass phrases",
+      "expectedIntent": "dubstep_halftime",
+      "prompt": "140bpm halftime dubstep in F minor, 32 bars, with deep dark synth pads, growling wobble bass and alternating bass phrases, a clean deep sub, sparse melodic parts and no piano",
+      "seed": "203",
+      "sauce": 0.35,
+      "expectations": {
+        "noPiano": true,
+        "minBassPhrasePatterns": 3,
+        "minBassLongestBeats": 3
+      }
+    }
+  ]
+}

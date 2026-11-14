@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "delivery": {
+    "rap": "A vocal performance with rhythmic rapping, quick syllables and a spoken hip hop flow.",
+    "melodic_rap": "A melodic rap vocal with Auto-Tuned singing, flowing rhythmic phrases and trap delivery.",
+    "soulful_singing": "An expressive soulful sung vocal with sustained notes, powerful phrasing and emotional intensity.",
+    "gentle_singing": "A soft intimate sung vocal with gentle sustained melodies and restrained delivery."
+  },
+  "themes": {
+    "heartbreak": "The singer expresses heartbreak, betrayal, loss and anger about a broken relationship.",
+    "romance": "The singer expresses romantic love, attraction, longing and intimacy.",
+    "confidence": "The rapper boasts about confidence, success, money, fashion and status.",
+    "celebration": "The lyrics express partying, dancing, celebration and having a good time.",
+    "struggle": "The lyrics express struggle, adversity, survival and determination.",
+    "reflection": "The lyrics express personal reflection, memories, sadness and vulnerability."
+  }
+}

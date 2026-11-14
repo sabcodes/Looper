@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "set": "set8",
+  "recordedDate": "2026-10-29",
+  "verbatim": "and 9-12 I think some of them wouldve sounded better with a deep bass or 808 instead of the metallic sound",
+  "scope": "Range-level qualitative feedback. The user did not identify particular prompt IDs or A/B variants within 09–12; do not assign this preference to every case or invent ratings.",
+  "preference": {
+    "desiredAlternatives": [
+      "deep bass",
+      "808"
+    ],
+    "perceivedIssue": "metallic sound",
+    "appliesToSomeWithin": [
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "specificCases": null,
+    "specificVariants": null
+  },
+  "cases": [
+    {
+      "id": "09-A",
+      "score": "09-A.score.json.gz",
+      "scoreSha256": "e84f747736ab7cb77782e9e7d73ec76f79a5e5c2de162851d651e54ffa1e200a",
+      "actualProfiles": {
+        "bass": [
+          "sine_sub"
+        ],
+        "keys": [
+          "analog_saw_pad"
+        ],
+        "lead": [],
+        "arp": []
+      },
+      "bassEventCount": 9
+    },
+    {
+      "id": "09-B",
+      "score": "09-B.score.json.gz",
+      "scoreSha256": "e64004a694e36cd6e7c566e3eb8264b046d460b639e4fd34ae99ee5ff4b364da",
+      "actualProfiles": {
+        "bass": [
+          "sine_sub"
+        ],
+        "keys": [
+          "pwm"
+        ],
+        "lead": [],
+        "arp": []
+      },
+      "bassEventCount": 9
+    },
+    {
+      "id": "10-A",
+      "score": "10-A.score.json.gz",
+      "scoreSha256": "1ad9310d18dfbe40e0e1ade95f3ca43171d9efde027767ac3ca8359b66e2f932",
+      "actualProfiles": {
+        "bass": [
+          "garage_sub"
+        ],
+        "keys": [
+          "organ"
+        ],
+        "lead": [],
+        "arp": []
+      },
+      "bassEventCount": 90
+    },
+    {
+      "id": "10-B",
+      "score": "10-B.score.json.gz",
+      "scoreSha256": "00f69305775e3e9127c626caedcef0df00e9390bf4e3242ea5f28de67541a4e2",
+      "actualProfiles": {
+        "bass": [
+          "garage_sub"
+        ],
+        "keys": [
+          "organ"
+        ],
+        "lead": [],
+        "arp": []
+      },
+      "bassEventCount": 110
+    },
+    {
+      "id": "11-A",
+      "score": "11-A.score.json.gz",
+      "scoreSha256": "e11d6a53aa1bbc6f5b4dffde5d7510538c2b35178274f185551e03861b475de4",
+      "actualProfiles": {
+        "bass": [
+          "metallic_reese"
+        ],
+        "keys": [
+          "dark_pad"
+        ],
+        "lead": [],
+        "arp": []
+      },
+      "bassEventCount": 16
+    },
+    {
+      "id": "11-B",
+      "score": "11-B.score.json.gz",
+      "scoreSha256": "6e179ba201ff728221f100108fcda39711b50c7436f1141755d852b441616bce",
+      "actualProfiles": {
+        "bass": [
+          "metallic_reese"
+        ],
+        "keys": [
+          "dark_pad"
+        ],
+        "lead": [],
+        "arp": []
+      },
+      "bassEventCount": 16
+    },
+    {
+      "id": "12-A",
+      "score": "12-A.score.json.gz",
+      "scoreSha256": "ca7230cb8236459477fbb2a9bff88609a64782e1b07223bc0a99b3e6005910b1",
+      "actualProfiles": {
+        "bass": [],
+        "keys": [],
+        "lead": [],
+        "arp": []
+      },
+      "bassEventCount": 0
+    },
+    {
+      "id": "12-B",
+      "score": "12-B.score.json.gz",
+      "scoreSha256": "6b84571b43cdb76e5ef86ea7c3a950fe2c81b6cc225326a671df6e26d210066d",
+      "actualProfiles": {
+        "bass": [],
+        "keys": [],
+        "lead": [],
+        "arp": []
+      },
+      "bassEventCount": 0
+    }
+  ],
+  "interpretation": {
+    "supported": "Compare deeper sub or 808 character against metallic-sounding mixes in a future controlled listening test.",
+    "limits": [
+      "The perceived metallic source is not identified by this feedback. Score profile names alone do not establish the audible source.",
+      "09 already uses sine_sub with analog_saw_pad (A) or pwm (B); 10 uses garage_sub with organ.",
+      "11 explicitly requests metallic bass and receives metallic_reese. A deeper alternative would be a separate creative variation, preserving the original prompt-following baseline.",
+      "12 contains drums only and no pitched bass or harmony events. Adding an 808 would be a separate bass-added variation.",
+      "No universal ban on metallic timbres or global 808 default is established."
+    ],
+    "suggestedNextComparison": "Hold groove and arrangement fixed; audition bass-only deep-sub/808 swaps for selected bass-bearing cases and, if needed, a separate softer harmony treatment to locate the perceived metallic source."
+  },
+  "engineDefaultsChanged": false,
+  "originalMediaScoresAndReportsUnchanged": true
+}

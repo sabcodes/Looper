@@ -1,0 +1,5500 @@
+{
+  "uk_garage": {
+    "bpm_range": [
+      130,
+      138
+    ],
+    "default_bpm": 134,
+    "swing": 62,
+    "scale": "dorian",
+    "kick_anchors": [
+      0,
+      10
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "counterpoint",
+    "synth_profile": "rhodes_stabs",
+    "bass_profile": "garage_sub"
+  },
+  "footwork": {
+    "bpm_range": [
+      155,
+      165
+    ],
+    "default_bpm": 160,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      3,
+      6,
+      10,
+      13
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "syncopated_sub",
+    "synth_profile": "micro_chops",
+    "bass_profile": "sine_sub"
+  },
+  "jersey_club": {
+    "bpm_range": [
+      130,
+      140
+    ],
+    "default_bpm": 135,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      11,
+      14
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "unison_lock",
+    "synth_profile": "vocal_stabs",
+    "bass_profile": "punchy_808"
+  },
+  "amapiano": {
+    "bpm_range": [
+      110,
+      118
+    ],
+    "default_bpm": 113,
+    "swing": 54,
+    "scale": "major",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      8
+    ],
+    "bass_mode": "syncopated_fm",
+    "synth_profile": "jazz_keys",
+    "bass_profile": "fm_log_drum"
+  },
+  "drill": {
+    "bpm_range": [
+      140,
+      145
+    ],
+    "default_bpm": 142,
+    "swing": 50,
+    "scale": "harmonic_minor",
+    "kick_anchors": [
+      0,
+      10
+    ],
+    "snare_anchors": [
+      8
+    ],
+    "bass_mode": "sliding_808",
+    "synth_profile": "dark_bells",
+    "bass_profile": "saturated_808"
+  },
+  "baile_funk": {
+    "bpm_range": [
+      128,
+      138
+    ],
+    "default_bpm": 130,
+    "swing": 58,
+    "scale": "phrygian",
+    "kick_anchors": [
+      0,
+      3,
+      6,
+      8,
+      10,
+      12,
+      14
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "surdo_sub",
+    "synth_profile": "brass_stabs",
+    "bass_profile": "sub_surdo"
+  },
+  "synthwave": {
+    "bpm_range": [
+      80,
+      120
+    ],
+    "default_bpm": 110,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "rolling_16th",
+    "synth_profile": "analog_saw_pad",
+    "bass_profile": "rolling_saw"
+  },
+  "idm": {
+    "bpm_range": [
+      120,
+      175
+    ],
+    "default_bpm": 140,
+    "swing": 52,
+    "scale": "dorian",
+    "kick_anchors": [
+      0,
+      6,
+      9,
+      14
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "polymetric",
+    "synth_profile": "fm_plucks",
+    "bass_profile": "chebyshev_sub"
+  },
+  "lofi": {
+    "bpm_range": [
+      75,
+      92
+    ],
+    "default_bpm": 84,
+    "swing": 60,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      10
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "boom_bap_pocket",
+    "synth_profile": "dusty_rhodes",
+    "bass_profile": "warm_sub"
+  },
+  "house": {
+    "bpm_range": [
+      120,
+      130
+    ],
+    "default_bpm": 125,
+    "swing": 54,
+    "scale": "major",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "offbeat_pump",
+    "synth_profile": "fm_piano",
+    "bass_profile": "pluck_bass"
+  },
+  "synthpop": {
+    "bpm_range": [
+      100,
+      124
+    ],
+    "default_bpm": 112,
+    "swing": 50,
+    "scale": "major",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "octave_pulse",
+    "synth_profile": "analog_saw_pad",
+    "bass_profile": "analog_octave"
+  },
+  "industrial_bass": {
+    "bpm_range": [
+      80,
+      120
+    ],
+    "default_bpm": 100,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      10
+    ],
+    "snare_anchors": [
+      8
+    ],
+    "bass_mode": "sustained",
+    "synth_profile": "dark_pad",
+    "bass_profile": "metallic_reese"
+  },
+  "dubstep": {
+    "bpm_range": [
+      136,
+      150
+    ],
+    "default_bpm": 140,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      6,
+      10
+    ],
+    "snare_anchors": [
+      8
+    ],
+    "bass_mode": "bass_phrases",
+    "synth_profile": "dark_pad",
+    "bass_profile": "growl_bass"
+  },
+  "techno": {
+    "bpm_range": [
+      125,
+      145
+    ],
+    "default_bpm": 132,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "techno_roll",
+    "synth_profile": "synth_stabs",
+    "bass_profile": "rolling_saw"
+  },
+  "jazz": {
+    "bpm_range": [
+      65,
+      108
+    ],
+    "default_bpm": 84,
+    "swing": 60,
+    "scale": "dorian",
+    "kick_anchors": [
+      0,
+      8
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "walking",
+    "synth_profile": "acoustic_piano",
+    "bass_profile": "upright_bass",
+    "voice_swing": {
+      "kick": 50,
+      "snare": 50,
+      "bass": 50,
+      "keys": 60
+    }
+  },
+  "classical": {
+    "bpm_range": [
+      55,
+      110
+    ],
+    "default_bpm": 76,
+    "swing": 50,
+    "scale": "major",
+    "kick_anchors": [],
+    "snare_anchors": [],
+    "bass_mode": "none",
+    "synth_profile": "acoustic_piano",
+    "bass_profile": "warm_sub"
+  },
+  "neutral": {
+    "bpm_range": [
+      70,
+      140
+    ],
+    "default_bpm": 100,
+    "swing": 55,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      10
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "boom_bap_pocket",
+    "synth_profile": "dusty_rhodes",
+    "bass_profile": "warm_sub"
+  },
+  "deep_house": {
+    "bpm_range": [
+      115,
+      128
+    ],
+    "default_bpm": 122,
+    "swing": 56,
+    "scale": "dorian",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "offbeat_pump",
+    "synth_profile": "rhodes_stabs",
+    "bass_profile": "pluck_bass",
+    "voice_swing": {
+      "kick": 50,
+      "hat": 58,
+      "percussion": 58
+    }
+  },
+  "speed_garage": {
+    "bpm_range": [
+      130,
+      145
+    ],
+    "default_bpm": 136,
+    "swing": 58,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "garage_phrases",
+    "synth_profile": "synth_stabs",
+    "bass_profile": "reese_bass",
+    "voice_swing": {
+      "kick": 50,
+      "hat": 62
+    }
+  },
+  "trap": {
+    "bpm_range": [
+      125,
+      170
+    ],
+    "default_bpm": 144,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      7,
+      10
+    ],
+    "snare_anchors": [
+      8
+    ],
+    "bass_mode": "unison_lock",
+    "synth_profile": "dark_bells",
+    "bass_profile": "punchy_808"
+  },
+  "afro_house": {
+    "bpm_range": [
+      110,
+      128
+    ],
+    "default_bpm": 120,
+    "swing": 54,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "afro_response",
+    "synth_profile": "fm_plucks",
+    "bass_profile": "warm_sub",
+    "voice_swing": {
+      "kick": 50,
+      "hat": 54,
+      "percussion": 58
+    }
+  },
+  "liquid_dnb": {
+    "bpm_range": [
+      160,
+      180
+    ],
+    "default_bpm": 172,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      10
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "liquid_phrases",
+    "synth_profile": "analog_saw_pad",
+    "bass_profile": "sine_sub"
+  },
+  "country": {
+    "bpm_range": [
+      75,
+      145
+    ],
+    "default_bpm": 108,
+    "swing": 54,
+    "scale": "major",
+    "kick_anchors": [
+      0,
+      8
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "root_fifth",
+    "synth_profile": "acoustic_guitar",
+    "bass_profile": "upright_bass",
+    "voice_swing": {
+      "kick": 50,
+      "snare": 50,
+      "hat": 54
+    }
+  },
+  "soulful_house": {
+    "bpm_range": [
+      110,
+      134
+    ],
+    "default_bpm": 122,
+    "swing": 57,
+    "scale": "major",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "organ",
+    "bass_profile": "electric_bass",
+    "aliases": [
+      "soulful house"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        3,
+        6,
+        10,
+        14
+      ],
+      [
+        0,
+        6,
+        8,
+        11,
+        14
+      ]
+    ],
+    "harmony_color": "sevenths",
+    "key_pattern": [
+      2,
+      6,
+      10,
+      14
+    ],
+    "percussion": [
+      "clap",
+      "tambourine",
+      "open_hat"
+    ],
+    "drum_kit": "909",
+    "ensemble": [
+      {
+        "name": "rhodes_answer",
+        "profile": "rhodes_stabs",
+        "role": "harmony",
+        "pattern": "answer",
+        "articulation": "staccato",
+        "gain": 0.68,
+        "pan": 0.28,
+        "cutoff": 1650
+      }
+    ]
+  },
+  "tech_house": {
+    "bpm_range": [
+      114,
+      138
+    ],
+    "default_bpm": 126,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "synth_stabs",
+    "bass_profile": "pluck_bass",
+    "aliases": [
+      "tech house"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        3,
+        7,
+        10,
+        14
+      ],
+      [
+        0,
+        6,
+        11,
+        14
+      ]
+    ],
+    "key_pattern": [
+      3,
+      11
+    ],
+    "percussion": [
+      "clap",
+      "open_hat",
+      "shaker"
+    ],
+    "drum_kit": "909"
+  },
+  "bassline": {
+    "bpm_range": [
+      126,
+      150
+    ],
+    "default_bpm": 138,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "synth_stabs",
+    "bass_profile": "fm_bass",
+    "aliases": [
+      "bassline",
+      "uk bassline"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        3,
+        6,
+        7,
+        10,
+        14
+      ],
+      [
+        0,
+        2,
+        5,
+        8,
+        11,
+        15
+      ]
+    ],
+    "percussion": [
+      "clap",
+      "open_hat"
+    ],
+    "drum_kit": "909"
+  },
+  "uk_funky": {
+    "bpm_range": [
+      118,
+      142
+    ],
+    "default_bpm": 130,
+    "swing": 55,
+    "scale": "dorian",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      10,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "marimba",
+    "bass_profile": "warm_sub",
+    "aliases": [
+      "uk funky"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ],
+      [
+        0,
+        4,
+        8,
+        11,
+        14
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        10,
+        12
+      ],
+      [
+        4,
+        12,
+        15
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        6,
+        10
+      ],
+      [
+        2,
+        7,
+        11,
+        14
+      ]
+    ],
+    "percussion": [
+      "conga",
+      "bongo",
+      "agogo",
+      "shaker"
+    ]
+  },
+  "jungle": {
+    "bpm_range": [
+      154,
+      178
+    ],
+    "default_bpm": 166,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      6,
+      10
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "dark_pad",
+    "bass_profile": "sine_sub",
+    "aliases": [
+      "jungle",
+      "ragga jungle"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        6,
+        10
+      ],
+      [
+        0,
+        3,
+        10,
+        14
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        11,
+        14
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        6,
+        10
+      ],
+      [
+        0,
+        8,
+        14
+      ]
+    ],
+    "ghost_steps": [
+      3,
+      7,
+      11,
+      15
+    ],
+    "hat_pattern": [
+      0,
+      2,
+      3,
+      6,
+      8,
+      10,
+      11,
+      14,
+      15
+    ],
+    "percussion": [
+      "ride"
+    ],
+    "drum_kit": "soft",
+    "bass_length": 4.5
+  },
+  "jump_up": {
+    "bpm_range": [
+      163,
+      187
+    ],
+    "default_bpm": 175,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      10
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "synth_stabs",
+    "bass_profile": "fm_bass",
+    "aliases": [
+      "jump up",
+      "jump up dnb"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        10
+      ],
+      [
+        0,
+        6,
+        10
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        3,
+        8,
+        11
+      ],
+      [
+        0,
+        6,
+        10,
+        14
+      ]
+    ],
+    "bass_length": 1.6,
+    "percussion": [
+      "open_hat"
+    ],
+    "drum_kit": "909"
+  },
+  "neurofunk": {
+    "bpm_range": [
+      162,
+      186
+    ],
+    "default_bpm": 174,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      7,
+      10
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "dark_pad",
+    "bass_profile": "growl_bass",
+    "aliases": [
+      "neurofunk"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        7,
+        10
+      ],
+      [
+        0,
+        6,
+        10,
+        15
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        3,
+        6,
+        10,
+        13
+      ],
+      [
+        0,
+        5,
+        8,
+        11,
+        14
+      ]
+    ],
+    "bass_length": 2.4,
+    "bass_motion": "wobble",
+    "ghost_steps": [
+      3,
+      11,
+      15
+    ],
+    "drum_kit": "909"
+  },
+  "minimal_techno": {
+    "bpm_range": [
+      116,
+      140
+    ],
+    "default_bpm": 128,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "fm_plucks",
+    "bass_profile": "sine_sub",
+    "aliases": [
+      "minimal techno"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        12
+      ],
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        7,
+        10
+      ],
+      [
+        3,
+        8,
+        14
+      ]
+    ],
+    "key_pattern": [
+      3,
+      11
+    ],
+    "percussion": [
+      "rim",
+      "woodblock"
+    ],
+    "drum_kit": "909",
+    "density": 0.3
+  },
+  "dub_techno": {
+    "bpm_range": [
+      112,
+      136
+    ],
+    "default_bpm": 124,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "synth_stabs",
+    "bass_profile": "warm_sub",
+    "aliases": [
+      "dub techno"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        11
+      ]
+    ],
+    "key_pattern": [
+      2,
+      10
+    ],
+    "harmony_color": "sevenths",
+    "delay_wet": 0.65,
+    "delay_feedback": 0.62,
+    "percussion": [
+      "open_hat",
+      "shaker"
+    ],
+    "drum_kit": "909"
+  },
+  "industrial_techno": {
+    "bpm_range": [
+      128,
+      152
+    ],
+    "default_bpm": 140,
+    "swing": 50,
+    "scale": "phrygian",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "synth_stabs",
+    "bass_profile": "dark_distorted_bass",
+    "aliases": [
+      "industrial techno"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ],
+      [
+        0,
+        4,
+        7,
+        8,
+        12,
+        15
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        2,
+        6,
+        8,
+        10,
+        14
+      ]
+    ],
+    "key_pattern": [
+      0,
+      7,
+      10
+    ],
+    "percussion": [
+      "crash",
+      "ride",
+      "woodblock"
+    ],
+    "drum_kit": "909",
+    "drum_drive": 2.7
+  },
+  "acid_techno": {
+    "bpm_range": [
+      124,
+      148
+    ],
+    "default_bpm": 136,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "synth_stabs",
+    "bass_profile": "acid_bass",
+    "aliases": [
+      "acid techno"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        2,
+        3,
+        6,
+        7,
+        8,
+        10,
+        11,
+        14,
+        15
+      ]
+    ],
+    "key_pattern": [
+      0,
+      8
+    ],
+    "percussion": [
+      "clap",
+      "open_hat"
+    ],
+    "drum_kit": "909"
+  },
+  "boom_bap": {
+    "bpm_range": [
+      78,
+      102
+    ],
+    "default_bpm": 90,
+    "swing": 60,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      6,
+      10
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "dusty_rhodes",
+    "bass_profile": "electric_bass",
+    "aliases": [
+      "boom bap",
+      "boombap"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        6,
+        10
+      ],
+      [
+        0,
+        7,
+        10,
+        14
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        6,
+        10
+      ],
+      [
+        0,
+        7,
+        14
+      ]
+    ],
+    "ghost_steps": [
+      3,
+      11
+    ],
+    "drum_kit": "soft",
+    "percussion": [
+      "rim"
+    ]
+  },
+  "alternative_rnb": {
+    "bpm_range": [
+      66,
+      90
+    ],
+    "default_bpm": 78,
+    "swing": 58,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      7,
+      10
+    ],
+    "snare_anchors": [
+      8
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "jazz_keys",
+    "bass_profile": "sine_sub",
+    "aliases": [
+      "alternative rnb",
+      "alternative r&b",
+      "rnb",
+      "r&b"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        7,
+        10
+      ],
+      [
+        0,
+        6,
+        14
+      ]
+    ],
+    "snare_patterns": [
+      [
+        8
+      ],
+      [
+        8,
+        14
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        7
+      ],
+      [
+        2,
+        10,
+        14
+      ]
+    ],
+    "harmony_color": "sevenths",
+    "key_pattern": [
+      0,
+      7,
+      13
+    ],
+    "percussion": [
+      "rim",
+      "shaker"
+    ],
+    "drum_kit": "soft",
+    "delay_wet": 0.3
+  },
+  "memphis": {
+    "bpm_range": [
+      128,
+      152
+    ],
+    "default_bpm": 140,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      6,
+      10,
+      14
+    ],
+    "snare_anchors": [
+      8
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "dark_bells",
+    "bass_profile": "saturated_808",
+    "aliases": [
+      "memphis",
+      "memphis rap"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        6,
+        10,
+        14
+      ],
+      [
+        0,
+        3,
+        8,
+        11,
+        14
+      ]
+    ],
+    "snare_patterns": [
+      [
+        8
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        6,
+        10
+      ],
+      [
+        0,
+        3,
+        11
+      ]
+    ],
+    "drum_kit": "808",
+    "key_pattern": [
+      0,
+      6,
+      11
+    ]
+  },
+  "phonk": {
+    "bpm_range": [
+      138,
+      162
+    ],
+    "default_bpm": 150,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      4,
+      7,
+      10
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "dark_pad",
+    "bass_profile": "saturated_808",
+    "aliases": [
+      "phonk"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        4,
+        7,
+        10
+      ],
+      [
+        0,
+        6,
+        8,
+        11,
+        14
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        4,
+        10
+      ],
+      [
+        0,
+        6,
+        11,
+        14
+      ]
+    ],
+    "lead_profile": "cowbell_melody",
+    "lead_enabled": true,
+    "drum_kit": "808",
+    "percussion": [
+      "cowbell",
+      "clap"
+    ]
+  },
+  "gqom": {
+    "bpm_range": [
+      114,
+      138
+    ],
+    "default_bpm": 126,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      3,
+      6,
+      10,
+      14
+    ],
+    "snare_anchors": [
+      6,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "dark_pad",
+    "bass_profile": "sine_sub",
+    "aliases": [
+      "gqom"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        3,
+        6,
+        10,
+        14
+      ],
+      [
+        0,
+        3,
+        8,
+        11,
+        14
+      ]
+    ],
+    "snare_patterns": [
+      [
+        6,
+        12
+      ],
+      [
+        4,
+        10,
+        14
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0
+      ],
+      [
+        3,
+        10
+      ]
+    ],
+    "key_pattern": [
+      0
+    ],
+    "percussion": [
+      "tom",
+      "woodblock",
+      "shaker"
+    ],
+    "density": 0.35,
+    "drum_kit": "808",
+    "bass_length": 8
+  },
+  "private_school_piano": {
+    "bpm_range": [
+      100,
+      124
+    ],
+    "default_bpm": 112,
+    "swing": 56,
+    "scale": "major",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      8
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "jazz_keys",
+    "bass_profile": "fm_log_drum",
+    "aliases": [
+      "private school piano",
+      "private school amapiano"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        8
+      ]
+    ],
+    "bass_patterns": [
+      [
+        1,
+        6,
+        9,
+        14
+      ],
+      [
+        2,
+        5,
+        11,
+        15
+      ]
+    ],
+    "harmony_color": "ninths",
+    "key_pattern": [
+      0,
+      6,
+      10,
+      14
+    ],
+    "percussion": [
+      "shaker",
+      "conga",
+      "rim"
+    ],
+    "drum_kit": "soft"
+  },
+  "sgija": {
+    "bpm_range": [
+      102,
+      126
+    ],
+    "default_bpm": 114,
+    "swing": 54,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      8
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "fm_plucks",
+    "bass_profile": "fm_log_drum",
+    "aliases": [
+      "sgija"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ],
+      [
+        0,
+        4,
+        7,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        8
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        3,
+        6,
+        9,
+        11,
+        14,
+        15
+      ],
+      [
+        1,
+        4,
+        7,
+        10,
+        13,
+        15
+      ]
+    ],
+    "key_pattern": [
+      0,
+      10
+    ],
+    "percussion": [
+      "shaker",
+      "bongo",
+      "woodblock"
+    ]
+  },
+  "dancehall": {
+    "bpm_range": [
+      86,
+      110
+    ],
+    "default_bpm": 98,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      6,
+      8
+    ],
+    "snare_anchors": [
+      4,
+      10,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "organ",
+    "bass_profile": "sine_sub",
+    "aliases": [
+      "dancehall"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        6,
+        8
+      ],
+      [
+        0,
+        6,
+        10,
+        14
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        10,
+        12
+      ],
+      [
+        4,
+        12,
+        15
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        6,
+        10
+      ],
+      [
+        0,
+        7,
+        12
+      ]
+    ],
+    "key_pattern": [
+      2,
+      6,
+      10,
+      14
+    ],
+    "percussion": [
+      "rim",
+      "shaker"
+    ],
+    "drum_kit": "808",
+    "ensemble": [
+      {
+        "name": "guitar_answer",
+        "profile": "acoustic_guitar",
+        "role": "harmony",
+        "pattern": "answer",
+        "articulation": "palm_mute",
+        "gain": 0.75,
+        "pan": -0.3,
+        "cutoff": 2100
+      }
+    ]
+  },
+  "reggaeton": {
+    "bpm_range": [
+      82,
+      106
+    ],
+    "default_bpm": 94,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      8
+    ],
+    "snare_anchors": [
+      3,
+      6,
+      11,
+      14
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "marimba",
+    "bass_profile": "sine_sub",
+    "aliases": [
+      "reggaeton"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        8
+      ]
+    ],
+    "snare_patterns": [
+      [
+        3,
+        6,
+        11,
+        14
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        6,
+        8,
+        14
+      ],
+      [
+        0,
+        3,
+        8,
+        11
+      ]
+    ],
+    "key_pattern": [
+      0,
+      6,
+      10
+    ],
+    "percussion": [
+      "conga",
+      "shaker",
+      "clap"
+    ],
+    "drum_kit": "808"
+  },
+  "dominican_dembow": {
+    "bpm_range": [
+      106,
+      130
+    ],
+    "default_bpm": 118,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      3,
+      6,
+      11,
+      14
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "brass_stabs",
+    "bass_profile": "punchy_808",
+    "aliases": [
+      "dominican dembow",
+      "dembow"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        3,
+        6,
+        11,
+        14
+      ],
+      [
+        3,
+        6,
+        10,
+        11,
+        14
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "key_pattern": [
+      0,
+      6,
+      12
+    ],
+    "percussion": [
+      "rim",
+      "bongo",
+      "tambourine"
+    ],
+    "drum_kit": "808"
+  },
+  "electro": {
+    "bpm_range": [
+      116,
+      140
+    ],
+    "default_bpm": 128,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      6,
+      8,
+      14
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "synth_stabs",
+    "bass_profile": "fm_bass",
+    "aliases": [
+      "classic electro",
+      "electro"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        6,
+        8,
+        14
+      ],
+      [
+        0,
+        3,
+        8,
+        10
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        3,
+        6,
+        8,
+        11,
+        14
+      ],
+      [
+        0,
+        2,
+        7,
+        10,
+        15
+      ]
+    ],
+    "arp_enabled": true,
+    "percussion": [
+      "clap",
+      "open_hat"
+    ],
+    "drum_kit": "808"
+  },
+  "miami_bass": {
+    "bpm_range": [
+      120,
+      144
+    ],
+    "default_bpm": 132,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      3,
+      6,
+      8,
+      10,
+      14
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "brass_stabs",
+    "bass_profile": "punchy_808",
+    "aliases": [
+      "miami bass"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        3,
+        6,
+        8,
+        10,
+        14
+      ],
+      [
+        0,
+        6,
+        8,
+        11,
+        14
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        3,
+        6,
+        10,
+        14
+      ],
+      [
+        0,
+        6,
+        11,
+        14
+      ]
+    ],
+    "percussion": [
+      "clap",
+      "cowbell"
+    ],
+    "drum_kit": "808"
+  },
+  "progressive_trance": {
+    "bpm_range": [
+      120,
+      144
+    ],
+    "default_bpm": 132,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "analog_saw_pad",
+    "bass_profile": "rolling_saw",
+    "aliases": [
+      "progressive trance",
+      "trance"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        2,
+        6,
+        10,
+        14
+      ]
+    ],
+    "arp_enabled": true,
+    "lead_enabled": true,
+    "long_build": true,
+    "percussion": [
+      "clap",
+      "open_hat",
+      "crash"
+    ],
+    "drum_kit": "909"
+  },
+  "psytrance": {
+    "bpm_range": [
+      133,
+      157
+    ],
+    "default_bpm": 145,
+    "swing": 50,
+    "scale": "phrygian",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "fm_plucks",
+    "bass_profile": "acid_bass",
+    "aliases": [
+      "psytrance",
+      "psy trance"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15
+      ]
+    ],
+    "bass_length": 0.8,
+    "arp_enabled": true,
+    "long_build": true,
+    "percussion": [
+      "open_hat",
+      "woodblock"
+    ],
+    "drum_kit": "909",
+    "key_pattern": [
+      0,
+      7,
+      14
+    ]
+  },
+  "trip_hop": {
+    "bpm_range": [
+      70,
+      94
+    ],
+    "default_bpm": 82,
+    "swing": 58,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      7,
+      10
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "dusty_rhodes",
+    "bass_profile": "electric_bass",
+    "aliases": [
+      "trip hop",
+      "triphop"
+    ],
+    "kick_patterns": [
+      [
+        0,
+        7,
+        10
+      ],
+      [
+        0,
+        6,
+        11,
+        14
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        7,
+        10
+      ],
+      [
+        0,
+        6,
+        14
+      ]
+    ],
+    "key_pattern": [
+      0,
+      10
+    ],
+    "percussion": [
+      "rim",
+      "shaker"
+    ],
+    "drum_kit": "soft",
+    "delay_wet": 0.5
+  },
+  "dub": {
+    "bpm_range": [
+      62,
+      86
+    ],
+    "default_bpm": 74,
+    "swing": 50,
+    "scale": "mixolydian",
+    "kick_anchors": [
+      8
+    ],
+    "snare_anchors": [
+      8
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "organ",
+    "bass_profile": "sine_sub",
+    "aliases": [
+      "dub",
+      "reggae dub"
+    ],
+    "kick_patterns": [
+      [
+        8
+      ],
+      [
+        0,
+        8
+      ]
+    ],
+    "snare_patterns": [
+      [
+        8
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        6,
+        10
+      ],
+      [
+        0,
+        7,
+        12,
+        14
+      ]
+    ],
+    "key_pattern": [
+      2,
+      6,
+      10,
+      14
+    ],
+    "percussion": [
+      "rim",
+      "tambourine"
+    ],
+    "drum_kit": "soft",
+    "delay_wet": 0.75,
+    "delay_feedback": 0.68
+  },
+  "melodic_house": {
+    "bpm_range": [
+      106,
+      142
+    ],
+    "default_bpm": 124,
+    "swing": 50,
+    "scale": "dorian",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "supersaw",
+    "bass_profile": "warm_sub",
+    "aliases": [
+      "melodic house"
+    ],
+    "lead_profile": "wavetable",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": true,
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        2,
+        6,
+        10,
+        14
+      ]
+    ],
+    "key_pattern": [
+      0,
+      8
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "shaker"
+    ],
+    "density": 0.6,
+    "harmony_color": "ninths"
+  },
+  "progressive_house": {
+    "bpm_range": [
+      108,
+      144
+    ],
+    "default_bpm": 126,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "wavetable",
+    "bass_profile": "rolling_saw",
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        2,
+        6,
+        10,
+        14
+      ]
+    ],
+    "arp_enabled": false,
+    "lead_enabled": true,
+    "percussion": [
+      "shaker"
+    ],
+    "drum_kit": "909",
+    "aliases": [
+      "progressive house"
+    ],
+    "lead_profile": "supersaw",
+    "long_build": true,
+    "key_pattern": [
+      0,
+      6,
+      12
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "density": 0.6,
+    "harmony_color": "ninths"
+  },
+  "organic_house": {
+    "bpm_range": [
+      98,
+      134
+    ],
+    "default_bpm": 116,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "kalimba",
+    "bass_profile": "electric_bass",
+    "aliases": [
+      "organic house"
+    ],
+    "lead_profile": "flute",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        6,
+        11
+      ]
+    ],
+    "key_pattern": [
+      0,
+      6,
+      10
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "shaker"
+    ],
+    "density": 0.6,
+    "harmony_color": "ninths"
+  },
+  "bass_house": {
+    "bpm_range": [
+      110,
+      146
+    ],
+    "default_bpm": 128,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "synth_stabs",
+    "bass_profile": "growl_bass",
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        3,
+        6,
+        11,
+        14
+      ]
+    ],
+    "key_pattern": [
+      2,
+      10
+    ],
+    "percussion": [
+      "shaker"
+    ],
+    "drum_kit": "909",
+    "aliases": [
+      "bass house"
+    ],
+    "lead_profile": "fm_synth",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "density": 0.6
+  },
+  "future_house": {
+    "bpm_range": [
+      108,
+      144
+    ],
+    "default_bpm": 126,
+    "swing": 50,
+    "scale": "dorian",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "fm_plucks",
+    "bass_profile": "fm_bass",
+    "aliases": [
+      "future house"
+    ],
+    "lead_profile": "pwm",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        2,
+        5,
+        10,
+        13
+      ]
+    ],
+    "key_pattern": [
+      2,
+      6,
+      10,
+      14
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "shaker"
+    ],
+    "density": 0.6
+  },
+  "disco": {
+    "bpm_range": [
+      100,
+      136
+    ],
+    "default_bpm": 118,
+    "swing": 54,
+    "scale": "major",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "clavinet",
+    "bass_profile": "electric_bass",
+    "aliases": [
+      "disco"
+    ],
+    "lead_profile": "electric_guitar",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        2,
+        5,
+        7,
+        8,
+        10,
+        13,
+        15
+      ]
+    ],
+    "key_pattern": [
+      2,
+      6,
+      10,
+      14
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "open_hat",
+      "clap",
+      "tambourine"
+    ],
+    "density": 0.6,
+    "ghost_steps": [
+      3,
+      7,
+      11,
+      15
+    ]
+  },
+  "nu_disco": {
+    "bpm_range": [
+      96,
+      132
+    ],
+    "default_bpm": 114,
+    "swing": 54,
+    "scale": "dorian",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "pwm",
+    "bass_profile": "electric_bass",
+    "aliases": [
+      "nu disco",
+      "nudisco"
+    ],
+    "lead_profile": "supersaw",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        3,
+        6,
+        8,
+        11,
+        14
+      ]
+    ],
+    "key_pattern": [
+      0,
+      7,
+      10
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "open_hat",
+      "clap",
+      "tambourine"
+    ],
+    "density": 0.6,
+    "ghost_steps": [
+      3,
+      7,
+      11,
+      15
+    ]
+  },
+  "french_house": {
+    "bpm_range": [
+      106,
+      142
+    ],
+    "default_bpm": 124,
+    "swing": 54,
+    "scale": "major",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "micro_chops",
+    "bass_profile": "electric_bass",
+    "aliases": [
+      "french house",
+      "french touch"
+    ],
+    "lead_profile": "analog_lead",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        2,
+        4,
+        7,
+        10,
+        14
+      ]
+    ],
+    "key_pattern": [
+      0,
+      2,
+      6,
+      8,
+      10,
+      14
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "open_hat",
+      "clap",
+      "tambourine"
+    ],
+    "density": 0.6,
+    "ghost_steps": [
+      3,
+      7,
+      11,
+      15
+    ]
+  },
+  "synth_funk": {
+    "bpm_range": [
+      90,
+      126
+    ],
+    "default_bpm": 108,
+    "swing": 54,
+    "scale": "major",
+    "kick_anchors": [
+      0,
+      3,
+      8,
+      11
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "clavinet",
+    "bass_profile": "fm_bass",
+    "aliases": [
+      "synth funk",
+      "synthfunk"
+    ],
+    "lead_profile": "hard_sync",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        3,
+        8,
+        11
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        2,
+        7,
+        8,
+        10,
+        15
+      ]
+    ],
+    "key_pattern": [
+      0,
+      3,
+      6,
+      10,
+      14
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "open_hat",
+      "clap",
+      "tambourine"
+    ],
+    "density": 0.6,
+    "ghost_steps": [
+      3,
+      7,
+      11,
+      15
+    ]
+  },
+  "hardgroove": {
+    "bpm_range": [
+      122,
+      158
+    ],
+    "default_bpm": 140,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "organ",
+    "bass_profile": "rolling_saw",
+    "aliases": [
+      "hardgroove",
+      "hard groove"
+    ],
+    "lead_profile": "fm_synth",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        1,
+        3,
+        6,
+        9,
+        11,
+        14
+      ]
+    ],
+    "key_pattern": [
+      1,
+      6,
+      11,
+      14
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "conga",
+      "bongo",
+      "ride"
+    ],
+    "density": 0.6,
+    "ghost_steps": [
+      3,
+      7,
+      11,
+      15
+    ]
+  },
+  "hard_techno": {
+    "bpm_range": [
+      132,
+      168
+    ],
+    "default_bpm": 150,
+    "swing": 50,
+    "scale": "phrygian",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "synth_stabs",
+    "bass_profile": "dark_distorted_bass",
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        3,
+        7,
+        8,
+        11,
+        15
+      ]
+    ],
+    "key_pattern": [
+      0,
+      7,
+      14
+    ],
+    "percussion": [
+      "shaker"
+    ],
+    "drum_kit": "909",
+    "aliases": [
+      "hard techno"
+    ],
+    "lead_profile": "wavefold",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "bass_length": 3.5,
+    "sauce": 0.15,
+    "density": 0.6,
+    "drum_drive": 3.5
+  },
+  "hardstyle": {
+    "bpm_range": [
+      132,
+      168
+    ],
+    "default_bpm": 150,
+    "swing": 50,
+    "scale": "phrygian",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "supersaw",
+    "bass_profile": "saturated_808",
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "bass_length": 3.5,
+    "arp_enabled": false,
+    "percussion": [
+      "shaker"
+    ],
+    "drum_kit": "909",
+    "key_pattern": [
+      0,
+      8
+    ],
+    "aliases": [
+      "hardstyle"
+    ],
+    "lead_profile": "supersaw",
+    "lead_enabled": true,
+    "long_build": false,
+    "sauce": 0.15,
+    "density": 0.6,
+    "drum_drive": 3.5
+  },
+  "hardcore": {
+    "bpm_range": [
+      167,
+      203
+    ],
+    "default_bpm": 185,
+    "swing": 50,
+    "scale": "phrygian",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "hard_sync",
+    "bass_profile": "dark_distorted_bass",
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        4,
+        7,
+        8,
+        12,
+        15
+      ]
+    ],
+    "key_pattern": [
+      0,
+      3,
+      8,
+      11
+    ],
+    "percussion": [
+      "shaker"
+    ],
+    "drum_kit": "909",
+    "aliases": [
+      "hardcore"
+    ],
+    "lead_profile": "ring_mod",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "bass_length": 3.5,
+    "sauce": 0.15,
+    "density": 0.6,
+    "drum_drive": 3.5
+  },
+  "future_bass": {
+    "bpm_range": [
+      127,
+      163
+    ],
+    "default_bpm": 145,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      7,
+      10
+    ],
+    "snare_anchors": [
+      8
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "supersaw",
+    "bass_profile": "sine_sub",
+    "aliases": [
+      "future bass"
+    ],
+    "lead_profile": "wavetable",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        7,
+        10
+      ]
+    ],
+    "snare_patterns": [
+      [
+        8
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        6,
+        10,
+        14
+      ]
+    ],
+    "key_pattern": [
+      0,
+      3,
+      6,
+      10,
+      13
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "shaker"
+    ],
+    "density": 0.6,
+    "harmony_color": "ninths"
+  },
+  "melodic_dubstep": {
+    "bpm_range": [
+      122,
+      158
+    ],
+    "default_bpm": 140,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      6,
+      10
+    ],
+    "snare_anchors": [
+      8
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "wavetable",
+    "bass_profile": "growl_bass",
+    "aliases": [
+      "melodic dubstep"
+    ],
+    "lead_profile": "supersaw",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        6,
+        10
+      ]
+    ],
+    "snare_patterns": [
+      [
+        8
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        7,
+        10
+      ]
+    ],
+    "key_pattern": [
+      0,
+      6,
+      11
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "shaker"
+    ],
+    "density": 0.6,
+    "harmony_color": "ninths"
+  },
+  "colour_bass": {
+    "bpm_range": [
+      127,
+      163
+    ],
+    "default_bpm": 145,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      7,
+      11
+    ],
+    "snare_anchors": [
+      8
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "spectral",
+    "bass_profile": "fm_bass",
+    "aliases": [
+      "colour bass",
+      "color bass"
+    ],
+    "lead_profile": "formant",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        7,
+        11
+      ]
+    ],
+    "snare_patterns": [
+      [
+        8
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        3,
+        7,
+        10,
+        14
+      ]
+    ],
+    "key_pattern": [
+      0,
+      3,
+      7,
+      11,
+      14
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "shaker"
+    ],
+    "density": 0.6,
+    "harmony_color": "ninths"
+  },
+  "rage": {
+    "bpm_range": [
+      132,
+      168
+    ],
+    "default_bpm": 150,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      6,
+      10,
+      15
+    ],
+    "snare_anchors": [
+      8
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "supersaw",
+    "bass_profile": "saturated_808",
+    "aliases": [
+      "rage"
+    ],
+    "lead_profile": "hard_sync",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        6,
+        10,
+        15
+      ]
+    ],
+    "snare_patterns": [
+      [
+        8
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        7,
+        10,
+        15
+      ]
+    ],
+    "key_pattern": [
+      0,
+      4,
+      7,
+      12
+    ],
+    "bass_length": 5,
+    "sauce": 0.15,
+    "percussion": [
+      "open_hat"
+    ],
+    "density": 0.6,
+    "drum_kit": "808"
+  },
+  "plugg": {
+    "bpm_range": [
+      122,
+      158
+    ],
+    "default_bpm": 140,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      6,
+      11
+    ],
+    "snare_anchors": [
+      8
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "fm_plucks",
+    "bass_profile": "punchy_808",
+    "aliases": [
+      "plugg"
+    ],
+    "lead_profile": "kalimba",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        6,
+        11
+      ]
+    ],
+    "snare_patterns": [
+      [
+        8
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        7,
+        12
+      ]
+    ],
+    "key_pattern": [
+      0,
+      5,
+      10,
+      14
+    ],
+    "bass_length": 5,
+    "sauce": 0.15,
+    "percussion": [
+      "open_hat"
+    ],
+    "density": 0.6,
+    "drum_kit": "808"
+  },
+  "pluggnb": {
+    "bpm_range": [
+      120,
+      156
+    ],
+    "default_bpm": 138,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      7,
+      11,
+      14
+    ],
+    "snare_anchors": [
+      8
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "fm_piano",
+    "bass_profile": "sine_sub",
+    "kick_patterns": [
+      [
+        0,
+        7,
+        11,
+        14
+      ]
+    ],
+    "snare_patterns": [
+      [
+        8
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        6,
+        11,
+        14
+      ]
+    ],
+    "key_pattern": [
+      0,
+      3,
+      7,
+      10,
+      14
+    ],
+    "percussion": [
+      "open_hat"
+    ],
+    "drum_kit": "808",
+    "delay_wet": 0.3,
+    "aliases": [
+      "pluggnb",
+      "plugg n b"
+    ],
+    "lead_profile": "pwm",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "bass_length": 5,
+    "sauce": 0.15,
+    "density": 0.6
+  },
+  "cloud_rap": {
+    "bpm_range": [
+      112,
+      148
+    ],
+    "default_bpm": 130,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      7,
+      10
+    ],
+    "snare_anchors": [
+      8
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "granular",
+    "bass_profile": "saturated_808",
+    "aliases": [
+      "cloud rap"
+    ],
+    "lead_profile": "formant",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        7,
+        10
+      ]
+    ],
+    "snare_patterns": [
+      [
+        8
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        10
+      ]
+    ],
+    "key_pattern": [
+      0,
+      8
+    ],
+    "bass_length": 5,
+    "sauce": 0.15,
+    "percussion": [
+      "open_hat"
+    ],
+    "density": 0.6,
+    "harmony_color": "ninths",
+    "drum_kit": "808"
+  },
+  "afrobeats": {
+    "bpm_range": [
+      86,
+      122
+    ],
+    "default_bpm": 104,
+    "swing": 54,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      6,
+      10
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "electric_guitar",
+    "bass_profile": "electric_bass",
+    "aliases": [
+      "afrobeats",
+      "afro beats"
+    ],
+    "lead_profile": "marimba",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        6,
+        10
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        3,
+        7,
+        10,
+        14
+      ]
+    ],
+    "key_pattern": [
+      0,
+      3,
+      6,
+      10,
+      14
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "shaker",
+      "conga",
+      "woodblock"
+    ],
+    "density": 0.6
+  },
+  "afropop": {
+    "bpm_range": [
+      92,
+      128
+    ],
+    "default_bpm": 110,
+    "swing": 54,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      6,
+      8,
+      14
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "acoustic_guitar",
+    "bass_profile": "electric_bass",
+    "aliases": [
+      "afropop",
+      "afro pop"
+    ],
+    "lead_profile": "steelpan",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        6,
+        8,
+        14
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        6,
+        10,
+        15
+      ]
+    ],
+    "key_pattern": [
+      2,
+      6,
+      10,
+      14
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "shaker",
+      "conga",
+      "woodblock"
+    ],
+    "density": 0.6
+  },
+  "afro_fusion": {
+    "bpm_range": [
+      80,
+      116
+    ],
+    "default_bpm": 98,
+    "swing": 54,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      3,
+      10,
+      14
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "rhodes_stabs",
+    "bass_profile": "electric_bass",
+    "aliases": [
+      "afro fusion"
+    ],
+    "lead_profile": "saxophone",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        3,
+        10,
+        14
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        7,
+        10,
+        13
+      ]
+    ],
+    "key_pattern": [
+      0,
+      7,
+      12
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "shaker",
+      "conga",
+      "woodblock"
+    ],
+    "density": 0.6
+  },
+  "bedroom_pop": {
+    "bpm_range": [
+      72,
+      108
+    ],
+    "default_bpm": 90,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      6,
+      8
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "electric_guitar",
+    "bass_profile": "electric_bass",
+    "kick_patterns": [
+      [
+        0,
+        6,
+        8
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        6,
+        10
+      ]
+    ],
+    "key_pattern": [
+      0,
+      8
+    ],
+    "percussion": [
+      "shaker"
+    ],
+    "drum_kit": "soft",
+    "delay_wet": 0.3,
+    "aliases": [
+      "bedroom pop"
+    ],
+    "lead_profile": "pwm",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "density": 0.6
+  },
+  "indie_pop": {
+    "bpm_range": [
+      100,
+      136
+    ],
+    "default_bpm": 118,
+    "swing": 50,
+    "scale": "major",
+    "kick_anchors": [
+      0,
+      8,
+      10
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "electric_guitar",
+    "bass_profile": "electric_bass",
+    "aliases": [
+      "indie pop"
+    ],
+    "lead_profile": "analog_lead",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        8,
+        10
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        4,
+        8,
+        14
+      ]
+    ],
+    "key_pattern": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "shaker"
+    ],
+    "density": 0.6
+  },
+  "dream_pop": {
+    "bpm_range": [
+      76,
+      112
+    ],
+    "default_bpm": 94,
+    "swing": 50,
+    "scale": "major",
+    "kick_anchors": [
+      0,
+      8
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "supersaw",
+    "bass_profile": "electric_bass",
+    "aliases": [
+      "dream pop"
+    ],
+    "lead_profile": "electric_guitar",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        8
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        8,
+        14
+      ]
+    ],
+    "key_pattern": [
+      0,
+      8
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "shaker"
+    ],
+    "density": 0.6,
+    "harmony_color": "ninths"
+  },
+  "shoegaze": {
+    "bpm_range": [
+      87,
+      123
+    ],
+    "default_bpm": 105,
+    "swing": 50,
+    "scale": "major",
+    "kick_anchors": [
+      0,
+      8,
+      10
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "electric_guitar",
+    "bass_profile": "electric_bass",
+    "aliases": [
+      "shoegaze"
+    ],
+    "lead_profile": "granular",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        8,
+        10
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "key_pattern": [
+      0,
+      8
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "shaker"
+    ],
+    "density": 0.6,
+    "harmony_color": "ninths"
+  },
+  "dancefloor_dnb": {
+    "bpm_range": [
+      156,
+      192
+    ],
+    "default_bpm": 174,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      6,
+      10
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "supersaw",
+    "bass_profile": "reese_bass",
+    "aliases": [
+      "dancefloor dnb",
+      "dancefloor drum and bass"
+    ],
+    "lead_profile": "wavetable",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        6,
+        10
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        6,
+        10,
+        14
+      ]
+    ],
+    "key_pattern": [
+      0,
+      8
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "shaker"
+    ],
+    "density": 0.6,
+    "ghost_steps": [
+      3,
+      7,
+      11,
+      15
+    ],
+    "drum_kit": "909"
+  },
+  "minimal_rollers": {
+    "bpm_range": [
+      154,
+      190
+    ],
+    "default_bpm": 172,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      10
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "fm_plucks",
+    "bass_profile": "fm_bass",
+    "kick_patterns": [
+      [
+        0,
+        10
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        7,
+        10
+      ]
+    ],
+    "bass_length": 2.8,
+    "ghost_steps": [
+      3,
+      7,
+      11,
+      15
+    ],
+    "drum_kit": "909",
+    "aliases": [
+      "minimal rollers",
+      "minimal drum and bass"
+    ],
+    "lead_profile": "ring_mod",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "key_pattern": [
+      0,
+      11
+    ],
+    "sauce": 0.15,
+    "percussion": [
+      "shaker"
+    ],
+    "density": 0.6
+  },
+  "drumfunk": {
+    "bpm_range": [
+      150,
+      186
+    ],
+    "default_bpm": 168,
+    "swing": 50,
+    "scale": "minor",
+    "kick_anchors": [
+      0,
+      3,
+      10,
+      14
+    ],
+    "snare_anchors": [
+      4,
+      7,
+      12,
+      15
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "spectral",
+    "bass_profile": "warm_sub",
+    "kick_patterns": [
+      [
+        0,
+        3,
+        10,
+        14
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        7,
+        12,
+        15
+      ],
+      [
+        4,
+        6,
+        11,
+        12,
+        14
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        10
+      ]
+    ],
+    "ghost_steps": [
+      3,
+      7,
+      11,
+      15
+    ],
+    "hat_pattern": [
+      0,
+      2,
+      3,
+      6,
+      8,
+      10,
+      11,
+      14,
+      15
+    ],
+    "percussion": [
+      "shaker"
+    ],
+    "drum_kit": "soft",
+    "bass_length": 2.8,
+    "aliases": [
+      "drumfunk",
+      "drum funk"
+    ],
+    "lead_profile": "kalimba",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "key_pattern": [
+      0,
+      10
+    ],
+    "sauce": 0.15,
+    "density": 0.6
+  },
+  "bossa_nova": {
+    "bpm_range": [
+      114,
+      150
+    ],
+    "default_bpm": 132,
+    "swing": 50,
+    "scale": "dorian",
+    "kick_anchors": [
+      0,
+      6,
+      8,
+      14
+    ],
+    "snare_anchors": [
+      4,
+      10
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "acoustic_guitar",
+    "bass_profile": "upright_bass",
+    "aliases": [
+      "bossa nova",
+      "bossa"
+    ],
+    "lead_profile": "flute",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        6,
+        8,
+        14
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        10
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        6,
+        8,
+        14
+      ]
+    ],
+    "key_pattern": [
+      0,
+      6,
+      10
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "shaker",
+      "conga",
+      "bongo",
+      "claves"
+    ],
+    "density": 0.6,
+    "family": "latin",
+    "acoustic": true,
+    "harmony_color": "sevenths",
+    "groove_template": "bossa"
+  },
+  "samba": {
+    "bpm_range": [
+      86,
+      122
+    ],
+    "default_bpm": 104,
+    "swing": 50,
+    "scale": "major",
+    "kick_anchors": [
+      0,
+      3,
+      8,
+      11
+    ],
+    "snare_anchors": [
+      4,
+      7,
+      12,
+      15
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "acoustic_guitar",
+    "bass_profile": "upright_bass",
+    "aliases": [
+      "samba"
+    ],
+    "lead_profile": "flute",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        3,
+        8,
+        11
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        7,
+        12,
+        15
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        3,
+        8,
+        11
+      ]
+    ],
+    "key_pattern": [
+      0,
+      3,
+      6,
+      10,
+      14
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "shaker",
+      "conga",
+      "bongo",
+      "claves"
+    ],
+    "density": 0.6,
+    "family": "latin",
+    "acoustic": true,
+    "harmony_color": "sevenths",
+    "groove_template": "samba"
+  },
+  "salsa": {
+    "bpm_range": [
+      162,
+      198
+    ],
+    "default_bpm": 180,
+    "swing": 50,
+    "scale": "dorian",
+    "kick_anchors": [
+      0,
+      8
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "acoustic_piano",
+    "bass_profile": "upright_bass",
+    "aliases": [
+      "salsa"
+    ],
+    "lead_profile": "trumpet",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        8
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        6,
+        10,
+        14
+      ]
+    ],
+    "key_pattern": [
+      0,
+      3,
+      6,
+      8,
+      11,
+      14
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "shaker",
+      "conga",
+      "bongo",
+      "claves"
+    ],
+    "density": 0.6,
+    "family": "latin",
+    "acoustic": true,
+    "harmony_color": "sevenths",
+    "groove_template": "cascara",
+    "harmony_cycle": [
+      1,
+      4,
+      0,
+      5
+    ],
+    "ensemble": [
+      {
+        "name": "trombone_section",
+        "profile": "trombone",
+        "role": "counterpoint"
+      }
+    ]
+  },
+  "bachata": {
+    "bpm_range": [
+      110,
+      146
+    ],
+    "default_bpm": 128,
+    "swing": 50,
+    "scale": "major",
+    "kick_anchors": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "twelve_string",
+    "bass_profile": "electric_bass",
+    "aliases": [
+      "bachata"
+    ],
+    "lead_profile": "electric_guitar",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "key_pattern": [
+      0,
+      3,
+      6,
+      8,
+      11,
+      14
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "shaker",
+      "conga",
+      "bongo",
+      "claves"
+    ],
+    "density": 0.6,
+    "family": "latin",
+    "acoustic": true,
+    "harmony_color": "sevenths"
+  },
+  "cumbia": {
+    "bpm_range": [
+      82,
+      118
+    ],
+    "default_bpm": 100,
+    "swing": 50,
+    "scale": "major",
+    "kick_anchors": [
+      0,
+      8
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "accordion",
+    "bass_profile": "electric_bass",
+    "aliases": [
+      "cumbia"
+    ],
+    "lead_profile": "clarinet",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        8
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        6,
+        8,
+        14
+      ]
+    ],
+    "key_pattern": [
+      2,
+      6,
+      10,
+      14
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "shaker",
+      "conga",
+      "bongo",
+      "claves"
+    ],
+    "density": 0.6,
+    "family": "latin",
+    "acoustic": true,
+    "harmony_color": "sevenths"
+  },
+  "bebop": {
+    "bpm_range": [
+      172,
+      208
+    ],
+    "default_bpm": 190,
+    "swing": 60,
+    "scale": "dorian",
+    "kick_anchors": [
+      0,
+      8
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "walking",
+    "synth_profile": "acoustic_piano",
+    "bass_profile": "upright_bass",
+    "aliases": [
+      "bebop"
+    ],
+    "lead_profile": "saxophone",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        8
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "key_pattern": [
+      0,
+      7,
+      12
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "ride"
+    ],
+    "density": 0.6,
+    "family": "jazz",
+    "acoustic": true,
+    "harmony_color": "sevenths",
+    "form": "aaba",
+    "harmony_cycle": [
+      1,
+      4,
+      0,
+      5
+    ],
+    "chord_bars": 1
+  },
+  "hard_bop": {
+    "bpm_range": [
+      118,
+      154
+    ],
+    "default_bpm": 136,
+    "swing": 60,
+    "scale": "dorian",
+    "kick_anchors": [
+      0,
+      6,
+      8
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "walking",
+    "synth_profile": "acoustic_piano",
+    "bass_profile": "upright_bass",
+    "aliases": [
+      "hard bop",
+      "hardbop"
+    ],
+    "lead_profile": "trumpet",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        6,
+        8
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "key_pattern": [
+      0,
+      6,
+      11,
+      14
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "ride"
+    ],
+    "density": 0.6,
+    "family": "jazz",
+    "acoustic": true,
+    "harmony_color": "sevenths",
+    "form": "aaba",
+    "harmony_cycle": [
+      1,
+      4,
+      0,
+      5
+    ],
+    "chord_bars": 1
+  },
+  "modal_jazz": {
+    "bpm_range": [
+      96,
+      132
+    ],
+    "default_bpm": 114,
+    "swing": 60,
+    "scale": "dorian",
+    "kick_anchors": [
+      0,
+      8
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "walking",
+    "synth_profile": "jazz_keys",
+    "bass_profile": "upright_bass",
+    "aliases": [
+      "modal jazz"
+    ],
+    "lead_profile": "saxophone",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        8
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "key_pattern": [
+      0,
+      10
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "ride"
+    ],
+    "density": 0.6,
+    "family": "jazz",
+    "acoustic": true,
+    "harmony_color": "ninths",
+    "form": "aaba",
+    "harmony_cycle": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "chord_bars": 4
+  },
+  "jazz_fusion": {
+    "bpm_range": [
+      104,
+      140
+    ],
+    "default_bpm": 122,
+    "swing": 50,
+    "scale": "dorian",
+    "kick_anchors": [
+      0,
+      3,
+      8,
+      11
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "rhodes_stabs",
+    "bass_profile": "electric_bass",
+    "aliases": [
+      "jazz fusion"
+    ],
+    "lead_profile": "electric_guitar",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        3,
+        8,
+        11
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        3,
+        6,
+        8,
+        10,
+        14
+      ]
+    ],
+    "key_pattern": [
+      0,
+      3,
+      7,
+      10
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "ride",
+      "open_hat"
+    ],
+    "density": 0.6,
+    "family": "jazz",
+    "acoustic": true,
+    "harmony_color": "ninths",
+    "form": "club",
+    "harmony_cycle": [
+      1,
+      4,
+      0,
+      5
+    ],
+    "chord_bars": 1
+  },
+  "honky_tonk": {
+    "bpm_range": [
+      102,
+      138
+    ],
+    "default_bpm": 120,
+    "swing": 54,
+    "scale": "major",
+    "kick_anchors": [
+      0,
+      8
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "acoustic_piano",
+    "bass_profile": "upright_bass",
+    "aliases": [
+      "honky tonk"
+    ],
+    "lead_profile": "pedal_steel",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        8
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        8
+      ]
+    ],
+    "key_pattern": [
+      4,
+      12
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "shaker"
+    ],
+    "density": 0.6,
+    "family": "country",
+    "acoustic": true,
+    "harmony_cycle": [
+      0,
+      3,
+      0,
+      4
+    ],
+    "groove_template": "train"
+  },
+  "western_swing": {
+    "bpm_range": [
+      128,
+      164
+    ],
+    "default_bpm": 146,
+    "swing": 60,
+    "scale": "major",
+    "kick_anchors": [
+      0,
+      8
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "walking",
+    "synth_profile": "electric_guitar",
+    "bass_profile": "upright_bass",
+    "aliases": [
+      "western swing"
+    ],
+    "lead_profile": "fiddle",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        8
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "key_pattern": [
+      2,
+      6,
+      10,
+      14
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "shaker"
+    ],
+    "density": 0.6,
+    "family": "country",
+    "acoustic": true,
+    "harmony_cycle": [
+      0,
+      3,
+      0,
+      4
+    ],
+    "ensemble": [
+      {
+        "name": "steel_answers",
+        "profile": "pedal_steel",
+        "role": "counterpoint"
+      }
+    ]
+  },
+  "bluegrass": {
+    "bpm_range": [
+      130,
+      166
+    ],
+    "default_bpm": 148,
+    "swing": 54,
+    "scale": "major",
+    "kick_anchors": [
+      0,
+      8
+    ],
+    "snare_anchors": [
+      4,
+      12
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "acoustic_guitar",
+    "bass_profile": "upright_bass",
+    "aliases": [
+      "bluegrass"
+    ],
+    "lead_profile": "fiddle",
+    "lead_enabled": true,
+    "arp_enabled": true,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        8
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        12
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        8
+      ]
+    ],
+    "key_pattern": [
+      4,
+      12
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "shaker"
+    ],
+    "density": 0.6,
+    "family": "country",
+    "acoustic": true,
+    "harmony_cycle": [
+      0,
+      3,
+      0,
+      4
+    ],
+    "arp_profile": "banjo",
+    "ensemble": [
+      {
+        "name": "mandolin_chop",
+        "profile": "mandolin",
+        "role": "harmony"
+      }
+    ]
+  },
+  "baroque": {
+    "bpm_range": [
+      82,
+      118
+    ],
+    "default_bpm": 100,
+    "swing": 50,
+    "scale": "major",
+    "kick_anchors": [],
+    "snare_anchors": [],
+    "bass_mode": "none",
+    "synth_profile": "harp",
+    "bass_profile": "cello",
+    "aliases": [
+      "baroque"
+    ],
+    "lead_profile": "flute",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      []
+    ],
+    "snare_patterns": [
+      []
+    ],
+    "bass_patterns": [
+      [
+        0,
+        4,
+        8,
+        12
+      ]
+    ],
+    "key_pattern": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+    ],
+    "bass_length": 2.8,
+    "sauce": 0,
+    "percussion": [],
+    "density": 0.6,
+    "family": "classical",
+    "acoustic": true,
+    "form": "variations",
+    "harmony_cycle": [
+      0,
+      3,
+      4,
+      0,
+      5,
+      1,
+      4,
+      0
+    ],
+    "ensemble": [
+      {
+        "name": "cello_counterpoint",
+        "profile": "cello",
+        "role": "counterpoint"
+      }
+    ]
+  },
+  "romantic_classical": {
+    "bpm_range": [
+      54,
+      90
+    ],
+    "default_bpm": 72,
+    "swing": 50,
+    "scale": "major",
+    "kick_anchors": [],
+    "snare_anchors": [],
+    "bass_mode": "none",
+    "synth_profile": "acoustic_piano",
+    "bass_profile": "cello",
+    "aliases": [
+      "romantic classical",
+      "romantic piano"
+    ],
+    "lead_profile": "fiddle",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      []
+    ],
+    "snare_patterns": [
+      []
+    ],
+    "bass_patterns": [
+      [
+        0,
+        8
+      ]
+    ],
+    "key_pattern": [
+      0,
+      3,
+      6,
+      8,
+      11,
+      14
+    ],
+    "bass_length": 2.8,
+    "sauce": 0,
+    "percussion": [],
+    "density": 0.6,
+    "family": "classical",
+    "acoustic": true,
+    "form": "rondo",
+    "harmony_cycle": [
+      0,
+      3,
+      4,
+      0,
+      5,
+      1,
+      4,
+      0
+    ]
+  },
+  "chamber_classical": {
+    "bpm_range": [
+      70,
+      106
+    ],
+    "default_bpm": 88,
+    "swing": 50,
+    "scale": "major",
+    "kick_anchors": [],
+    "snare_anchors": [],
+    "bass_mode": "none",
+    "synth_profile": "bowed_strings",
+    "bass_profile": "cello",
+    "aliases": [
+      "chamber classical",
+      "chamber music"
+    ],
+    "lead_profile": "clarinet",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      []
+    ],
+    "snare_patterns": [
+      []
+    ],
+    "bass_patterns": [
+      [
+        0,
+        8
+      ]
+    ],
+    "key_pattern": [
+      0,
+      8
+    ],
+    "bass_length": 2.8,
+    "sauce": 0,
+    "percussion": [],
+    "density": 0.6,
+    "family": "classical",
+    "acoustic": true,
+    "form": "aaba",
+    "harmony_cycle": [
+      0,
+      3,
+      4,
+      0,
+      5,
+      1,
+      4,
+      0
+    ],
+    "ensemble": [
+      {
+        "name": "violin_counterpoint",
+        "profile": "fiddle",
+        "role": "counterpoint"
+      },
+      {
+        "name": "cello_part",
+        "profile": "cello",
+        "role": "bass"
+      }
+    ]
+  },
+  "orchestral_classical": {
+    "bpm_range": [
+      78,
+      114
+    ],
+    "default_bpm": 96,
+    "swing": 50,
+    "scale": "major",
+    "kick_anchors": [],
+    "snare_anchors": [],
+    "bass_mode": "none",
+    "synth_profile": "bowed_strings",
+    "bass_profile": "cello",
+    "aliases": [
+      "orchestral classical",
+      "orchestral music"
+    ],
+    "lead_profile": "french_horn",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      []
+    ],
+    "snare_patterns": [
+      []
+    ],
+    "bass_patterns": [
+      [
+        0,
+        8
+      ]
+    ],
+    "key_pattern": [
+      0,
+      8
+    ],
+    "bass_length": 2.8,
+    "sauce": 0,
+    "percussion": [],
+    "density": 0.6,
+    "family": "classical",
+    "acoustic": true,
+    "form": "aaba",
+    "harmony_cycle": [
+      0,
+      3,
+      4,
+      0,
+      5,
+      1,
+      4,
+      0
+    ],
+    "ensemble": [
+      {
+        "name": "violin_figure",
+        "profile": "fiddle",
+        "role": "arp"
+      },
+      {
+        "name": "cello_section",
+        "profile": "cello",
+        "role": "bass"
+      },
+      {
+        "name": "harp_figure",
+        "profile": "harp",
+        "role": "arp"
+      },
+      {
+        "name": "timpani_accents",
+        "profile": "timpani",
+        "role": "bass"
+      }
+    ]
+  },
+  "botanica": {
+    "bpm_range": [
+      100,
+      136
+    ],
+    "default_bpm": 118,
+    "swing": 57,
+    "scale": "dorian",
+    "kick_anchors": [
+      0,
+      5,
+      11,
+      14
+    ],
+    "snare_anchors": [
+      4,
+      10,
+      15
+    ],
+    "bass_mode": "pattern",
+    "synth_profile": "granular",
+    "bass_profile": "fm_bass",
+    "aliases": [
+      "botanica"
+    ],
+    "lead_profile": "spectral",
+    "lead_enabled": true,
+    "arp_enabled": false,
+    "long_build": false,
+    "kick_patterns": [
+      [
+        0,
+        5,
+        11,
+        14
+      ]
+    ],
+    "snare_patterns": [
+      [
+        4,
+        10,
+        15
+      ]
+    ],
+    "bass_patterns": [
+      [
+        0,
+        7,
+        11
+      ]
+    ],
+    "key_pattern": [
+      0,
+      3,
+      7,
+      10,
+      14
+    ],
+    "bass_length": 2.8,
+    "sauce": 0.15,
+    "percussion": [
+      "woodblock",
+      "shaker"
+    ],
+    "density": 0.6,
+    "ensemble": [
+      {
+        "name": "organic_grains",
+        "profile": "kalimba",
+        "role": "arp"
+      }
+    ]
+  }
+}

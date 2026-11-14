@@ -1,0 +1,572 @@
+{
+  "version": 1,
+  "masterSeed": "906019348",
+  "source": {
+    "folder": "set4",
+    "specId": "08",
+    "title": "Indie Pop",
+    "original": "8. **Indie Pop**\n* **Key & Tempo:** D major, 132 BPM\n* **Structure & Rhythm:** Verse - Pre-chorus - Chorus - Bridge - Chorus; 4/4 upbeat driving pulse\n* **Instruments:** Electric guitar, electric bass guitar\n* **Synth Profiles:** None\n* **Drums & Percussion:** Soft acoustic-style kit, kick drum, snare drum, closed hi-hat, open hi-hat, crash cymbal\n* **Vocal Profile & Lyric:** Minimal clean voice chanting *\"dancing to your eyes\"*",
+    "prompt": "indie pop 32 bars in D major at 132bpm, 4/4, verse chorus form, with electric guitar, electric bass guitar, soft kit, open hats and crash cymbals, strummed chords"
+  },
+  "purpose": "20 balanced seeded palette explorations from the upbeat indie-pop brief, rather than identical fixed-slot prompts. No metallic Reese. Not a one-variable experiment.",
+  "adaptations": [
+    "Original D major/132 BPM, exact instrument list and pop form are deliberately loosened at the user request.",
+    "All examples remain indie pop, 32 bars, major mode and 4/4; tempo, root, forms, sounds, accompaniment, bass phrasing and grooves vary.",
+    "Instrumental for tone comparison; this does not evaluate vocals.",
+    "Balanced sound/style banks are shuffled from one saved master seed, not twenty unbounded random draws. Ordinary --seed behavior is unchanged."
+  ],
+  "previewSeconds": 16,
+  "storageLimitBytes": 12000000,
+  "cases": [
+    {
+      "id": "01",
+      "seed": "3737817790",
+      "prompt": "upbeat driving indie pop instrumental, 32 bars, in E major at 130bpm, 4/4, rondo, with clean sine bass and organ, bouncy bass, strummed chords, 8-bar accompaniment phrases, chord every 4 bars, shuffle hats, swing 58, harmonica, no arpeggios, soft kit, tambourine, motif fragmentation",
+      "options": {
+        "sauce": 0.124,
+        "vocals": "off",
+        "parts": [
+          {
+            "name": "answer",
+            "profile": "ukulele",
+            "role": "harmony",
+            "pattern": "riff",
+            "gain": 0.28,
+            "register": 0,
+            "pan": 0.35
+          }
+        ]
+      },
+      "expect": {
+        "intent": "indie_pop",
+        "bass": "sine_sub",
+        "harmony": "organ",
+        "lead": "harmonica",
+        "style": "strum",
+        "form": "rondo",
+        "root": "E",
+        "bpm": 130,
+        "swing": 58,
+        "phraseBars": 8,
+        "chordBars": 4,
+        "groove": "shuffle hats",
+        "bassCue": "bouncy bass"
+      }
+    },
+    {
+      "id": "02",
+      "seed": "2961965966",
+      "prompt": "upbeat driving indie pop instrumental, 32 bars, in D major at 126bpm, 4/4, rondo, with upright bass and PWM synth, offbeat chords, 4-bar accompaniment phrases, chord every 1 bars, tresillo, swing 58, no lead, no arpeggios, 909 kit, shaker, motif augmentation",
+      "options": {
+        "sauce": 0.251,
+        "vocals": "off",
+        "parts": []
+      },
+      "expect": {
+        "intent": "indie_pop",
+        "bass": "upright_bass",
+        "harmony": "pwm",
+        "lead": null,
+        "style": "offbeat",
+        "form": "rondo",
+        "root": "D",
+        "bpm": 126,
+        "swing": 58,
+        "phraseBars": 4,
+        "chordBars": 1,
+        "groove": "tresillo",
+        "bassCue": "genre"
+      }
+    },
+    {
+      "id": "03",
+      "seed": "2866351082",
+      "prompt": "upbeat driving indie pop instrumental, 32 bars, in Bb major at 132bpm, 4/4, verse chorus form, with electric bass guitar and electric guitar, call and response, broken chords, 4-bar accompaniment phrases, chord every 4 bars, tresillo, swing 56, no lead, no arpeggios, soft kit, open hats, motif inversion",
+      "options": {
+        "sauce": 0.246,
+        "vocals": "off",
+        "parts": []
+      },
+      "expect": {
+        "intent": "indie_pop",
+        "bass": "electric_bass",
+        "harmony": "electric_guitar",
+        "lead": null,
+        "style": "broken",
+        "form": "pop",
+        "root": "Bb",
+        "bpm": 132,
+        "swing": 56,
+        "phraseBars": 4,
+        "chordBars": 4,
+        "groove": "tresillo",
+        "bassCue": "call and response"
+      }
+    },
+    {
+      "id": "04",
+      "seed": "1102660791",
+      "prompt": "upbeat driving indie pop instrumental, 32 bars, in A major at 130bpm, 4/4, theme and variations, with dark analog bass and organ, chord riff, 8-bar accompaniment phrases, chord every 2 bars, funk groove, swing 58, flute, no arpeggios, 808 kit, shaker, motif retrograde",
+      "options": {
+        "sauce": 0.238,
+        "vocals": "off",
+        "parts": []
+      },
+      "expect": {
+        "intent": "indie_pop",
+        "bass": "dark_analog_bass",
+        "harmony": "organ",
+        "lead": "flute",
+        "style": "riff",
+        "form": "variations",
+        "root": "A",
+        "bpm": 130,
+        "swing": 58,
+        "phraseBars": 8,
+        "chordBars": 2,
+        "groove": "funk groove",
+        "bassCue": "genre"
+      }
+    },
+    {
+      "id": "05",
+      "seed": "1556454211",
+      "prompt": "upbeat driving indie pop instrumental, 32 bars, in E major at 132bpm, 4/4, AABA, with clean sine bass and clavinet, staccato bass, offbeat chords, 8-bar accompaniment phrases, chord every 4 bars, drum call and response, swing 54, no lead, no arpeggios, 909 kit, tambourine, motif retrograde",
+      "options": {
+        "sauce": 0.14,
+        "vocals": "off",
+        "parts": [
+          {
+            "name": "answer",
+            "profile": "ukulele",
+            "role": "harmony",
+            "pattern": "offbeat",
+            "gain": 0.28,
+            "register": 0,
+            "pan": 0.35
+          }
+        ]
+      },
+      "expect": {
+        "intent": "indie_pop",
+        "bass": "sine_sub",
+        "harmony": "clavinet",
+        "lead": null,
+        "style": "offbeat",
+        "form": "aaba",
+        "root": "E",
+        "bpm": 132,
+        "swing": 54,
+        "phraseBars": 8,
+        "chordBars": 4,
+        "groove": "drum call and response",
+        "bassCue": "staccato bass"
+      }
+    },
+    {
+      "id": "06",
+      "seed": "3732857488",
+      "prompt": "upbeat driving indie pop instrumental, 32 bars, in D major at 126bpm, 4/4, verse chorus form, with FM bass and wavetable synth, offbeat chords, 8-bar accompaniment phrases, chord every 2 bars, funk groove, swing 52, no lead, no arpeggios, soft kit, open hats, motif inversion",
+      "options": {
+        "sauce": 0.166,
+        "vocals": "off",
+        "parts": []
+      },
+      "expect": {
+        "intent": "indie_pop",
+        "bass": "fm_bass",
+        "harmony": "wavetable",
+        "lead": null,
+        "style": "offbeat",
+        "form": "pop",
+        "root": "D",
+        "bpm": 126,
+        "swing": 52,
+        "phraseBars": 8,
+        "chordBars": 2,
+        "groove": "funk groove",
+        "bassCue": "genre"
+      }
+    },
+    {
+      "id": "07",
+      "seed": "3525302082",
+      "prompt": "upbeat driving indie pop instrumental, 32 bars, in A major at 126bpm, 4/4, rondo, with FM bass and acoustic piano, staccato bass, held chords, 4-bar accompaniment phrases, chord every 4 bars, drum call and response, swing 58, no lead, no arpeggios, 808 kit, shaker, motif fragmentation",
+      "options": {
+        "sauce": 0.229,
+        "vocals": "off",
+        "parts": []
+      },
+      "expect": {
+        "intent": "indie_pop",
+        "bass": "fm_bass",
+        "harmony": "acoustic_piano",
+        "lead": null,
+        "style": "sustain",
+        "form": "rondo",
+        "root": "A",
+        "bpm": 126,
+        "swing": 58,
+        "phraseBars": 4,
+        "chordBars": 4,
+        "groove": "drum call and response",
+        "bassCue": "staccato bass"
+      }
+    },
+    {
+      "id": "08",
+      "seed": "1870912561",
+      "prompt": "upbeat driving indie pop instrumental, 32 bars, in G major at 118bpm, 4/4, with upright bass and vibraphone, call and response, syncopated comping, 2-bar accompaniment phrases, chord every 1 bars, tresillo, swing 50, clarinet, no arpeggios, 808 kit, shaker, motif fragmentation",
+      "options": {
+        "sauce": 0.132,
+        "vocals": "off",
+        "parts": []
+      },
+      "expect": {
+        "intent": "indie_pop",
+        "bass": "upright_bass",
+        "harmony": "vibraphone",
+        "lead": "clarinet",
+        "style": "comp",
+        "form": "club",
+        "root": "G",
+        "bpm": 118,
+        "swing": 50,
+        "phraseBars": 2,
+        "chordBars": 1,
+        "groove": "tresillo",
+        "bassCue": "call and response"
+      }
+    },
+    {
+      "id": "09",
+      "seed": "4093001357",
+      "prompt": "upbeat driving indie pop instrumental, 32 bars, in Ab major at 134bpm, 4/4, AABA, with acid bass and vibraphone, sustained bass, strummed chords, 8-bar accompaniment phrases, chord every 2 bars, humanized, swing 50, lead synth, no arpeggios, 808 kit, tambourine, motif inversion",
+      "options": {
+        "sauce": 0.165,
+        "vocals": "off",
+        "parts": [
+          {
+            "name": "answer",
+            "profile": "acoustic_piano",
+            "role": "harmony",
+            "pattern": "broken",
+            "gain": 0.28,
+            "register": 0,
+            "pan": 0.35
+          }
+        ]
+      },
+      "expect": {
+        "intent": "indie_pop",
+        "bass": "acid_bass",
+        "harmony": "vibraphone",
+        "lead": "analog_lead",
+        "style": "strum",
+        "form": "aaba",
+        "root": "Ab",
+        "bpm": 134,
+        "swing": 50,
+        "phraseBars": 8,
+        "chordBars": 2,
+        "groove": "humanized",
+        "bassCue": "sustained bass"
+      }
+    },
+    {
+      "id": "10",
+      "seed": "3239659670",
+      "prompt": "upbeat driving indie pop instrumental, 32 bars, in G major at 118bpm, 4/4, theme and variations, with electric bass guitar and ukulele, chord riff, 4-bar accompaniment phrases, chord every 4 bars, shuffle hats, swing 58, no lead, no arpeggios, 909 kit, shaker, motif inversion",
+      "options": {
+        "sauce": 0.185,
+        "vocals": "off",
+        "parts": []
+      },
+      "expect": {
+        "intent": "indie_pop",
+        "bass": "electric_bass",
+        "harmony": "ukulele",
+        "lead": null,
+        "style": "riff",
+        "form": "variations",
+        "root": "G",
+        "bpm": 118,
+        "swing": 58,
+        "phraseBars": 4,
+        "chordBars": 4,
+        "groove": "shuffle hats",
+        "bassCue": "genre"
+      }
+    },
+    {
+      "id": "11",
+      "seed": "2065940605",
+      "prompt": "upbeat driving indie pop instrumental, 32 bars, in Bb major at 130bpm, 4/4, AABA, with distorted dark analog bass and clavinet, call and response, broken chords, 8-bar accompaniment phrases, chord every 2 bars, drum call and response, swing 54, no lead, no arpeggios, 909 kit, tambourine, motif retrograde",
+      "options": {
+        "sauce": 0.25,
+        "vocals": "off",
+        "parts": []
+      },
+      "expect": {
+        "intent": "indie_pop",
+        "bass": "dark_distorted_bass",
+        "harmony": "clavinet",
+        "lead": null,
+        "style": "broken",
+        "form": "aaba",
+        "root": "Bb",
+        "bpm": 130,
+        "swing": 54,
+        "phraseBars": 8,
+        "chordBars": 2,
+        "groove": "drum call and response",
+        "bassCue": "call and response"
+      }
+    },
+    {
+      "id": "12",
+      "seed": "2858271316",
+      "prompt": "upbeat driving indie pop instrumental, 32 bars, in Eb major at 130bpm, 4/4, with electric bass guitar and PWM synth, sustained bass, held chords, 2-bar accompaniment phrases, chord every 2 bars, drum call and response, swing 58, no lead, no arpeggios, 909 kit, open hats, motif augmentation",
+      "options": {
+        "sauce": 0.121,
+        "vocals": "off",
+        "parts": []
+      },
+      "expect": {
+        "intent": "indie_pop",
+        "bass": "electric_bass",
+        "harmony": "pwm",
+        "lead": null,
+        "style": "sustain",
+        "form": "club",
+        "root": "Eb",
+        "bpm": 130,
+        "swing": 58,
+        "phraseBars": 2,
+        "chordBars": 2,
+        "groove": "drum call and response",
+        "bassCue": "sustained bass"
+      }
+    },
+    {
+      "id": "13",
+      "seed": "1259808245",
+      "prompt": "upbeat driving indie pop instrumental, 32 bars, in F major at 130bpm, 4/4, rondo, with upright bass and acoustic guitar, staccato bass, broken chords, 4-bar accompaniment phrases, chord every 1 bars, humanized, swing 50, no lead, no arpeggios, soft kit, open hats, motif inversion",
+      "options": {
+        "sauce": 0.259,
+        "vocals": "off",
+        "parts": [
+          {
+            "name": "answer",
+            "profile": "clavinet",
+            "role": "harmony",
+            "pattern": "offbeat",
+            "gain": 0.28,
+            "register": 0,
+            "pan": 0.35
+          }
+        ]
+      },
+      "expect": {
+        "intent": "indie_pop",
+        "bass": "upright_bass",
+        "harmony": "acoustic_guitar",
+        "lead": null,
+        "style": "broken",
+        "form": "rondo",
+        "root": "F",
+        "bpm": 130,
+        "swing": 50,
+        "phraseBars": 4,
+        "chordBars": 1,
+        "groove": "humanized",
+        "bassCue": "staccato bass"
+      }
+    },
+    {
+      "id": "14",
+      "seed": "3650945637",
+      "prompt": "upbeat driving indie pop instrumental, 32 bars, in B major at 126bpm, 4/4, theme and variations, with dark analog bass and electric guitar, staccato bass, broken chords, 8-bar accompaniment phrases, chord every 2 bars, tresillo, swing 58, no lead, no arpeggios, 808 kit, open hats, motif augmentation",
+      "options": {
+        "sauce": 0.209,
+        "vocals": "off",
+        "parts": []
+      },
+      "expect": {
+        "intent": "indie_pop",
+        "bass": "dark_analog_bass",
+        "harmony": "electric_guitar",
+        "lead": null,
+        "style": "broken",
+        "form": "variations",
+        "root": "B",
+        "bpm": 126,
+        "swing": 58,
+        "phraseBars": 8,
+        "chordBars": 2,
+        "groove": "tresillo",
+        "bassCue": "staccato bass"
+      }
+    },
+    {
+      "id": "15",
+      "seed": "543200882",
+      "prompt": "upbeat driving indie pop instrumental, 32 bars, in Db major at 126bpm, 4/4, verse chorus form, with clean sine bass and acoustic piano, bouncy bass, strummed chords, 4-bar accompaniment phrases, chord every 2 bars, funk groove, swing 54, no lead, no arpeggios, 808 kit, tambourine, motif fragmentation",
+      "options": {
+        "sauce": 0.098,
+        "vocals": "off",
+        "parts": []
+      },
+      "expect": {
+        "intent": "indie_pop",
+        "bass": "sine_sub",
+        "harmony": "acoustic_piano",
+        "lead": null,
+        "style": "strum",
+        "form": "pop",
+        "root": "Db",
+        "bpm": 126,
+        "swing": 54,
+        "phraseBars": 4,
+        "chordBars": 2,
+        "groove": "funk groove",
+        "bassCue": "bouncy bass"
+      }
+    },
+    {
+      "id": "16",
+      "seed": "86235174",
+      "prompt": "upbeat driving indie pop instrumental, 32 bars, in C major at 130bpm, 4/4, with Reese bass and Rhodes, bouncy bass, syncopated comping, 4-bar accompaniment phrases, chord every 4 bars, humanized, swing 52, flute, no arpeggios, soft kit, shaker, motif retrograde",
+      "options": {
+        "sauce": 0.254,
+        "vocals": "off",
+        "parts": []
+      },
+      "expect": {
+        "intent": "indie_pop",
+        "bass": "reese_bass",
+        "harmony": "rhodes_stabs",
+        "lead": "flute",
+        "style": "comp",
+        "form": "club",
+        "root": "C",
+        "bpm": 130,
+        "swing": 52,
+        "phraseBars": 4,
+        "chordBars": 4,
+        "groove": "humanized",
+        "bassCue": "bouncy bass"
+      }
+    },
+    {
+      "id": "17",
+      "seed": "3115999217",
+      "prompt": "upbeat driving indie pop instrumental, 32 bars, in F# major at 126bpm, 4/4, AABA, with dark analog bass and ukulele, sustained bass, held chords, 8-bar accompaniment phrases, chord every 1 bars, humanized, swing 52, no lead, no arpeggios, 808 kit, shaker, motif fragmentation",
+      "options": {
+        "sauce": 0.086,
+        "vocals": "off",
+        "parts": [
+          {
+            "name": "answer",
+            "profile": "organ",
+            "role": "harmony",
+            "pattern": "broken",
+            "gain": 0.28,
+            "register": 0,
+            "pan": 0.35
+          }
+        ]
+      },
+      "expect": {
+        "intent": "indie_pop",
+        "bass": "dark_analog_bass",
+        "harmony": "ukulele",
+        "lead": null,
+        "style": "sustain",
+        "form": "aaba",
+        "root": "F#",
+        "bpm": 126,
+        "swing": 52,
+        "phraseBars": 8,
+        "chordBars": 1,
+        "groove": "humanized",
+        "bassCue": "sustained bass"
+      }
+    },
+    {
+      "id": "18",
+      "seed": "3368329452",
+      "prompt": "upbeat driving indie pop instrumental, 32 bars, in Eb major at 132bpm, 4/4, verse chorus form, with clean sine bass and wavetable synth, call and response, chord riff, 8-bar accompaniment phrases, chord every 1 bars, shuffle hats, swing 54, harmonica, no arpeggios, 808 kit, shaker, motif augmentation",
+      "options": {
+        "sauce": 0.184,
+        "vocals": "off",
+        "parts": []
+      },
+      "expect": {
+        "intent": "indie_pop",
+        "bass": "sine_sub",
+        "harmony": "wavetable",
+        "lead": "harmonica",
+        "style": "riff",
+        "form": "pop",
+        "root": "Eb",
+        "bpm": 132,
+        "swing": 54,
+        "phraseBars": 8,
+        "chordBars": 1,
+        "groove": "shuffle hats",
+        "bassCue": "call and response"
+      }
+    },
+    {
+      "id": "19",
+      "seed": "4143659171",
+      "prompt": "upbeat driving indie pop instrumental, 32 bars, in F major at 122bpm, 4/4, with dark analog bass and Rhodes, sustained bass, held chords, 8-bar accompaniment phrases, chord every 2 bars, funk groove, swing 56, clarinet, no arpeggios, soft kit, shaker, motif inversion",
+      "options": {
+        "sauce": 0.136,
+        "vocals": "off",
+        "parts": []
+      },
+      "expect": {
+        "intent": "indie_pop",
+        "bass": "dark_analog_bass",
+        "harmony": "rhodes_stabs",
+        "lead": "clarinet",
+        "style": "sustain",
+        "form": "club",
+        "root": "F",
+        "bpm": 122,
+        "swing": 56,
+        "phraseBars": 8,
+        "chordBars": 2,
+        "groove": "funk groove",
+        "bassCue": "sustained bass"
+      }
+    },
+    {
+      "id": "20",
+      "seed": "2730281480",
+      "prompt": "upbeat driving indie pop instrumental, 32 bars, in C major at 130bpm, 4/4, theme and variations, with electric bass guitar and acoustic guitar, bouncy bass, syncopated comping, 8-bar accompaniment phrases, chord every 2 bars, shuffle hats, swing 50, flute, no arpeggios, 808 kit, shaker, motif retrograde",
+      "options": {
+        "sauce": 0.158,
+        "vocals": "off",
+        "parts": []
+      },
+      "expect": {
+        "intent": "indie_pop",
+        "bass": "electric_bass",
+        "harmony": "acoustic_guitar",
+        "lead": "flute",
+        "style": "comp",
+        "form": "variations",
+        "root": "C",
+        "bpm": 130,
+        "swing": 50,
+        "phraseBars": 8,
+        "chordBars": 2,
+        "groove": "shuffle hats",
+        "bassCue": "bouncy bass"
+      }
+    }
+  ]
+}

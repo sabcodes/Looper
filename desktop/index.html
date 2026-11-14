@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; media-src beat://audio blob:; img-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Looper</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="renderer.js" type="module"></script>
+</head>
+<body>
+  <header class="topbar"><div class="brand"><span class="brand-icon" aria-hidden="true">▥</span> LOOPER <span class="version">STUDIO / 2.0 BETA 2</span></div><span class="offline"><i></i> Offline engine</span></header>
+  <main>
+    <section class="workspace">
+      <div class="eyebrow">FROM AN IDEA TO A GROOVE</div>
+      <h1>Make something<br><span>worth looping.</span></h1>
+      <p class="intro">Procedural sound. Your direction. Every variation has a seed.</p>
+      <form id="composer">
+        <label for="prompt">Describe your track</label>
+        <textarea id="prompt" name="prompt" rows="4" required maxlength="10000" spellcheck="false" placeholder="Warm deep house in F minor at 124bpm, 32 bars, soft pads and a rolling bass…">Warm deep house in F minor at 124bpm, 32 bars, soft pads and a rolling bass</textarea>
+        <div class="examples" aria-label="Prompt ideas"><button type="button" data-prompt="Shuffled UK garage in A dorian at 134bpm, warm chords and syncopated sub">UK garage ↗</button><button type="button" data-prompt="Dreamy synthwave in D minor at 110bpm, wide pads, bright arpeggios and octave bass">Synthwave ↗</button><button type="button" data-prompt="Dusty lofi study beat in C minor at 84bpm, soft piano and sparse drums">Late night lofi ↗</button></div>
+        <div class="control-grid">
+          <label>Musical seed<div class="seed-row"><input id="seed" value="42" maxlength="200" required><button id="reroll" type="button" aria-label="Choose a new musical seed" title="Choose a new musical seed">↻</button></div></label>
+          <label>Export format<select id="format"><option value="wav">WAV · lossless</option><option value="mp3">MP3 · 192 kbps</option><option value="flac">FLAC · lossless</option></select></label>
+        </div>
+        <label class="range-label" for="sauce">Sauce <span id="sauce-value">Genre default</span></label>
+        <input id="sauce" type="range" min="0" max="1" step="0.05" value="0.35" disabled>
+        <div class="range-captions"><span>Restrained</span><label class="check"><input id="auto-sauce" type="checkbox" checked> Follow genre</label><span>Disrupted</span></div>
+        <details><summary>Sound, vocals & export settings</summary>
+          <div class="control-grid advanced-grid">
+            <label>Sound seed<div class="seed-row"><input id="sound-seed" placeholder="Follow musical seed" maxlength="200"><button id="reroll-sound" type="button" aria-label="Reroll sound seed">↻</button></div></label>
+            <label>Phrase seed<input id="phrase-seed" placeholder="Follow musical seed" maxlength="200"></label>
+          </div>
+          <label>Output filename <span class="hint">Optional · automatic unique name</span><input id="output" placeholder="my-deep-house.wav" maxlength="120"></label>
+          <div class="checks"><label class="check"><input id="save-score" type="checkbox" checked> Save score JSON</label><label class="check"><input id="stems" type="checkbox"> Export stems (WAV / FLAC)</label></div>
+          <label>Lyrics <span class="hint">Optional · local spoken vocals</span><textarea id="lyrics" rows="2" maxlength="1200" placeholder="Move your body. Feel the rhythm."></textarea></label>
+          <div class="control-grid"><label>Hook<input id="hook" maxlength="200" placeholder="First lyric phrase"></label><label>System voice<select id="voice"><option value="zarvox">Zarvox</option><option value="samantha">Samantha</option><option value="karen">Karen</option><option value="moira">Moira</option><option value="tessa">Tessa</option><option value="kathy">Kathy</option><option value="ralph">Ralph</option><option value="fred">Fred</option><option value="trinoids">Trinoids</option><option value="whisper">Whisper</option><option value="albert">Albert</option><option value="junior">Junior</option><option value="boing">Boing</option></select></label></div>
+          <p class="hint">MP3 / FLAC and vocals use your existing FFmpeg. Vocals require an installed macOS voice.</p>
+          <label>Additional engine options <span class="hint">JSON object</span><textarea id="engine-options" rows="4" spellcheck="false" placeholder='{"timbre":{"noiseColor":"pink"}}'></textarea></label>
+          <p class="hint">Supports parts, mix, timbre, tuning, development and vocal controls. The visible controls take precedence.</p>
+        </details>
+        <div class="actions"><button class="secondary" id="inspect" type="button">Inspect arrangement</button><button class="primary" id="generate" type="submit">Generate beat <span aria-hidden="true">↗</span></button></div>
+        <p id="status" role="status" aria-live="polite">Ready when you are. Files stay in generated_beats/.</p>
+      </form>
+    </section>
+    <aside>
+      <section class="panel interpretation"><div class="panel-heading"><h2>The blueprint</h2><span class="eyebrow">01 / ARRANGEMENT</span></div>
+        <div class="liquid-control">
+          <button id="suggest" type="button" class="secondary" aria-describedby="liquid-status">Suggest direction</button>
+          <p id="liquid-status" class="hint" role="status">Optional. Ask the local Liquid model to preview an alternate style.</p>
+        </div>
+        <div id="blueprint-empty" class="empty"><span class="empty-icon" aria-hidden="true">▤</span><p>Your idea, interpreted.</p><span>Inspect a prompt to see its musical shape before rendering.</span></div>
+        <div id="blueprint" hidden>
+          <h3 id="style"></h3>
+          <div class="metrics"><div><strong id="tempo"></strong><span>BPM</span></div><div><strong id="key"></strong><span>KEY / SCALE</span></div><div><strong id="duration"></strong><span>DURATION</span></div></div>
+          <div id="sections" class="sections"></div>
+          <p id="structure" class="hint"></p><dl id="sounds"></dl><p id="seed-info" class="hint"></p>
+          <p id="interpretation" class="hint"></p>
+          <label id="direction-control" for="direction">Style direction <span class="hint">Choose a style to lock it for this prompt</span>
+            <select id="direction"></select>
+          </label>
+          <div id="messages"></div>
+        </div>
+      </section>
+      <section class="panel player-panel"><div class="panel-heading"><h2>Listen back</h2><span class="eyebrow">02 / PLAYBACK</span></div><p id="now-playing">Your next beat starts here.</p><audio id="player" controls preload="metadata" aria-label="Generated beat playback"></audio><div class="player-footer"><span id="file-info" class="hint">Select a render from your library.</span><button id="reveal" type="button" class="text-button" disabled>Show file ↗</button></div><p id="playback-error" role="status" class="hint"></p></section>
+      <section class="panel">
+        <div class="panel-heading"><h2>Part editor</h2><button id="edit-parts" type="button" class="text-button" disabled>Open selected score ↗</button></div>
+        <p id="part-status" class="hint" role="status">Select a render with a saved score to edit its notes and hits.</p>
+        <form id="parts-editor" novalidate hidden>
+          <p id="edit-source" class="hint"></p>
+          <section id="audition" class="audition" aria-labelledby="audition-heading" hidden>
+            <div class="panel-heading"><h2 id="audition-heading">Audition</h2><button id="full-mix" type="button" class="text-button" disabled>Full mix</button></div>
+            <ul id="audition-parts"></ul>
+            <p id="audition-status" class="hint" role="status"></p>
+            <fieldset id="part-variation" class="event-fields" hidden>
+              <legend id="variation-title" class="hint">Vary soloed part</legend>
+              <div class="control-grid">
+                <label>Variation<select id="variation-mode" aria-describedby="variation-mode-help"><option value="sauce">Sauce</option><option value="rhythm">Rhythm</option><option value="sound">Instrument</option><option value="key">Key</option></select></label>
+                <label>Part seed<div class="seed-row"><input id="variation-seed" maxlength="200" placeholder="Enter a seed"><button id="variation-reroll" type="button" aria-label="Reroll this part" title="Reroll this part">↻</button></div></label>
+              </div>
+              <p id="variation-mode-help" class="hint">Sauce changes sound and timing. Rhythm changes timing only. Instrument changes sound only. Key transposes this part only and is available for pitched parts. The same part seed repeats the same variation.</p>
+              <button id="variation-preview" class="text-button" type="button">Preview seed</button>
+              <label>Part prompt<input id="variation-prompt" maxlength="300" aria-describedby="variation-prompt-help"></label>
+              <p id="variation-prompt-help" class="hint">Change this part’s instrument, key or phrasing. Try “use a piano”, “in D minor” or “change the key only”. Only this part changes; compare it in Full mix before saving.</p>
+              <label class="check"><input id="variation-liquid" type="checkbox" checked> Use local Liquid for unfamiliar wording</label>
+              <div class="actions">
+                <button id="variation-apply" class="secondary" type="button">Preview prompt</button>
+                <button id="variation-original" class="secondary" type="button" aria-pressed="false" disabled>Hear original</button>
+                <button id="variation-discard" class="secondary" type="button" disabled>Discard variation</button>
+              </div>
+              <p id="variation-error" class="hint" role="alert"></p>
+              <p id="variation-summary" class="hint" role="status">Each preview starts from the saved part.</p>
+            </fieldset>
+          </section>
+          <div class="control-grid">
+            <label>Part<select id="edit-part"></select></label>
+            <label>Find events in bar<select id="find-bar"></select></label>
+          </div>
+          <label>Event<select id="edit-event"></select></label>
+          <fieldset id="event-fields" class="event-fields">
+            <legend class="hint">Event values</legend>
+            <div class="control-grid">
+              <label>Move to bar<input id="event-bar" type="number" min="1" required></label>
+              <label>Step within bar (starts at 0)<input id="event-offset" type="number" min="0" step="any" required></label>
+              <label id="event-note-label">MIDI note (60 = C4)<input id="event-note" type="number" min="0" max="127" required></label>
+              <label>Velocity (0–2)<input id="event-velocity" type="number" min="0" max="2" step="any" required></label>
+              <label>Duration (seconds)<input id="event-duration" type="number" min="0.0001" max="600" step="any" required></label>
+            </div>
+            <div class="actions"><button id="stage-event" class="secondary" type="button">Stage change</button><button id="duplicate-event" class="secondary" type="button">Duplicate</button><button id="remove-event" class="secondary" type="button">Remove</button></div>
+          </fieldset>
+          <p id="edit-count" class="hint"></p>
+          <div class="actions"><button id="clear-edits" class="secondary" type="button" disabled>Clear staged edits</button><button id="save-edits" class="primary" type="submit" disabled>Render edited copy ↗</button></div>
+        </form>
+      </section>
+      <section class="panel library-panel"><div class="panel-heading"><h2>Recent renders <span id="library-count"></span></h2><button id="refresh" class="text-button" type="button">Refresh ↻</button></div><p id="library-location" class="hint">Latest 50 audio files in generated_beats/</p><ul id="library" aria-label="Recent generated audio"></ul></section>
+    </aside>
+  </main>
+  <footer><span>NO CLOUD. NO MODELS. JUST MUSIC.</span><span>Seeded composition / Local synthesis</span></footer>
+</body>
+</html>

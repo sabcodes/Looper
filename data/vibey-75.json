@@ -1,0 +1,1132 @@
+{
+  "version": 1,
+  "purpose": "25 user-specified palettes, three saved random seeds each, on the integrated v1.8 engine. Original text, adapted prompts and approximations remain visible.",
+  "sourceAttachmentSha256": "c8c408bd53bcddad08252ef2639b1802f2856da3b016e584fa582399a0fa3498",
+  "variants": 3,
+  "previewSeconds": 16,
+  "newBatchBudgetBytes": 45000000,
+  "vocalVelocityScale": 0.4,
+  "cases": [
+    {
+      "id": "01",
+      "title": "Synth Funk",
+      "original": "1. **Synth Funk**\n* **Key & Tempo:** E minor, 116 BPM\n* **Structure & Rhythm:** Intro - Verse - Chorus - Outro; 4/4 syncopated slap-and-pop groove\n* **Instruments:** Upright/double bass, electric guitar, Rhodes/electric piano\n* **Synth Profiles:** Brass stabs, FM piano, synth stabs, analog lead\n* **Drums & Percussion:** 909-style kit, kick drum, snare drum, open hi-hat, closed hi-hat, shaker\n* **Vocal Profile & Lyric:** Vocoder repeating *\"electric touch\"*",
+      "prompt": "synth funk 32 bars in E minor at 116bpm, 4/4, verse chorus form, with upright bass, electric guitar and Rhodes, 909 kit, open hats and shakers, syncopated comping",
+      "seeds": [
+        "2149089654",
+        "4008374855",
+        "974501569"
+      ],
+      "vocal": {
+        "voice": "zarvox",
+        "lyrics": "electric touch.",
+        "hook": "electric touch",
+        "vocalDensity": 0.3,
+        "vocalChops": 0,
+        "vocalEvery": 8
+      },
+      "vocalEffect": "vocoder",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 1
+          }
+        }
+      },
+      "form": "pop",
+      "key": "E",
+      "mode": "minor",
+      "bpm": 116,
+      "meter": "4/4",
+      "expectedIntent": "synth_funk",
+      "requiredProfiles": [
+        "upright_bass",
+        "electric_guitar",
+        "rhodes_stabs"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported pop form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed.",
+        "Several listed legacy synth/bass profiles are palette requests; the report inventories actual voices and flags missing or substituted layers instead of claiming all profiles were rendered."
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Industrial Bass",
+      "original": "2. **Industrial Bass**\n* **Key & Tempo:** D minor, 105 BPM\n* **Structure & Rhythm:** Intro - Build - Drop - Breakdown - Drop - Outro; 4/4 heavy march with half-time feel\n* **Instruments:** None\n* **Synth Profiles:** Distorted analog bass, metallic Reese bass, dark pad, hard-sync synth\n* **Drums & Percussion:** Kick drum, gated snare, closed hi-hat, crash cymbal\n* **Vocal Profile & Lyric:** Synthetic vocal stabs muttering *\"shut down\"*",
+      "prompt": "industrial bass 32 bars in D minor at 105bpm, 4/4, with sustained distorted dark analog synth bass, metallic Reese texture, dark pads and hard sync synth, halftime drums, gated snare and crash cymbals",
+      "seeds": [
+        "2974042443",
+        "3940059862",
+        "4044446775"
+      ],
+      "vocal": {
+        "voice": "trinoids",
+        "lyrics": "shut down.",
+        "hook": "shut down",
+        "vocalDensity": 0.3,
+        "vocalChops": 0,
+        "vocalEvery": 8
+      },
+      "vocalEffect": "plain",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 1
+          }
+        }
+      },
+      "form": "club",
+      "key": "D",
+      "mode": "minor",
+      "bpm": 105,
+      "meter": "4/4",
+      "expectedIntent": "industrial_bass",
+      "requiredProfiles": [
+        "dark_distorted_bass",
+        "hard_sync"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported club form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed.",
+        "Several listed legacy synth/bass profiles are palette requests; the report inventories actual voices and flags missing or substituted layers instead of claiming all profiles were rendered."
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Chamber Classical",
+      "original": "3. **Chamber Classical**\n* **Key & Tempo:** A minor, 68 BPM\n* **Structure & Rhythm:** A-B-A theme; 3/4 rubato waltz rhythm with expressive tempo fluctuation\n* **Instruments:** Acoustic/grand piano, bowed string ensemble, cello, violin/fiddle\n* **Synth Profiles:** None\n* **Drums & Percussion:** None\n* **Vocal Profile & Lyric:** Choir sustaining *\"lux aeterna\"*",
+      "prompt": "chamber classical 32 bars in A minor at 68bpm, 3/4, AABA, with bowed strings, cello, fiddle, wordless choir and acoustic piano, rubato waltz, no drums",
+      "seeds": [
+        "1281262684",
+        "2058866353",
+        "3018117280"
+      ],
+      "vocal": {
+        "voice": "whisper",
+        "lyrics": "lux aeterna.",
+        "hook": "lux aeterna",
+        "vocalDensity": 0.3,
+        "vocalChops": 0,
+        "vocalEvery": 8
+      },
+      "vocalEffect": "plain",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 1
+          }
+        }
+      },
+      "form": "aaba",
+      "key": "A",
+      "mode": "minor",
+      "bpm": 68,
+      "meter": "3/4",
+      "expectedIntent": "chamber_classical",
+      "requiredProfiles": [
+        "bowed_strings",
+        "cello",
+        "fiddle",
+        "choir",
+        "acoustic_piano"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported aaba form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed.",
+        "The choir is a wordless procedural layer; the text is a separate brief spoken approximation, not a choir singing lyrics."
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Boom Bap",
+      "original": "4. **Boom Bap**\n* **Key & Tempo:** C minor, 90 BPM\n* **Structure & Rhythm:** Loop - Verse - Hook - Verse - Outro; 4/4 swung head-nodding bounce\n* **Instruments:** Upright/double bass, trumpet\n* **Synth Profiles:** Dusty Rhodes\n* **Drums & Percussion:** Kick drum, snare drum, rimshot/sidestick, closed hi-hat, tambourine\n* **Vocal Profile & Lyric:** Procedural micro-chops whispering *\"city lights\"*",
+      "prompt": "boom bap 32 bars in C minor at 90bpm, 4/4, verse chorus form, with upright bass, trumpet and dusty Rhodes, swung hats, late snare, rimshots and tambourine",
+      "seeds": [
+        "3882422577",
+        "1890363947",
+        "2135019221"
+      ],
+      "vocal": {
+        "voice": "whisper",
+        "lyrics": "city lights.",
+        "hook": "city lights",
+        "vocalDensity": 0.3,
+        "vocalChops": 0.7,
+        "vocalEvery": 8
+      },
+      "vocalEffect": "chops",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 1
+          }
+        }
+      },
+      "form": "pop",
+      "key": "C",
+      "mode": "minor",
+      "bpm": 90,
+      "meter": "4/4",
+      "expectedIntent": "boom_bap",
+      "requiredProfiles": [
+        "upright_bass",
+        "trumpet"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported pop form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed."
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Botanica",
+      "original": "5. **Botanica**\n* **Key & Tempo:** F# minor, 72 BPM\n* **Structure & Rhythm:** Atmospheric swell - Harmonic progression - Dynamic peak - Fadeout; unmetered evolving drift\n* **Instruments:** Cello, frame drum, gong\n* **Synth Profiles:** Granular synth, dark pad, wide dark pad\n* **Drums & Percussion:** None\n* **Vocal Profile & Lyric:** Choir breathing *\"breathe in\"*",
+      "prompt": "botanica 32 bars in F# minor at 72bpm, 4/4, theme and variations, with cello, frame drum, gong, wordless choir and granular synth, wide dark pads, held chords, rubato, no drums, no bass",
+      "seeds": [
+        "465663171",
+        "556621053",
+        "1936361504"
+      ],
+      "vocal": {
+        "voice": "whisper",
+        "lyrics": "breathe in.",
+        "hook": "breathe in",
+        "vocalDensity": 0.3,
+        "vocalChops": 0,
+        "vocalEvery": 8
+      },
+      "vocalEffect": "plain",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 1
+          }
+        }
+      },
+      "form": "variations",
+      "key": "F#",
+      "mode": "minor",
+      "bpm": 72,
+      "meter": "4/4",
+      "expectedIntent": "botanica",
+      "requiredProfiles": [
+        "cello",
+        "frame_drum",
+        "gong",
+        "choir",
+        "granular"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported variations form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed.",
+        "Requested unmetered drift is approximated by held voicings on a 4/4 timeline with bounded bar-level rubato; it is not free time.",
+        "The choir is a wordless procedural layer; the text is a separate brief spoken approximation, not a choir singing lyrics."
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Soulful House",
+      "original": "6. **Soulful House**\n* **Key & Tempo:** Bb major, 124 BPM\n* **Structure & Rhythm:** Intro - Verse - Chorus - Dub drop - Outro; 4/4 four-on-the-floor with swung 16th hats\n* **Instruments:** Organ/Hammond, Rhodes/electric piano, electric bass guitar, trumpet, trombone\n* **Synth Profiles:** None\n* **Drums & Percussion:** 909-style kit, kick drum, snare drum, clap, open hi-hat, shaker\n* **Vocal Profile & Lyric:** Synthetic vocal stabs singing *\"feel the rise\"*",
+      "prompt": "soulful house 32 bars in Bb major at 124bpm, 4/4, verse chorus form, with Hammond organ, Rhodes, electric bass guitar, trumpet and trombone, 909 kit, hat swing 62, claps, open hats and shakers",
+      "seeds": [
+        "2295176010",
+        "260272737",
+        "3658952513"
+      ],
+      "vocal": {
+        "voice": "samantha",
+        "lyrics": "feel the rise.",
+        "hook": "feel the rise",
+        "vocalDensity": 0.3,
+        "vocalChops": 0,
+        "vocalEvery": 8
+      },
+      "vocalEffect": "plain",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 1
+          }
+        }
+      },
+      "form": "pop",
+      "key": "Bb",
+      "mode": "major",
+      "bpm": 124,
+      "meter": "4/4",
+      "expectedIntent": "soulful_house",
+      "requiredProfiles": [
+        "organ",
+        "rhodes_stabs",
+        "electric_bass",
+        "trumpet",
+        "trombone"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported pop form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed."
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Organic House",
+      "original": "7. **Organic House**\n* **Key & Tempo:** G minor, 120 BPM\n* **Structure & Rhythm:** Extended percussive intro - Melodic build - Release - Outro; 4/4 rolling polyrhythmic groove\n* **Instruments:** Flute, marimba, acoustic guitar\n* **Synth Profiles:** Warm sub\n* **Drums & Percussion:** Soft acoustic-style kit, kick drum, conga, bongo, shaker\n* **Vocal Profile & Lyric:** Procedural micro-chops repeating *\"morning sun\"*",
+      "prompt": "organic house 32 bars in G minor at 120bpm, 4/4, with flute, marimba, acoustic guitar, warm sub-bass, soft kit, congas, bongos and shakers, 3 against 2 polyrhythm",
+      "seeds": [
+        "1585080297",
+        "3275904912",
+        "3386605385"
+      ],
+      "vocal": {
+        "voice": "samantha",
+        "lyrics": "morning sun.",
+        "hook": "morning sun",
+        "vocalDensity": 0.3,
+        "vocalChops": 0.7,
+        "vocalEvery": 8
+      },
+      "vocalEffect": "chops",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 1
+          }
+        }
+      },
+      "form": "club",
+      "key": "G",
+      "mode": "minor",
+      "bpm": 120,
+      "meter": "4/4",
+      "expectedIntent": "organic_house",
+      "requiredProfiles": [
+        "flute",
+        "marimba",
+        "acoustic_guitar"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported club form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed."
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Indie Pop",
+      "original": "8. **Indie Pop**\n* **Key & Tempo:** D major, 132 BPM\n* **Structure & Rhythm:** Verse - Pre-chorus - Chorus - Bridge - Chorus; 4/4 upbeat driving pulse\n* **Instruments:** Electric guitar, electric bass guitar\n* **Synth Profiles:** None\n* **Drums & Percussion:** Soft acoustic-style kit, kick drum, snare drum, closed hi-hat, open hi-hat, crash cymbal\n* **Vocal Profile & Lyric:** Minimal clean voice chanting *\"dancing to your eyes\"*",
+      "prompt": "indie pop 32 bars in D major at 132bpm, 4/4, verse chorus form, with electric guitar, electric bass guitar, soft kit, open hats and crash cymbals, strummed chords",
+      "seeds": [
+        "2193633010",
+        "4172254307",
+        "3825537031"
+      ],
+      "vocal": {
+        "voice": "samantha",
+        "lyrics": "dancing to your eyes.",
+        "hook": "dancing to your eyes",
+        "vocalDensity": 0.3,
+        "vocalChops": 0,
+        "vocalEvery": 8
+      },
+      "vocalEffect": "plain",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 1
+          }
+        }
+      },
+      "form": "pop",
+      "key": "D",
+      "mode": "major",
+      "bpm": 132,
+      "meter": "4/4",
+      "expectedIntent": "indie_pop",
+      "requiredProfiles": [
+        "electric_guitar",
+        "electric_bass"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported pop form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed."
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Bluegrass",
+      "original": "9. **Bluegrass**\n* **Key & Tempo:** G major, 142 BPM\n* **Structure & Rhythm:** Intro - Solo rotation - Breakdown - Chorus - Outro; fast 2/4 cut-time boom-chick rhythm\n* **Instruments:** Acoustic guitar, banjo, mandolin, violin/fiddle, upright/double bass\n* **Synth Profiles:** None\n* **Drums & Percussion:** None\n* **Vocal Profile & Lyric:** Raw acoustic call-and-response singing *\"down the valley\"*",
+      "prompt": "bluegrass 32 bars in G major at 142bpm, 4/4, with acoustic guitar, banjo, mandolin, fiddle and upright bass, fast two-beat boom-chick phrasing, no drums",
+      "seeds": [
+        "1878740363",
+        "1389266790",
+        "1614327170"
+      ],
+      "vocal": {
+        "voice": "fred",
+        "lyrics": "down the valley.",
+        "hook": "down the valley",
+        "vocalDensity": 0.3,
+        "vocalChops": 0,
+        "vocalEvery": 8
+      },
+      "vocalEffect": "plain",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 1
+          }
+        }
+      },
+      "form": "club",
+      "key": "G",
+      "mode": "major",
+      "bpm": 142,
+      "meter": "4/4",
+      "expectedIntent": "bluegrass",
+      "requiredProfiles": [
+        "acoustic_guitar",
+        "banjo",
+        "mandolin",
+        "fiddle",
+        "upright_bass"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported club form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed.",
+        "Requested 2/4 is unsupported; render uses 4/4 with a repeating two-beat feel. This is a documented meter substitution."
+      ]
+    },
+    {
+      "id": "10",
+      "title": "UK Garage/2-Step",
+      "original": "10. **UK Garage/2-Step**\n* **Key & Tempo:** F minor, 134 BPM\n* **Structure & Rhythm:** Intro - Drop - Vocal breakdown - Second drop - Outro; 4/4 syncopated 2-step shuffle\n* **Instruments:** None\n* **Synth Profiles:** Jazz electric piano, garage sub, FM plucks\n* **Drums & Percussion:** Kick drum, rimshot/sidestick, closed hi-hat, open hi-hat, shaker\n* **Vocal Profile & Lyric:** Procedural micro-chops pitched up chanting *\"never let go\"*",
+      "prompt": "UK garage 32 bars in F minor at 134bpm, 4/4, with Rhodes voicings, deep garage sub and FM plucks, rimshots, open hats, shakers and 2-step shuffle",
+      "seeds": [
+        "2709279223",
+        "2702251332",
+        "979057508"
+      ],
+      "vocal": {
+        "voice": "kathy",
+        "lyrics": "never let go.",
+        "hook": "never let go",
+        "vocalDensity": 0.3,
+        "vocalChops": 0.7,
+        "vocalEvery": 8,
+        "vocalPitch": 5
+      },
+      "vocalEffect": "chops",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 1
+          }
+        }
+      },
+      "form": "club",
+      "key": "F",
+      "mode": "minor",
+      "bpm": 134,
+      "meter": "4/4",
+      "expectedIntent": "uk_garage_2step",
+      "requiredProfiles": [
+        "rhodes_stabs"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported club form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed.",
+        "Several listed legacy synth/bass profiles are palette requests; the report inventories actual voices and flags missing or substituted layers instead of claiming all profiles were rendered."
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Orchestral Classical",
+      "original": "11. **Orchestral Classical**\n* **Key & Tempo:** D minor, 96 BPM\n* **Structure & Rhythm:** Orchestral exposition - Brass escalation - Climactic cadence - Tail; 4/4 dynamic march\n* **Instruments:** Bowed string ensemble, cello, French horn, trombone, trumpet, tubular/orchestral bells\n* **Synth Profiles:** None\n* **Drums & Percussion:** Timpani\n* **Vocal Profile & Lyric:** Choir intoning *\"gloria\"*",
+      "prompt": "orchestral classical 32 bars in D minor at 96bpm, 4/4, rondo, with bowed strings, cello, French horn, trombone, trumpet, tubular bells, timpani and wordless choir, legato chords, no drums",
+      "seeds": [
+        "3094398028",
+        "1830528017",
+        "1129613513"
+      ],
+      "vocal": {
+        "voice": "ralph",
+        "lyrics": "gloria.",
+        "hook": "gloria",
+        "vocalDensity": 0.3,
+        "vocalChops": 0,
+        "vocalEvery": 8
+      },
+      "vocalEffect": "plain",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 1
+          }
+        }
+      },
+      "form": "rondo",
+      "key": "D",
+      "mode": "minor",
+      "bpm": 96,
+      "meter": "4/4",
+      "expectedIntent": "orchestral_classical",
+      "requiredProfiles": [
+        "bowed_strings",
+        "cello",
+        "french_horn",
+        "trombone",
+        "trumpet",
+        "tubular_bells",
+        "timpani",
+        "choir"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported rondo form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed.",
+        "The choir is a wordless procedural layer; the text is a separate brief spoken approximation, not a choir singing lyrics."
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Bossa Nova",
+      "original": "12. **Bossa Nova**\n* **Key & Tempo:** F major, 112 BPM\n* **Structure & Rhythm:** Intro - Verse - Saxophone solo - Verse - Outro; 2/4 syncopated Brazilian sway\n* **Instruments:** Acoustic guitar, saxophone, upright/double bass\n* **Synth Profiles:** None\n* **Drums & Percussion:** Kick drum, brushed snare, shaker, claves\n* **Vocal Profile & Lyric:** Soft intimate whisper murmuring *\"corcovado\"*",
+      "prompt": "bossa nova 32 bars in F major at 112bpm, 4/4, AABA, with acoustic guitar, saxophone, upright bass, brushed snare, shakers and claves, bossa groove",
+      "seeds": [
+        "2286268661",
+        "3504173901",
+        "4063866719"
+      ],
+      "vocal": {
+        "voice": "whisper",
+        "lyrics": "corcovado.",
+        "hook": "corcovado",
+        "vocalDensity": 0.3,
+        "vocalChops": 0,
+        "vocalEvery": 8
+      },
+      "vocalEffect": "plain",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 1
+          }
+        }
+      },
+      "form": "aaba",
+      "key": "F",
+      "mode": "major",
+      "bpm": 112,
+      "meter": "4/4",
+      "expectedIntent": "bossa_nova",
+      "requiredProfiles": [
+        "acoustic_guitar",
+        "saxophone",
+        "upright_bass"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported aaba form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed.",
+        "Requested 2/4 is unsupported; render uses 4/4 with a repeating two-beat feel. This is a documented meter substitution."
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Phonk",
+      "original": "13. **Phonk**\n* **Key & Tempo:** F# minor, 145 BPM\n* **Structure & Rhythm:** Loop intro - 808 drop - Bridge - Second drop - Outro; half-time 4/4 triplet trap bounce\n* **Instruments:** Acoustic/grand piano, melodic cowbell\n* **Synth Profiles:** Saturated 808 bass, dark pad\n* **Drums & Percussion:** 808-style kit, kick drum, snare drum, closed hi-hat\n* **Vocal Profile & Lyric:** Synthetic vocal stabs pitched down muttering *\"watch your back\"*",
+      "prompt": "phonk 32 bars in F# minor at 145bpm, 4/4, with acoustic piano, melodic cowbell hook, saturated 808 bass, dark pads, 808 kit, halftime drums and triplet hats",
+      "seeds": [
+        "328243172",
+        "3356378456",
+        "2449930947"
+      ],
+      "vocal": {
+        "voice": "fred",
+        "lyrics": "watch your back.",
+        "hook": "watch your back",
+        "vocalDensity": 0.3,
+        "vocalChops": 0,
+        "vocalEvery": 8,
+        "vocalPitch": -5
+      },
+      "vocalEffect": "plain",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 1
+          }
+        }
+      },
+      "form": "club",
+      "key": "F#",
+      "mode": "minor",
+      "bpm": 145,
+      "meter": "4/4",
+      "expectedIntent": "phonk",
+      "requiredProfiles": [
+        "acoustic_piano",
+        "cowbell_melody"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported club form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed.",
+        "Several listed legacy synth/bass profiles are palette requests; the report inventories actual voices and flags missing or substituted layers instead of claiming all profiles were rendered."
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Synthwave",
+      "original": "14. **Synthwave**\n* **Key & Tempo:** A minor, 118 BPM\n* **Structure & Rhythm:** Intro - Verse - Chorus - Guitar lead - Outro; 4/4 driving 8-beat rhythm\n* **Instruments:** Electric guitar\n* **Synth Profiles:** Analog saw pad, analog octave bass, analog lead\n* **Drums & Percussion:** Kick drum, gated snare, closed hi-hat, crash cymbal\n* **Vocal Profile & Lyric:** Vocoder repeating *\"midnight drive\"*",
+      "prompt": "synthwave 32 bars in A minor at 118bpm, 4/4, verse chorus form, with electric guitar, analog saw pads, octave bass and analog lead melody, gated snare and crash cymbals",
+      "seeds": [
+        "3975509260",
+        "1161481542",
+        "1590607713"
+      ],
+      "vocal": {
+        "voice": "zarvox",
+        "lyrics": "midnight drive.",
+        "hook": "midnight drive",
+        "vocalDensity": 0.3,
+        "vocalChops": 0,
+        "vocalEvery": 8
+      },
+      "vocalEffect": "vocoder",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 1
+          }
+        }
+      },
+      "form": "pop",
+      "key": "A",
+      "mode": "minor",
+      "bpm": 118,
+      "meter": "4/4",
+      "expectedIntent": "synthwave_retro",
+      "requiredProfiles": [
+        "electric_guitar"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported pop form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed.",
+        "Several listed legacy synth/bass profiles are palette requests; the report inventories actual voices and flags missing or substituted layers instead of claiming all profiles were rendered."
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Country",
+      "original": "15. **Country**\n* **Key & Tempo:** E major, 84 BPM\n* **Structure & Rhythm:** Verse - Chorus - Verse - Chorus - Outro; 4/4 relaxed acoustic train-beat\n* **Instruments:** Acoustic guitar, pedal steel guitar, harmonica, upright/double bass\n* **Synth Profiles:** None\n* **Drums & Percussion:** Soft acoustic-style kit, brushed snare, tambourine\n* **Vocal Profile & Lyric:** Low weathered voice singing *\"long way home\"*",
+      "prompt": "country 32 bars in E major at 84bpm, 4/4, verse chorus form, with acoustic guitar, pedal steel, harmonica and upright bass, soft kit, brushed snare, tambourine, train groove",
+      "seeds": [
+        "4170714281",
+        "2880719890",
+        "3905634030"
+      ],
+      "vocal": {
+        "voice": "fred",
+        "lyrics": "long way home.",
+        "hook": "long way home",
+        "vocalDensity": 0.3,
+        "vocalChops": 0,
+        "vocalEvery": 8
+      },
+      "vocalEffect": "plain",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 1
+          }
+        }
+      },
+      "form": "pop",
+      "key": "E",
+      "mode": "major",
+      "bpm": 84,
+      "meter": "4/4",
+      "expectedIntent": "country_acoustic",
+      "requiredProfiles": [
+        "acoustic_guitar",
+        "pedal_steel",
+        "harmonica",
+        "upright_bass"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported pop form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed."
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Liquid Drum and Bass",
+      "original": "16. **Liquid Drum and Bass**\n* **Key & Tempo:** Eb minor, 174 BPM\n* **Structure & Rhythm:** Atmospheric intro - Bass roller drop - Fluid breakdown - Second drop - Outro; fast 4/4 syncopated breakbeat\n* **Instruments:** Rhodes/electric piano, flute\n* **Synth Profiles:** Rolling saw bass, sine sub\n* **Drums & Percussion:** Kick drum, snare drum, closed hi-hat, open hi-hat\n* **Vocal Profile & Lyric:** Procedural micro-chops floating with *\"hold you tight\"*",
+      "prompt": "liquid drum and bass 32 bars in Eb minor at 174bpm, 4/4, with Rhodes, flute, rolling saw bass and clean sine sub, open hats and repeating breakbeat variations",
+      "seeds": [
+        "1973293324",
+        "2537104067",
+        "984655421"
+      ],
+      "vocal": {
+        "voice": "samantha",
+        "lyrics": "hold you tight.",
+        "hook": "hold you tight",
+        "vocalDensity": 0.3,
+        "vocalChops": 0.7,
+        "vocalEvery": 8
+      },
+      "vocalEffect": "chops",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 1
+          }
+        }
+      },
+      "form": "club",
+      "key": "Eb",
+      "mode": "minor",
+      "bpm": 174,
+      "meter": "4/4",
+      "expectedIntent": "liquid_dnb",
+      "requiredProfiles": [
+        "rhodes_stabs",
+        "flute",
+        "sine_sub"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported club form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed.",
+        "Several listed legacy synth/bass profiles are palette requests; the report inventories actual voices and flags missing or substituted layers instead of claiming all profiles were rendered."
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Lounge Jazz",
+      "original": "17. **Lounge Jazz**\n* **Key & Tempo:** Db major, 92 BPM\n* **Structure & Rhythm:** Head - Solo section - Head return - Vamp; swinging 4/4 relaxed shuffle\n* **Instruments:** Vibraphone, upright/double bass\n* **Synth Profiles:** None\n* **Drums & Percussion:** Soft acoustic-style kit, brushed snare, ride cymbal, bongo, woodblock\n* **Vocal Profile & Lyric:** Breathy voice sighing *\"after dark\"*",
+      "prompt": "lounge jazz 32 bars in Db major at 92bpm, 4/4, AABA, with vibraphone, upright bass, soft kit, brushes, ride cymbal, bongos and woodblocks, shuffle groove",
+      "seeds": [
+        "1117700169",
+        "1945624488",
+        "2604171922"
+      ],
+      "vocal": {
+        "voice": "karen",
+        "lyrics": "after dark.",
+        "hook": "after dark",
+        "vocalDensity": 0.3,
+        "vocalChops": 0,
+        "vocalEvery": 8
+      },
+      "vocalEffect": "plain",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 1
+          }
+        }
+      },
+      "form": "aaba",
+      "key": "Db",
+      "mode": "major",
+      "bpm": 92,
+      "meter": "4/4",
+      "expectedIntent": "jazz_lounge",
+      "requiredProfiles": [
+        "vibraphone",
+        "upright_bass"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported aaba form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed."
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Industrial Techno",
+      "original": "18. **Industrial Techno**\n* **Key & Tempo:** C minor, 138 BPM\n* **Structure & Rhythm:** Kick intro - Acid modulation - Peak drive - Low-pass breakdown - Outro; relentless 4/4 driving pulse\n* **Instruments:** None\n* **Synth Profiles:** Distorted analog bass, acid/303 bass, wavetable synth\n* **Drums & Percussion:** Kick drum, closed hi-hat, open hi-hat, crash cymbal\n* **Vocal Profile & Lyric:** Synthetic vocal stabs processed with distortion shouting *\"system error\"*",
+      "prompt": "industrial techno 32 bars in C minor at 138bpm, 4/4, with distorted dark analog synth bass, acid bass and wavetable synth, open hats and crash cymbals, sparse comping",
+      "seeds": [
+        "760828378",
+        "1316358671",
+        "503102481"
+      ],
+      "vocal": {
+        "voice": "trinoids",
+        "lyrics": "system error.",
+        "hook": "system error",
+        "vocalDensity": 0.3,
+        "vocalChops": 0,
+        "vocalEvery": 8
+      },
+      "vocalEffect": "distorted",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 2.5
+          }
+        }
+      },
+      "form": "club",
+      "key": "C",
+      "mode": "minor",
+      "bpm": 138,
+      "meter": "4/4",
+      "expectedIntent": "industrial_techno",
+      "requiredProfiles": [
+        "acid_bass",
+        "wavetable"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported club form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed.",
+        "Several listed legacy synth/bass profiles are palette requests; the report inventories actual voices and flags missing or substituted layers instead of claiming all profiles were rendered."
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Shoegaze",
+      "original": "19. **Shoegaze**\n* **Key & Tempo:** B major, 104 BPM\n* **Structure & Rhythm:** Wall-of-sound intro - Verse - Chorus - Feedback swell - Fadeout; 4/4 heavy washed sway\n* **Instruments:** Electric guitar, electric bass guitar\n* **Synth Profiles:** Wide dark pad\n* **Drums & Percussion:** Kick drum, snare drum, crash cymbal\n* **Vocal Profile & Lyric:** Reverb-submerged vocal whispering *\"drift away\"*",
+      "prompt": "shoegaze 32 bars in B major at 104bpm, 4/4, verse chorus form, with electric guitar, electric bass guitar, wide dark pads and crash cymbals, held chords",
+      "seeds": [
+        "129678404",
+        "1366114544",
+        "158160118"
+      ],
+      "vocal": {
+        "voice": "whisper",
+        "lyrics": "drift away.",
+        "hook": "drift away",
+        "vocalDensity": 0.3,
+        "vocalChops": 0,
+        "vocalEvery": 8
+      },
+      "vocalEffect": "reverb",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "hall",
+            "wet": 0.45,
+            "drive": 1
+          }
+        }
+      },
+      "form": "pop",
+      "key": "B",
+      "mode": "major",
+      "bpm": 104,
+      "meter": "4/4",
+      "expectedIntent": "shoegaze",
+      "requiredProfiles": [
+        "electric_guitar",
+        "electric_bass"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported pop form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed."
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Afrobeats",
+      "original": "20. **Afrobeats**\n* **Key & Tempo:** Ab major, 102 BPM\n* **Structure & Rhythm:** Intro - Groove verse - Hook - Horn bridge - Outro; syncopated 4/4 West African bounce\n* **Instruments:** Kalimba, electric guitar, electric bass guitar, saxophone\n* **Synth Profiles:** None\n* **Drums & Percussion:** Kick drum, rimshot/sidestick, shaker, conga\n* **Vocal Profile & Lyric:** Melodic voice chanting *\"all night long\"*",
+      "prompt": "afrobeats 32 bars in Ab major at 102bpm, 4/4, verse chorus form, with kalimba, electric guitar, electric bass guitar and saxophone, rimshots, shakers, congas and syncopated comping",
+      "seeds": [
+        "301758509",
+        "2172155336",
+        "3595263811"
+      ],
+      "vocal": {
+        "voice": "karen",
+        "lyrics": "all night long.",
+        "hook": "all night long",
+        "vocalDensity": 0.3,
+        "vocalChops": 0,
+        "vocalEvery": 8
+      },
+      "vocalEffect": "plain",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 1
+          }
+        }
+      },
+      "form": "pop",
+      "key": "Ab",
+      "mode": "major",
+      "bpm": 102,
+      "meter": "4/4",
+      "expectedIntent": "afrobeats",
+      "requiredProfiles": [
+        "kalimba",
+        "electric_guitar",
+        "electric_bass",
+        "saxophone"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported pop form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed."
+      ]
+    },
+    {
+      "id": "21",
+      "title": "IDM/Glitch",
+      "original": "21. **IDM/Glitch**\n* **Key & Tempo:** Ab minor, 126 BPM\n* **Structure & Rhythm:** Granular intro - Micro-rhythm build - Deconstructed beat - Fadeout; fractured 5/4 syncopated meter\n* **Instruments:** None\n* **Synth Profiles:** Granular synth, spectral synth, wavefolding synth, ring-modulation synth, dark bells\n* **Drums & Percussion:** Kick drum, rimshot/sidestick, closed hi-hat\n* **Vocal Profile & Lyric:** Vocoder reciting *\"data stream\"*",
+      "prompt": "IDM 32 bars in Ab minor at 126bpm, 5/4, with granular synth, spectral synth, wavefolding synth, ring modulation synth and dark bells, rimshots and fractured syncopation",
+      "seeds": [
+        "4025339410",
+        "2815275760",
+        "3331883051"
+      ],
+      "vocal": {
+        "voice": "zarvox",
+        "lyrics": "data stream.",
+        "hook": "data stream",
+        "vocalDensity": 0.3,
+        "vocalChops": 0,
+        "vocalEvery": 8
+      },
+      "vocalEffect": "vocoder",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 1
+          }
+        }
+      },
+      "form": "club",
+      "key": "Ab",
+      "mode": "minor",
+      "bpm": 126,
+      "meter": "5/4",
+      "expectedIntent": "idm_glitch",
+      "requiredProfiles": [
+        "granular",
+        "spectral",
+        "wavefold",
+        "ring_mod"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported club form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed.",
+        "Several listed legacy synth/bass profiles are palette requests; the report inventories actual voices and flags missing or substituted layers instead of claiming all profiles were rendered."
+      ]
+    },
+    {
+      "id": "22",
+      "title": "Modal Jazz",
+      "original": "22. **Modal Jazz**\n* **Key & Tempo:** D Dorian, 114 BPM\n* **Structure & Rhythm:** Vamp intro - Modal improvisation - Unison melody - Outro vamp; swung 4/4 ride-cymbal groove\n* **Instruments:** Sitar, organ/Hammond, electric bass guitar\n* **Synth Profiles:** None\n* **Drums & Percussion:** Kick drum, snare drum, tom, ride cymbal\n* **Vocal Profile & Lyric:** Meditative voice intoning *\"om shanti\"*",
+      "prompt": "modal jazz 32 bars in D dorian at 114bpm, 4/4, AABA, with sitar, Hammond organ, electric bass guitar, toms, ride cymbal and swung drums, modal harmony",
+      "seeds": [
+        "3781802889",
+        "3261465037",
+        "202247034"
+      ],
+      "vocal": {
+        "voice": "ralph",
+        "lyrics": "om shanti.",
+        "hook": "om shanti",
+        "vocalDensity": 0.3,
+        "vocalChops": 0,
+        "vocalEvery": 8
+      },
+      "vocalEffect": "plain",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 1
+          }
+        }
+      },
+      "form": "aaba",
+      "key": "D",
+      "mode": "dorian",
+      "bpm": 114,
+      "meter": "4/4",
+      "expectedIntent": "modal_jazz",
+      "requiredProfiles": [
+        "sitar",
+        "organ",
+        "electric_bass"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported aaba form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed."
+      ]
+    },
+    {
+      "id": "23",
+      "title": "Detroit/Rave Techno",
+      "original": "23. **Detroit/Rave Techno**\n* **Key & Tempo:** G minor, 135 BPM\n* **Structure & Rhythm:** 4-on-the-floor intro - Rave stab buildup - Peak release - Filter drop; energetic 4/4 warehouse rhythm\n* **Instruments:** None\n* **Synth Profiles:** Supersaw/unison synth, synth stabs\n* **Drums & Percussion:** 909-style kit, kick drum, open hi-hat, clap\n* **Vocal Profile & Lyric:** Synthetic vocal stabs shouting *\"reach out\"*",
+      "prompt": "rave techno 32 bars in G minor at 135bpm, 4/4, with supersaw, synth stabs, driving four-on-the-floor 909 kit, open hats and claps, chord riff",
+      "seeds": [
+        "1238697861",
+        "2213961530",
+        "65896030"
+      ],
+      "vocal": {
+        "voice": "zarvox",
+        "lyrics": "reach out.",
+        "hook": "reach out",
+        "vocalDensity": 0.3,
+        "vocalChops": 0,
+        "vocalEvery": 8
+      },
+      "vocalEffect": "plain",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 1
+          }
+        }
+      },
+      "form": "club",
+      "key": "G",
+      "mode": "minor",
+      "bpm": 135,
+      "meter": "4/4",
+      "expectedIntent": "techno_rave",
+      "requiredProfiles": [
+        "supersaw"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported club form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed.",
+        "Several listed legacy synth/bass profiles are palette requests; the report inventories actual voices and flags missing or substituted layers instead of claiming all profiles were rendered."
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Bedroom Pop",
+      "original": "24. **Bedroom Pop**\n* **Key & Tempo:** C major, 82 BPM\n* **Structure & Rhythm:** Intro - Verse - Chorus - Instrumental turnaround - Outro; laid-back 4/4 behind-the-beat pocket\n* **Instruments:** Acoustic guitar, ukulele, cello, tubular/orchestral bells, upright/double bass\n* **Synth Profiles:** None\n* **Drums & Percussion:** Soft acoustic-style kit, shaker\n* **Vocal Profile & Lyric:** Intimate close-mic vocal whispering *\"stay with me\"*",
+      "prompt": "bedroom pop 32 bars in C major at 82bpm, 4/4, verse chorus form, with acoustic guitar, ukulele, cello, tubular bells and upright bass, soft kit, shakers and laid-back snare, broken chords",
+      "seeds": [
+        "1129723523",
+        "3528876453",
+        "2877061841"
+      ],
+      "vocal": {
+        "voice": "whisper",
+        "lyrics": "stay with me.",
+        "hook": "stay with me",
+        "vocalDensity": 0.3,
+        "vocalChops": 0,
+        "vocalEvery": 8
+      },
+      "vocalEffect": "plain",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 1
+          }
+        }
+      },
+      "form": "pop",
+      "key": "C",
+      "mode": "major",
+      "bpm": 82,
+      "meter": "4/4",
+      "expectedIntent": "bedroom_pop",
+      "requiredProfiles": [
+        "acoustic_guitar",
+        "ukulele",
+        "cello",
+        "tubular_bells",
+        "upright_bass"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported pop form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed."
+      ]
+    },
+    {
+      "id": "25",
+      "title": "Dubstep",
+      "original": "25. **Dubstep**\n* **Key & Tempo:** E minor, 140 BPM\n* **Structure & Rhythm:** Tense intro - Riser buildup - Half-time wobble drop - Re-build - Second drop - Outro; half-time 4/4 syncopated snare on the third beat\n* **Instruments:** None\n* **Synth Profiles:** Growl/wobble bass, Reese bass, punchy 808 bass\n* **Drums & Percussion:** Kick drum, snare drum, closed hi-hat, crash cymbal\n* **Vocal Profile & Lyric:** Synthetic vocal stabs shouting *\"drop the sound\"*",
+      "prompt": "dubstep 32 bars in E minor at 140bpm, 4/4, with growling wobble bass, Reese texture, punchy 808 sub, crash cymbals and halftime snare on the third beat",
+      "seeds": [
+        "1507750981",
+        "597883121",
+        "3969757460"
+      ],
+      "vocal": {
+        "voice": "zarvox",
+        "lyrics": "drop the sound.",
+        "hook": "drop the sound",
+        "vocalDensity": 0.3,
+        "vocalChops": 0,
+        "vocalEvery": 8
+      },
+      "vocalEffect": "plain",
+      "mix": {
+        "buses": {
+          "vocals": {
+            "reverb": "room",
+            "wet": 0.08,
+            "drive": 1
+          }
+        }
+      },
+      "form": "club",
+      "key": "E",
+      "mode": "minor",
+      "bpm": 140,
+      "meter": "4/4",
+      "expectedIntent": "dubstep_halftime",
+      "requiredProfiles": [
+        "growl_bass"
+      ],
+      "adaptations": [
+        "Requested section sequence is represented by the closest supported club form; exact custom section order, solos and dynamic trajectory are not guaranteed.",
+        "Words use a short native speech phrase/chops; lyric-following singing, expressive chant and language-specific pronunciation are not claimed.",
+        "Several listed legacy synth/bass profiles are palette requests; the report inventories actual voices and flags missing or substituted layers instead of claiming all profiles were rendered."
+      ]
+    }
+  ]
+}

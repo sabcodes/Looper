@@ -1,0 +1,562 @@
+{
+  "version": 2,
+  "purpose": "Development regression set revised after human listening. Vague cases now check plausible style families, tempo, instrumentation and energy; passing is not a musical-quality verdict. Prompt text remains separate from classifier training.",
+  "previewSeconds": 16,
+  "previewStartBar": 20,
+  "seedBase": 5000,
+  "cases": [
+    {
+      "id": "01",
+      "level": "vague",
+      "prompt": "A happy song for a beach day",
+      "expect": {
+        "allowedIntents": [
+          "house_bright",
+          "amapiano_log"
+        ],
+        "mood": "bright",
+        "minBpm": 108,
+        "maxBpm": 130
+      }
+    },
+    {
+      "id": "02",
+      "level": "vague",
+      "prompt": "Something dark for a late night drive",
+      "expect": {
+        "allowedIntents": [
+          "techno_rave",
+          "industrial_bass",
+          "synthwave_retro"
+        ],
+        "noPiano": true,
+        "bass": true,
+        "bassProfiles": [
+          "dark_distorted_bass",
+          "dark_analog_bass",
+          "reese_bass"
+        ]
+      }
+    },
+    {
+      "id": "03",
+      "level": "vague",
+      "prompt": "Music to relax and read to",
+      "expect": {
+        "allowedIntents": [
+          "jazz_lounge",
+          "classical_minimal"
+        ],
+        "piano": true,
+        "maxBpm": 90,
+        "noLead": true,
+        "noArp": true,
+        "maxDensity": 0.4
+      }
+    },
+    {
+      "id": "04",
+      "level": "vague",
+      "prompt": "A scary underground atmosphere",
+      "expect": {
+        "allowedIntents": [
+          "industrial_bass",
+          "neutral_groove"
+        ],
+        "mood": "dark",
+        "noPiano": true,
+        "harmonyRole": "pads",
+        "maxBpm": 100
+      }
+    },
+    {
+      "id": "05",
+      "level": "vague",
+      "prompt": "Bright upbeat music for a road trip",
+      "expect": {
+        "allowedIntents": [
+          "synthpop_80s",
+          "house_bright",
+          "synthwave_retro"
+        ],
+        "mood": "bright",
+        "minBpm": 118,
+        "lead": true
+      }
+    },
+    {
+      "id": "06",
+      "level": "vague",
+      "prompt": "A warm nostalgic groove",
+      "expect": {
+        "allowedIntents": [
+          "jazz_lounge",
+          "lofi_chill"
+        ],
+        "piano": true,
+        "maxBpm": 100,
+        "noArp": true
+      }
+    },
+    {
+      "id": "07",
+      "level": "vague",
+      "prompt": "Make it bounce",
+      "expect": {
+        "allowedIntents": [
+          "jersey_club",
+          "chicago_footwork",
+          "drill_sliding"
+        ],
+        "noPiano": true,
+        "minBpm": 130,
+        "minDensity": 0.65
+      }
+    },
+    {
+      "id": "08",
+      "level": "vague",
+      "prompt": "A calm rainy evening",
+      "expect": {
+        "allowedIntents": [
+          "lofi_chill",
+          "jazz_lounge",
+          "classical_minimal"
+        ],
+        "maxBpm": 95,
+        "maxDensity": 0.4,
+        "noLead": true,
+        "noArp": true
+      }
+    },
+    {
+      "id": "09",
+      "level": "vague",
+      "prompt": "An intense workout beat",
+      "expect": {
+        "allowedIntents": [
+          "chicago_footwork",
+          "techno_rave",
+          "jersey_club"
+        ],
+        "minBpm": 140,
+        "minDensity": 0.75,
+        "bass": true,
+        "drums": true
+      }
+    },
+    {
+      "id": "10",
+      "level": "vague",
+      "prompt": "Something dreamy and floating",
+      "expect": {
+        "harmonyRole": "pads",
+        "maxBpm": 100,
+        "noLead": true,
+        "noArp": true
+      }
+    },
+    {
+      "id": "11",
+      "level": "sound_description",
+      "prompt": "Long crunchy dark analog synth bass throughout, sparse drums, no piano",
+      "expect": {
+        "bassProfile": "dark_distorted_bass",
+        "bassPresence": "throughout",
+        "noPiano": true
+      }
+    },
+    {
+      "id": "12",
+      "level": "sound_description",
+      "prompt": "Long dark pads and a quiet sub, no lead or arpeggios",
+      "expect": {
+        "harmonyRole": "pads",
+        "noLead": true,
+        "noArp": true
+      }
+    },
+    {
+      "id": "13",
+      "level": "sound_description",
+      "prompt": "Pulsing detuned reese bass with a repeating synth hook",
+      "expect": {
+        "bassProfile": "reese_bass",
+        "lead": true
+      }
+    },
+    {
+      "id": "14",
+      "level": "sound_description",
+      "prompt": "UK garage with shuffled drums and bass answers between kicks",
+      "expect": {
+        "intent": "uk_garage_2step",
+        "coupling": "counterpoint"
+      }
+    },
+    {
+      "id": "15",
+      "level": "sound_description",
+      "prompt": "Bright arpeggios over wide slow synth pads and minimal drums",
+      "expect": {
+        "arp": true,
+        "harmonyRole": "pads"
+      }
+    },
+    {
+      "id": "16",
+      "level": "sound_description",
+      "prompt": "Drums and sub only, no chords, lead or arpeggios",
+      "expect": {
+        "noHarmony": true,
+        "noLead": true,
+        "noArp": true,
+        "bass": true,
+        "drums": true
+      }
+    },
+    {
+      "id": "17",
+      "level": "sound_description",
+      "prompt": "Drill with bass slides between long notes, no piano",
+      "expect": {
+        "intent": "drill_sliding",
+        "glides": true,
+        "noPiano": true
+      }
+    },
+    {
+      "id": "18",
+      "level": "sound_description",
+      "prompt": "Sparse halftime drums, metallic bass and dark bells",
+      "expect": {
+        "bassProfile": "metallic_reese",
+        "drumFeel": "halftime"
+      }
+    },
+    {
+      "id": "19",
+      "level": "sound_description",
+      "prompt": "A lofi soft piano sketch with dusty drums and warm bass",
+      "expect": {
+        "intent": "lofi_chill",
+        "piano": true
+      }
+    },
+    {
+      "id": "20",
+      "level": "sound_description",
+      "prompt": "Industrial bass with rhythmic bass call and response, brief silences and no piano",
+      "expect": {
+        "intent": "industrial_bass",
+        "bassPhrasing": "call_response",
+        "noPiano": true
+      }
+    },
+    {
+      "id": "21",
+      "level": "named_style",
+      "prompt": "UK garage 2step with swing",
+      "expect": {
+        "intent": "uk_garage_2step"
+      }
+    },
+    {
+      "id": "22",
+      "level": "named_style",
+      "prompt": "Chicago footwork, fast juke percussion",
+      "expect": {
+        "intent": "chicago_footwork"
+      }
+    },
+    {
+      "id": "23",
+      "level": "named_style",
+      "prompt": "Jersey club with a bouncing kick pattern",
+      "expect": {
+        "intent": "jersey_club"
+      }
+    },
+    {
+      "id": "24",
+      "level": "named_style",
+      "prompt": "Amapiano with resonant FM log drums",
+      "expect": {
+        "intent": "amapiano_log"
+      }
+    },
+    {
+      "id": "25",
+      "level": "named_style",
+      "prompt": "Drill with sliding 808 bass",
+      "expect": {
+        "intent": "drill_sliding"
+      }
+    },
+    {
+      "id": "26",
+      "level": "named_style",
+      "prompt": "Baile funk with tamborzao rhythms",
+      "expect": {
+        "intent": "baile_funk_tambor"
+      }
+    },
+    {
+      "id": "27",
+      "level": "named_style",
+      "prompt": "Synthwave retro night driving",
+      "expect": {
+        "intent": "synthwave_retro"
+      }
+    },
+    {
+      "id": "28",
+      "level": "named_style",
+      "prompt": "80s synth pop song with a catchy lead melody",
+      "expect": {
+        "intent": "synthpop_80s"
+      }
+    },
+    {
+      "id": "29",
+      "level": "named_style",
+      "prompt": "IDM glitch with intricate ratcheted percussion",
+      "expect": {
+        "intent": "idm_glitch"
+      }
+    },
+    {
+      "id": "30",
+      "level": "named_style",
+      "prompt": "Lofi chill study beat",
+      "expect": {
+        "intent": "lofi_chill"
+      }
+    },
+    {
+      "id": "31",
+      "level": "named_style",
+      "prompt": "Bright house with pumping offbeat bass",
+      "expect": {
+        "intent": "house_bright"
+      }
+    },
+    {
+      "id": "32",
+      "level": "named_style",
+      "prompt": "Industrial bass with a deep crunchy dark synth",
+      "expect": {
+        "intent": "industrial_bass"
+      }
+    },
+    {
+      "id": "33",
+      "level": "named_style",
+      "prompt": "Dubstep bass with deep dark synths",
+      "expect": {
+        "intent": "dubstep_halftime"
+      }
+    },
+    {
+      "id": "34",
+      "level": "named_style",
+      "prompt": "90s techno with a rolling rave bassline",
+      "expect": {
+        "intent": "techno_rave"
+      }
+    },
+    {
+      "id": "35",
+      "level": "explicit_constraints",
+      "prompt": "90s techno song with heavy bass and subs. No Piano",
+      "expect": {
+        "intent": "techno_rave",
+        "noPiano": true
+      }
+    },
+    {
+      "id": "36",
+      "level": "explicit_constraints",
+      "prompt": "House in F minor at 135bpm, 32 bars, no piano, sustained pads",
+      "expect": {
+        "intent": "house_bright",
+        "root": 5,
+        "scale": "minor",
+        "bpm": 135,
+        "noPiano": true,
+        "harmonyRole": "pads"
+      }
+    },
+    {
+      "id": "37",
+      "level": "explicit_constraints",
+      "prompt": "UK garage in A dorian at 134bpm, no lead, bass between the kicks",
+      "expect": {
+        "intent": "uk_garage_2step",
+        "root": 9,
+        "scale": "dorian",
+        "bpm": 134,
+        "noLead": true,
+        "coupling": "counterpoint"
+      }
+    },
+    {
+      "id": "38",
+      "level": "explicit_constraints",
+      "prompt": "Dubstep in F harmonic minor at 140bpm, metallic bass, no piano or arpeggios",
+      "expect": {
+        "intent": "dubstep_halftime",
+        "root": 5,
+        "scale": "harmonic_minor",
+        "bpm": 140,
+        "bassProfile": "metallic_reese",
+        "noPiano": true,
+        "noArp": true
+      }
+    },
+    {
+      "id": "39",
+      "level": "explicit_constraints",
+      "prompt": "Synth pop in D major at 112bpm, no lead or arpeggios",
+      "expect": {
+        "intent": "synthpop_80s",
+        "root": 2,
+        "scale": "major",
+        "bpm": 112,
+        "noLead": true,
+        "noArp": true
+      }
+    },
+    {
+      "id": "40",
+      "level": "explicit_constraints",
+      "prompt": "Industrial bass in G minor at 100bpm, sustained distorted dark analog synth bass throughout, sparse drums",
+      "expect": {
+        "intent": "industrial_bass",
+        "root": 7,
+        "scale": "minor",
+        "bpm": 100,
+        "bassProfile": "dark_distorted_bass",
+        "bassPresence": "throughout",
+        "coverageMin": 0.99
+      }
+    },
+    {
+      "id": "41",
+      "level": "explicit_constraints",
+      "prompt": "Industrial bass at 96bpm, bass only, no drums, no chords or lead or arpeggios",
+      "expect": {
+        "intent": "industrial_bass",
+        "bpm": 96,
+        "bass": true,
+        "noDrums": true,
+        "noHarmony": true,
+        "noLead": true,
+        "noArp": true
+      }
+    },
+    {
+      "id": "42",
+      "level": "explicit_constraints",
+      "prompt": "Footwork at 160bpm, drums only, no bass, no chords or lead or arpeggios",
+      "expect": {
+        "intent": "chicago_footwork",
+        "bpm": 160,
+        "drums": true,
+        "noBass": true,
+        "noHarmony": true,
+        "noLead": true,
+        "noArp": true
+      }
+    },
+    {
+      "id": "43",
+      "level": "explicit_constraints",
+      "prompt": "Happy house in C minor at 126bpm, no piano",
+      "expect": {
+        "intent": "house_bright",
+        "bpm": 126,
+        "root": 0,
+        "scale": "minor",
+        "mood": "bright",
+        "noPiano": true
+      }
+    },
+    {
+      "id": "44",
+      "level": "explicit_constraints",
+      "prompt": "Amapiano in B flat major at 113bpm, log drums and no keys",
+      "expect": {
+        "intent": "amapiano_log",
+        "bpm": 113,
+        "root": 10,
+        "scale": "major",
+        "bassProfile": "fm_log_drum",
+        "noHarmony": true,
+        "noLead": true,
+        "noArp": true
+      }
+    },
+    {
+      "id": "45",
+      "level": "terse_or_negative",
+      "prompt": "House, not garage, without piano or lead",
+      "expect": {
+        "intent": "house_bright",
+        "noPiano": true,
+        "noLead": true
+      }
+    },
+    {
+      "id": "46",
+      "level": "terse_or_negative",
+      "prompt": "Lofi, no house, warm Rhodes",
+      "expect": {
+        "intent": "lofi_chill",
+        "piano": true
+      }
+    },
+    {
+      "id": "47",
+      "level": "terse_or_negative",
+      "prompt": "Make a beat",
+      "expect": {}
+    },
+    {
+      "id": "48",
+      "level": "terse_or_negative",
+      "prompt": "Spooky slow pads",
+      "expect": {
+        "mood": "dark",
+        "harmonyRole": "pads"
+      }
+    },
+    {
+      "id": "49",
+      "level": "terse_or_negative",
+      "prompt": "Fast weird glitchy music, no keys",
+      "expect": {
+        "intent": "idm_glitch",
+        "noHarmony": true,
+        "noLead": true,
+        "noArp": true
+      }
+    },
+    {
+      "id": "50",
+      "level": "terse_or_negative",
+      "prompt": "90s techno, not house, at 132bpm; dark heavy subs, no piano or lead",
+      "expect": {
+        "intent": "techno_rave",
+        "bpm": 132,
+        "mood": "dark",
+        "noPiano": true,
+        "noLead": true,
+        "bassProfiles": [
+          "dark_distorted_bass",
+          "dark_analog_bass"
+        ]
+      }
+    }
+  ]
+}

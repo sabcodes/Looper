@@ -1,0 +1,50 @@
+node_modules/
+generated_beats/
+.DS_Store
+
+# Optional runtimes, model assets, local credentials and Python caches
+.venv/
+venv/
+.cache/
+models/
+checkpoints/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.gguf
+
+# Source/reference media and generated audio stay local
+*.wav
+*.aif
+*.aiff
+*.mp3
+*.flac
+*.m4a
+*.mp4
+
+# Imported research and the original parser sketch remain local references
+/Algorithmic Beat Engine Research Plan.txt
+/Building a Non-AI Beat Generator.pdf
+/genra rules.txt
+/intent corpus.txt
+/parser_example.js
+
+# Parallel project checkouts stay local
+.worktrees/
+
+# Private development memory and release artifacts stay local
+/Local Beat Generator Brain/
+*.app/
+*.zip
+*.log
+*.p12
+*.pfx

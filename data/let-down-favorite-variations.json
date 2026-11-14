@@ -1,0 +1,321 @@
+{
+  "version": 1,
+  "purpose": "Quieter exact favorites plus four deterministic variations of set10 deep house and dark breakbeat.",
+  "input": "vocals/Radiohead - Let Down vocals merged.wav",
+  "key": "A major",
+  "bpm": 125,
+  "timingSource": "User-specified key/BPM. The complete 49.92-second file equals 26 bars of 4/4 at 125 BPM.",
+  "bars": 26,
+  "gridOriginSeconds": 0,
+  "chorusStartBar": 16,
+  "alignmentCaveat": "Grid starts at the supplied file boundary; vocal onset around 0.73 seconds is retained as a late entrance. Verse/chorus boundary at bar 17 (30.72 seconds) is inferred from the stated excerpt and form, not manually tapped or lyric-force-aligned. Musical alignment still needs listening.",
+  "storageLimitBytes": 10000000,
+  "research": [
+    {
+      "url": "https://music.apple.com/us/song/1097861834",
+      "use": "Song identity/credits."
+    },
+    {
+      "url": "https://citizeninsane.eu/music/okc/letdown.html",
+      "use": "Verse/chorus lyric order, cross-checked with the user's supplied excerpt. Lyrics are not reproduced in this fixture."
+    },
+    {
+      "url": "https://www.musicradar.com/artists/if-the-point-of-radiohead-songs-isnt-to-make-you-feel-good-what-is-their-music-for-a-music-professor-breaks-down-the-theory-behind-radioheads-let-down",
+      "use": "Ethan Hein's published analysis: A-major verse/chorus harmony and ambiguous mood. Our sparse shared reharmonization is an arrangement choice, not an exact transcription."
+    }
+  ],
+  "cases": [
+    {
+      "id": "03",
+      "title": "Warm late-night deep house — quieter original",
+      "prompt": "Deep house in A major at 125bpm, 26 bars in 4/4; four-on-the-floor kick, rounded dark analog bass on upbeats, soft sustained analog pads, no piano or lead or arpeggios.",
+      "seed": "let-down-20261101-deep-house",
+      "bass": "dark_analog_bass",
+      "harmony": "analog_saw_pad",
+      "bassMode": "offbeat_pump",
+      "style": "sustain",
+      "swing": 51,
+      "snare": [
+        4,
+        12
+      ],
+      "kicks": [
+        [
+          0,
+          4,
+          8,
+          12
+        ]
+      ],
+      "hats": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "musicRms": 0.065,
+      "label": "03-R",
+      "referenceType": "quieter-original"
+    },
+    {
+      "id": "03",
+      "title": "Warm late-night deep house — new seed 1",
+      "prompt": "Deep house in A major at 125bpm, 26 bars in 4/4; four-on-the-floor kick, rounded dark analog bass on upbeats, soft sustained analog pads, no piano or lead or arpeggios.",
+      "seed": "let-down-20261101-deep-house-new-1",
+      "bass": "dark_analog_bass",
+      "harmony": "dark_wide_pad",
+      "bassMode": "offbeat_pump",
+      "style": "sustain",
+      "swing": 53,
+      "snare": [
+        4,
+        12
+      ],
+      "kicks": [
+        [
+          0,
+          4,
+          8,
+          12
+        ]
+      ],
+      "hats": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "musicRms": 0.065,
+      "variation": {
+        "voicingRotation": 2,
+        "register": 0,
+        "padGate": 0.8,
+        "bassPhase": 1,
+        "bassGate": 2.6
+      },
+      "label": "03-N1",
+      "referenceType": "new-seed"
+    },
+    {
+      "id": "03",
+      "title": "Warm late-night deep house — new seed 2",
+      "prompt": "Deep house in A major at 125bpm, 26 bars in 4/4; four-on-the-floor kick, rounded dark analog bass on upbeats, soft sustained analog pads, no piano or lead or arpeggios.",
+      "seed": "let-down-20261101-deep-house-new-2",
+      "bass": "dark_analog_bass",
+      "harmony": "analog_saw_pad",
+      "bassMode": "offbeat_pump",
+      "style": "sustain",
+      "swing": 53,
+      "snare": [
+        4,
+        12
+      ],
+      "kicks": [
+        [
+          0,
+          4,
+          8,
+          12
+        ]
+      ],
+      "hats": [
+        0,
+        2,
+        6,
+        8,
+        10,
+        14
+      ],
+      "musicRms": 0.065,
+      "variation": {
+        "voicingRotation": 2,
+        "register": 12,
+        "padGate": 0.92,
+        "bassPhase": 2,
+        "bassGate": 2.6
+      },
+      "label": "03-N2",
+      "referenceType": "new-seed"
+    },
+    {
+      "id": "05",
+      "title": "Shadowy breakbeat / soft sub — quieter original",
+      "prompt": "Trip hop breakbeat electronica in A major at 125bpm, 26 bars in 4/4; syncopated broken drums, soft sub foundations, restrained dark pads, no metallic bass, piano or lead or arpeggios.",
+      "seed": "let-down-20261101-breakbeat",
+      "bass": "sine_sub",
+      "harmony": "dark_pad",
+      "bassMode": "liquid_phrases",
+      "style": "sustain",
+      "swing": 52,
+      "snare": [
+        4,
+        12
+      ],
+      "kicks": [
+        [
+          0,
+          3,
+          10
+        ],
+        [
+          0,
+          6,
+          11
+        ],
+        [
+          0,
+          7,
+          10,
+          14
+        ],
+        [
+          0,
+          3,
+          8,
+          11
+        ]
+      ],
+      "hats": [
+        0,
+        2,
+        5,
+        6,
+        8,
+        10,
+        13,
+        14,
+        15
+      ],
+      "musicRms": 0.065,
+      "label": "05-R",
+      "referenceType": "quieter-original"
+    },
+    {
+      "id": "05",
+      "title": "Shadowy breakbeat / soft sub — new seed 1",
+      "prompt": "Trip hop breakbeat electronica in A major at 125bpm, 26 bars in 4/4; syncopated broken drums, soft sub foundations, restrained dark pads, no metallic bass, piano or lead or arpeggios.",
+      "seed": "let-down-20261101-breakbeat-new-1",
+      "bass": "dark_analog_bass",
+      "harmony": "analog_saw_pad",
+      "bassMode": "liquid_phrases",
+      "style": "sustain",
+      "swing": 53,
+      "snare": [
+        4,
+        12
+      ],
+      "kicks": [
+        [
+          0,
+          7,
+          10,
+          14
+        ],
+        [
+          0,
+          3,
+          8,
+          11
+        ],
+        [
+          0,
+          3,
+          10
+        ],
+        [
+          0,
+          6,
+          11
+        ]
+      ],
+      "hats": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "musicRms": 0.065,
+      "variation": {
+        "voicingRotation": 0,
+        "register": 0,
+        "padGate": 0.92,
+        "bassPhase": 1,
+        "bassGate": 2.6
+      },
+      "label": "05-N1",
+      "referenceType": "new-seed"
+    },
+    {
+      "id": "05",
+      "title": "Shadowy breakbeat / soft sub — new seed 2",
+      "prompt": "Trip hop breakbeat electronica in A major at 125bpm, 26 bars in 4/4; syncopated broken drums, soft sub foundations, restrained dark pads, no metallic bass, piano or lead or arpeggios.",
+      "seed": "let-down-20261101-breakbeat-new-2",
+      "bass": "sine_sub",
+      "harmony": "dark_pad",
+      "bassMode": "liquid_phrases",
+      "style": "sustain",
+      "swing": 54,
+      "snare": [
+        4,
+        12
+      ],
+      "kicks": [
+        [
+          0,
+          3,
+          8,
+          11
+        ],
+        [
+          0,
+          3,
+          10
+        ],
+        [
+          0,
+          6,
+          11
+        ],
+        [
+          0,
+          7,
+          10,
+          14
+        ]
+      ],
+      "hats": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "musicRms": 0.065,
+      "variation": {
+        "voicingRotation": 0,
+        "register": 0,
+        "padGate": 0.8,
+        "bassPhase": 1,
+        "bassGate": 2.6
+      },
+      "label": "05-N2",
+      "referenceType": "new-seed"
+    }
+  ],
+  "vocalDb": -6
+}

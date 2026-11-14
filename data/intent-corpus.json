@@ -1,0 +1,636 @@
+{
+  "uk_garage_2step": [
+    "shuffled uk garage beat with skipping syncopated kicks and swinging hats",
+    "speed garage underground track with warped organ bass and vocal chops",
+    "pirate radio style 2step groove with a deep sub and crisp rimshots",
+    "classic 1999 london garage bounce with heavy swing and pitched r&b vocals",
+    "skippy four four garage rhythm with delayed percussion and dub stabs",
+    "dark south london 2-step rhythm with rolling offbeat sub bass",
+    "smooth vocal garage groove at 134 bpm with punchy drums and swung 16ths",
+    "chopped vocal 2step rhythm with hollow bass stabs and subtle tape saturation",
+    "nostalgic late 90s uk garage with lush electric piano chords and swinging percussion"
+  ],
+  "chicago_footwork": [
+    "hyperactive 160 bpm footwork battle track with crazy fast triplet toms",
+    "chicago juke style syncopated rhythm with rapid fire sub bass and sample chops",
+    "frenetic 160 tempo drum track with rapid fire claps and beat skipping kicks",
+    "abstract fast tempo footwork groove with repetitive vocal mantras and 808 bursts",
+    "rapid fire triplet drum workout for street dance battle at 160 bpm",
+    "juke rhythm with erratic snare rolls low tom polyrhythms and chopped soul",
+    "intense battle ready footwork track with zero four on the floor and stutter hats",
+    "halftime feel rolling footwork groove with fast double time hi-hat bursts",
+    "minimalist ghetto house descendant with rolling subs and 32nd note ratchets"
+  ],
+  "jersey_club": [
+    "bouncy jersey club rhythm with the signature five kick stutter pattern",
+    "high energy club beat with bed squeak samples and syncopated kick triplets",
+    "newark dance party track with rapid vocal chops and heavy sidechain pump",
+    "stutter kick club groove at 136 bpm with rapid snare rolls and vocal stabs",
+    "drippy jersey club bounce with rolling tresillo kicks and pitched vocal hits",
+    "fast paced viral jersey beat with aggressive kick pattern and sharp claps",
+    "club anthem with galloping drum rhythm and heavy distorted low end hits",
+    "classic jersey club track featuring repetitive bed squeaks and subby kick drops",
+    "energetic jersey club bounce with vocal snippets and abrupt stop transitions"
+  ],
+  "amapiano_log": [
+    "mellow south african amapiano track with deep resonant fm log drums",
+    "warm amapiano groove with lush jazz piano chords and rolling shakers",
+    "deep spiritual amapiano rhythm with slow tempo percussive log drum basslines",
+    "pretoria style amapiano with wide airy pads and dynamic pitched log bass",
+    "soulful private school amapiano with complex Rhodes voicings and shaker loops",
+    "relaxed afropop amapiano hybrid with melodic percussion and bouncing subs",
+    "vibey amapiano track with syncopated congas warm electric tines and woody bass",
+    "hypnotic low tempo dance groove with dual operator fm log hits and rimshots",
+    "meditative amapiano jam with cascading high shakers and deep punchy log melodies"
+  ],
+  "drill_sliding": [
+    "dark aggressive uk drill beat with wild gliding 808 slides and hollow bells",
+    "sliding drill sub bassline with syncopated kicks and half time snares",
+    "ominous brooklyn drill beat with complex pitch bending 808s and fast hats",
+    "menacing drill instrumental with detuned piano rolls and counterpoint hi hats",
+    "heavy drill rhythm with delayed triplet snare hits and aggressive glide notes",
+    "gritty street drill production with sliding low frequencies and minor scale melody",
+    "dark drill groove at 142 bpm with frantic hi-hat rolls and hard hitting kick",
+    "chilly london drill beat with haunting choir stabs and extreme 808 slides",
+    "aggressive trap drill crossover with heavy distortion and off-grid snare placements"
+  ],
+  "baile_funk_tambor": [
+    "raw rio favela baile funk with the aggressive tamborzao drum rhythm",
+    "heavy funk carioca bounce with volt mix percussion and street vocals",
+    "distorted baile funk beat at 130 bpm with syncopated surdo calls and whistles",
+    "minimalist brazilian phonk baile beat with punchy low end and agogo bells",
+    "favela street party groove with loud vocal shouts and classic tambor bounce",
+    "energetic funk de bh rhythm with raw percussion loops and deep 808 drops",
+    "syncopated carioca funk track with brass hits and repetitive vocal mantras",
+    "classic tamborzao loop with heavy sub hits and high pitched cuica accents",
+    "fast brazilian dance rhythm with syncopated tom patterns and distorted claps"
+  ],
+  "synthwave_retro": [
+    "nostalgic 80s synthwave beat with driving rolling sixteenth saw bass",
+    "retro outrun driving track with heavy gated snares and lush analog pads",
+    "cyberpunk synthwave track with arpeggiated basslines and vintage synth brass",
+    "chillwave sunset drive rhythm with shimmering chorus keys and 4-on-the-floor kick",
+    "neon retro electro groove with compressed gated reverb drums and saw chords",
+    "melodic synthpop revival track with minor scale pads and punchy linn drum hits",
+    "energetic retro electro track with dark rolling synthesizer arpeggios at 110 bpm",
+    "vintage electronic track with sweeping analog filters and nostalgic melodies",
+    "80s inspired highway cruiser with bright poly-synth chords and steady kick"
+  ],
+  "idm_glitch": [
+    "complex braindance idm beat with generative euclidean percussion and glitches",
+    "abstract electronic rhythm with chaotic micro timing and modular synth pops",
+    "polymetric glitch percussion track with fractured amen breaks and sine subs",
+    "neuro-hop idm production with chebyshev wavefolding and dynamic filter FM",
+    "experimental rhythmic soundscape with shifting time signatures and bitcrushed hits",
+    "intricate algorithmic drum machine pattern with ratchets and linear masks",
+    "dense electronic composition with irregular ghost notes and granular delay tails",
+    "math rock inspired electronic breakbeat with erratic time division and clean sub",
+    "cold metallic idm rhythm with FM transients and unexpected air pockets of silence"
+  ],
+  "lofi_chill": [
+    "rainy afternoon study beat with mellow dusty rhodes and warm vinyl crackle",
+    "laid back boom bap drum pattern with heavy swing and tape warble keys",
+    "cozy late night coffee shop beat with lazy unquantized drums and muted sub",
+    "nostalgic melancholic hip hop track with filtered piano chords and tape hiss",
+    "smooth lo-fi study groove with relaxed ghost snares and gentle acoustic tines"
+  ],
+  "house_bright": [
+    "happy summer beach party groove with bright piano chords",
+    "uplifting festival house track four on the floor at 126 bpm",
+    "energetic feel good club anthem with punchy kicks and open hi hats"
+  ],
+  "synthpop_80s": [
+    "eighties synth pop song with a catchy analog lead melody warm pads and octave bass",
+    "80s synthpop instrumental with gated snares bright arpeggios and a memorable chorus hook",
+    "retro pop music with a monophonic saw lead and lush sustained synthesizer chords",
+    "synth pop 80s song with melodic hooks and driving octave bass",
+    "upbeat eighties pop with pulsing synth bass and a warm analog lead",
+    "nostalgic synthpop with evolving pads gated snare drums and sparkling arpeggios",
+    "melodic 1980s pop instrumental with a repeating lead motif and answering synth phrases",
+    "catchy retro synth pop tune with a lead hook instead of piano chord stabs"
+  ],
+  "industrial_bass": [
+    "dark heavy metallic bass",
+    "deep crunchy extended bass throughout the song with slow filter motion and no piano",
+    "sustained distorted reese bass with inharmonic metallic overtones and a clean sub underneath",
+    "industrial bass music with long held notes sparse drums and dark slowly evolving textures",
+    "heavy gritty low bass drone with resonant filter sweeps and metallic fm harmonics",
+    "deep sustained crunchy bass with evolving distortion throughout the track",
+    "dark metallic bass instrumental with sparse half time drums and no piano stabs",
+    "long distorted bass notes with slow movement and atmospheric dark pads"
+  ],
+  "dubstep_halftime": [
+    "dubstep bass with deep dark synths",
+    "140 bpm halftime dubstep with growling wobble bass and dark sustained synthesizer pads",
+    "heavy dubstep drop with alternating bass phrases and a snare on the third beat",
+    "deep dubstep with moving resonant filters gritty bass growls and a clean sub",
+    "half time bass music with wobbles changing rate and dark atmospheric pads",
+    "dubstep instrumental with long bass growls and short answering metallic phrases",
+    "dark dubstep at 140 bpm with syncopated bass calls and heavy half time drums",
+    "brostep wobble bass with deep dark synths and no piano"
+  ],
+  "techno_rave": [
+    "raw Detroit techno with repeating machine rhythms and resonant synthesizers",
+    "warehouse techno with a rolling bass sequence and a steady four on the floor kick",
+    "acid techno with driving sequenced bass and short syncopated synth chords",
+    "nineteen nineties rave techno with electronic stabs and a pounding low end",
+    "hypnotic techno groove with straight sixteenth hats and repeating low synth notes",
+    "dark minimal techno with deep sub weight and sparse robotic percussion",
+    "fast underground techno with metallic textures and a repeating bass ostinato",
+    "classic rave techno with heavy analog bass and sharp syncopated synthesizer stabs"
+  ],
+  "jazz_lounge": [
+    "jazz lounge with soft electric piano voicings and warm walking bass",
+    "a mellow jazz trio with gentle syncopated chords and light drums",
+    "relaxed jazz piano with seventh chords and a quiet bass accompaniment",
+    "intimate lounge jazz with softly swung drums and expressive piano",
+    "an instrumental jazz ballad with sparse comping and rounded low notes",
+    "late evening jazz with warm keys and understated percussion",
+    "a laid back jazz groove with conversational piano and bass",
+    "soft lounge jazz with a gentle dynamic range and harmonic color"
+  ],
+  "classical_minimal": [
+    "minimal classical piano with broken chords and a quiet left hand",
+    "a gentle solo piano piece with a slowly unfolding melody",
+    "contemplative classical music with repeated piano figures and soft dynamics",
+    "a small piano nocturne with arpeggiated chord tones and no drum kit",
+    "quiet neoclassical piano with space between the melodic phrases",
+    "a peaceful piano prelude with delicate notes and simple accompaniment",
+    "a sparse instrumental piano composition with changing chord inversions",
+    "an intimate classical piano sketch with a restrained flowing melody"
+  ],
+  "neutral_groove": [
+    "a simple instrumental groove with balanced accompaniment",
+    "a neutral rhythm sketch with a restrained melodic accompaniment",
+    "a basic composition with a steady pulse and space between notes",
+    "a general purpose instrumental loop with moderate energy",
+    "an unspecified musical idea with soft keys and a simple bass line",
+    "a plain rhythmic backing with understated harmony",
+    "a balanced instrumental arrangement at a moderate tempo",
+    "a basic groove without a particular stylistic direction"
+  ],
+  "deep_house": [
+    "deep house with warm seventh chords and rounded offbeat bass",
+    "a deep house groove with shuffled hats and mellow electric piano",
+    "deep house in D dorian with soft claps",
+    "minimal deep house with spacious chords and a steady kick",
+    "late evening deep house with warm keys",
+    "deep house with restrained percussion and a relaxed bassline"
+  ],
+  "speed_garage": [
+    "speed garage with four on the floor kicks and a reese bass",
+    "speed garage with shuffled hats and organ stabs",
+    "a driving speed garage instrumental with repeated bass phrases",
+    "speed garage at 138bpm with sharp claps",
+    "dark speed garage with a bouncing low end",
+    "speed garage with a steady kick and answering bass riffs"
+  ],
+  "trap_halftime": [
+    "trap with crisp hi hat rolls and a half time snare",
+    "trap music with punchy 808 bass and sparse bells",
+    "a trap instrumental with repeated kicks and rapid hats",
+    "trap with short bass notes and a heavy backbeat",
+    "dark trap with a repeated two bar drum phrase",
+    "trap at 144bpm with a clean deep 808"
+  ],
+  "afro_house": [
+    "afro house with interlocking congas and shakers",
+    "an afro house instrumental with a steady kick and melodic percussion",
+    "afro house with warm bass answers and soft plucks",
+    "afro house with shuffled percussion and sparse harmony",
+    "afro house at 120bpm with rolling shakers",
+    "afro house with layered hand drums and a deep bassline"
+  ],
+  "liquid_dnb": [
+    "liquid drum and bass with flowing pads and ghost snares",
+    "liquid dnb with rolling breaks and warm sustained harmony",
+    "liquid funk at 172bpm with a clean sub bass",
+    "drum and bass with repeated breakbeat phrases",
+    "liquid dnb with smooth bass answers and shuffled drum accents",
+    "liquid drum and bass with atmospheric pads and crisp snares"
+  ],
+  "country_acoustic": [
+    "country with acoustic guitar strums and root fifth bass",
+    "country music with banjo rolls and a fiddle melody",
+    "a country instrumental with a boom chuck guitar rhythm",
+    "country folk with pedal steel and a warm guitar",
+    "country at 108bpm with light rimshots and shakers"
+  ],
+  "soulful_house": [
+    "soulful house with a repeating drum phrase and electric bass bass",
+    "soulful house instrumental at 122bpm",
+    "soulful house with organ and percussion"
+  ],
+  "tech_house": [
+    "tech house with a repeating drum phrase and pluck bass bass",
+    "tech house instrumental at 126bpm",
+    "tech house with synth stabs and percussion"
+  ],
+  "bassline": [
+    "bassline with a repeating drum phrase and fm bass bass",
+    "bassline instrumental at 138bpm",
+    "bassline with synth stabs and percussion"
+  ],
+  "uk_funky": [
+    "uk funky with a repeating drum phrase and warm sub bass",
+    "uk funky instrumental at 130bpm",
+    "uk funky with marimba and percussion"
+  ],
+  "jungle": [
+    "jungle with a repeating drum phrase and sine sub bass",
+    "jungle instrumental at 166bpm",
+    "jungle with dark pad and percussion"
+  ],
+  "jump_up": [
+    "jump up with a repeating drum phrase and fm bass bass",
+    "jump up instrumental at 175bpm",
+    "jump up with synth stabs and percussion"
+  ],
+  "neurofunk": [
+    "neurofunk with a repeating drum phrase and growl bass bass",
+    "neurofunk instrumental at 174bpm",
+    "neurofunk with dark pad and percussion"
+  ],
+  "minimal_techno": [
+    "minimal techno with a repeating drum phrase and sine sub bass",
+    "minimal techno instrumental at 128bpm",
+    "minimal techno with fm plucks and percussion"
+  ],
+  "dub_techno": [
+    "dub techno with a repeating drum phrase and warm sub bass",
+    "dub techno instrumental at 124bpm",
+    "dub techno with synth stabs and percussion"
+  ],
+  "industrial_techno": [
+    "industrial techno with a repeating drum phrase and dark distorted bass bass",
+    "industrial techno instrumental at 140bpm",
+    "industrial techno with synth stabs and percussion"
+  ],
+  "acid_techno": [
+    "acid techno with a repeating drum phrase and acid bass bass",
+    "acid techno instrumental at 136bpm",
+    "acid techno with synth stabs and percussion"
+  ],
+  "boom_bap": [
+    "boom bap with a repeating drum phrase and electric bass bass",
+    "boom bap instrumental at 90bpm",
+    "boom bap with dusty rhodes and percussion"
+  ],
+  "alternative_rnb": [
+    "alternative rnb with a repeating drum phrase and sine sub bass",
+    "alternative rnb instrumental at 78bpm",
+    "alternative rnb with jazz keys and percussion"
+  ],
+  "memphis": [
+    "memphis with a repeating drum phrase and saturated 808 bass",
+    "memphis instrumental at 140bpm",
+    "memphis with dark bells and percussion"
+  ],
+  "phonk": [
+    "phonk with a repeating drum phrase and saturated 808 bass",
+    "phonk instrumental at 150bpm",
+    "phonk with dark pad and percussion"
+  ],
+  "gqom": [
+    "gqom with a repeating drum phrase and sine sub bass",
+    "gqom instrumental at 126bpm",
+    "gqom with dark pad and percussion"
+  ],
+  "private_school_piano": [
+    "private school piano with a repeating drum phrase and fm log drum bass",
+    "private school piano instrumental at 112bpm",
+    "private school piano with jazz keys and percussion"
+  ],
+  "sgija": [
+    "sgija with a repeating drum phrase and fm log drum bass",
+    "sgija instrumental at 114bpm",
+    "sgija with fm plucks and percussion"
+  ],
+  "dancehall": [
+    "dancehall with a repeating drum phrase and sine sub bass",
+    "dancehall instrumental at 98bpm",
+    "dancehall with organ and percussion"
+  ],
+  "reggaeton": [
+    "reggaeton with a repeating drum phrase and sine sub bass",
+    "reggaeton instrumental at 94bpm",
+    "reggaeton with marimba and percussion"
+  ],
+  "dominican_dembow": [
+    "dominican dembow with a repeating drum phrase and punchy 808 bass",
+    "dominican dembow instrumental at 118bpm",
+    "dominican dembow with brass stabs and percussion"
+  ],
+  "electro": [
+    "classic electro with a repeating drum phrase and fm bass bass",
+    "classic electro instrumental at 128bpm",
+    "classic electro with synth stabs and percussion"
+  ],
+  "miami_bass": [
+    "miami bass with a repeating drum phrase and punchy 808 bass",
+    "miami bass instrumental at 132bpm",
+    "miami bass with brass stabs and percussion"
+  ],
+  "progressive_trance": [
+    "progressive trance with a repeating drum phrase and rolling saw bass",
+    "progressive trance instrumental at 132bpm",
+    "progressive trance with analog saw pad and percussion"
+  ],
+  "psytrance": [
+    "psytrance with a repeating drum phrase and acid bass bass",
+    "psytrance instrumental at 145bpm",
+    "psytrance with fm plucks and percussion"
+  ],
+  "trip_hop": [
+    "trip hop with a repeating drum phrase and electric bass bass",
+    "trip hop instrumental at 82bpm",
+    "trip hop with dusty rhodes and percussion"
+  ],
+  "dub": [
+    "dub with a repeating drum phrase and sine sub bass",
+    "dub instrumental at 74bpm",
+    "dub with organ and percussion"
+  ],
+  "melodic_house": [
+    "melodic house",
+    "melodic house with supersaw at 124 bpm",
+    "melodic house instrumental with wavetable",
+    "melodic house Melodic House with supersaw harmony, warm sub bass, wavetable melody and shaker textures."
+  ],
+  "progressive_house": [
+    "progressive house",
+    "progressive house with wavetable at 126 bpm",
+    "progressive house instrumental with supersaw",
+    "progressive house Progressive House with wavetable harmony, rolling saw bass, supersaw melody and shaker textures."
+  ],
+  "organic_house": [
+    "organic house",
+    "organic house with kalimba at 116 bpm",
+    "organic house instrumental with flute",
+    "organic house Organic House with kalimba harmony, electric bass bass, flute melody and shaker textures."
+  ],
+  "bass_house": [
+    "bass house",
+    "bass house with synth stabs at 128 bpm",
+    "bass house instrumental with fm synth",
+    "bass house Bass House with synth stabs harmony, growl bass bass, fm synth melody and shaker textures."
+  ],
+  "future_house": [
+    "future house",
+    "future house with fm plucks at 126 bpm",
+    "future house instrumental with pwm",
+    "future house Future House with fm plucks harmony, fm bass bass, pwm melody and shaker textures."
+  ],
+  "disco": [
+    "disco",
+    "disco with clavinet at 118 bpm",
+    "disco instrumental with electric guitar",
+    "disco Disco with clavinet harmony, electric bass bass, electric guitar melody and open_hat, clap, tambourine textures."
+  ],
+  "nu_disco": [
+    "nu disco",
+    "nu disco with pwm at 114 bpm",
+    "nu disco instrumental with supersaw",
+    "nu disco Nu Disco with pwm harmony, electric bass bass, supersaw melody and open_hat, clap, tambourine textures."
+  ],
+  "french_house": [
+    "french house",
+    "french house with micro chops at 124 bpm",
+    "french house instrumental with analog lead",
+    "french house French House with micro chops harmony, electric bass bass, analog lead melody and open_hat, clap, tambourine textures."
+  ],
+  "synth_funk": [
+    "synth funk",
+    "synth funk with clavinet at 108 bpm",
+    "synth funk instrumental with hard sync",
+    "synth funk Synth Funk with clavinet harmony, fm bass bass, hard sync melody and open_hat, clap, tambourine textures."
+  ],
+  "hardgroove": [
+    "hardgroove",
+    "hardgroove with organ at 140 bpm",
+    "hardgroove instrumental with fm synth",
+    "hardgroove Hardgroove with organ harmony, rolling saw bass, fm synth melody and conga, bongo, ride textures."
+  ],
+  "hard_techno": [
+    "hard techno",
+    "hard techno with synth stabs at 150 bpm",
+    "hard techno instrumental with wavefold",
+    "hard techno Hard Techno with synth stabs harmony, dark distorted bass bass, wavefold melody and shaker textures."
+  ],
+  "hardstyle": [
+    "hardstyle",
+    "hardstyle with supersaw at 150 bpm",
+    "hardstyle instrumental with supersaw",
+    "hardstyle Hardstyle with supersaw harmony, saturated 808 bass, supersaw melody and shaker textures."
+  ],
+  "hardcore": [
+    "hardcore",
+    "hardcore with hard sync at 185 bpm",
+    "hardcore instrumental with ring mod",
+    "hardcore Hardcore with hard sync harmony, dark distorted bass bass, ring mod melody and shaker textures."
+  ],
+  "future_bass": [
+    "future bass",
+    "future bass with supersaw at 145 bpm",
+    "future bass instrumental with wavetable",
+    "future bass Future Bass with supersaw harmony, sine sub bass, wavetable melody and shaker textures."
+  ],
+  "melodic_dubstep": [
+    "melodic dubstep",
+    "melodic dubstep with wavetable at 140 bpm",
+    "melodic dubstep instrumental with supersaw",
+    "melodic dubstep Melodic Dubstep with wavetable harmony, growl bass bass, supersaw melody and shaker textures."
+  ],
+  "colour_bass": [
+    "colour bass",
+    "colour bass with spectral at 145 bpm",
+    "colour bass instrumental with formant",
+    "colour bass Colour Bass with spectral harmony, fm bass bass, formant melody and shaker textures."
+  ],
+  "rage": [
+    "rage",
+    "rage with supersaw at 150 bpm",
+    "rage instrumental with hard sync",
+    "rage Rage with supersaw harmony, saturated 808 bass, hard sync melody and open_hat textures."
+  ],
+  "plugg": [
+    "plugg",
+    "plugg with fm plucks at 140 bpm",
+    "plugg instrumental with kalimba",
+    "plugg Plugg with fm plucks harmony, punchy 808 bass, kalimba melody and open_hat textures."
+  ],
+  "pluggnb": [
+    "pluggnb",
+    "pluggnb with fm piano at 138 bpm",
+    "pluggnb instrumental with pwm",
+    "pluggnb Pluggnb with fm piano harmony, sine sub bass, pwm melody and open_hat textures."
+  ],
+  "cloud_rap": [
+    "cloud rap",
+    "cloud rap with granular at 130 bpm",
+    "cloud rap instrumental with formant",
+    "cloud rap Cloud Rap with granular harmony, saturated 808 bass, formant melody and open_hat textures."
+  ],
+  "afrobeats": [
+    "afrobeats",
+    "afrobeats with electric guitar at 104 bpm",
+    "afrobeats instrumental with marimba",
+    "afrobeats Afrobeats with electric guitar harmony, electric bass bass, marimba melody and shaker, conga, woodblock textures."
+  ],
+  "afropop": [
+    "afropop",
+    "afropop with acoustic guitar at 110 bpm",
+    "afropop instrumental with steelpan",
+    "afropop Afropop with acoustic guitar harmony, electric bass bass, steelpan melody and shaker, conga, woodblock textures."
+  ],
+  "afro_fusion": [
+    "afro fusion",
+    "afro fusion with rhodes stabs at 98 bpm",
+    "afro fusion instrumental with saxophone",
+    "afro fusion Afro Fusion with rhodes stabs harmony, electric bass bass, saxophone melody and shaker, conga, woodblock textures."
+  ],
+  "bedroom_pop": [
+    "bedroom pop",
+    "bedroom pop with electric guitar at 90 bpm",
+    "bedroom pop instrumental with pwm",
+    "bedroom pop Bedroom Pop with electric guitar harmony, electric bass bass, pwm melody and shaker textures."
+  ],
+  "indie_pop": [
+    "indie pop",
+    "indie pop with electric guitar at 118 bpm",
+    "indie pop instrumental with analog lead",
+    "indie pop Indie Pop with electric guitar harmony, electric bass bass, analog lead melody and shaker textures."
+  ],
+  "dream_pop": [
+    "dream pop",
+    "dream pop with supersaw at 94 bpm",
+    "dream pop instrumental with electric guitar",
+    "dream pop Dream Pop with supersaw harmony, electric bass bass, electric guitar melody and shaker textures."
+  ],
+  "shoegaze": [
+    "shoegaze",
+    "shoegaze with electric guitar at 105 bpm",
+    "shoegaze instrumental with granular",
+    "shoegaze Shoegaze with electric guitar harmony, electric bass bass, granular melody and shaker textures."
+  ],
+  "dancefloor_dnb": [
+    "dancefloor dnb",
+    "dancefloor dnb with supersaw at 174 bpm",
+    "dancefloor dnb instrumental with wavetable",
+    "dancefloor dnb Dancefloor Drum And Bass with supersaw harmony, reese bass bass, wavetable melody and shaker textures."
+  ],
+  "minimal_rollers": [
+    "minimal rollers",
+    "minimal rollers with fm plucks at 172 bpm",
+    "minimal rollers instrumental with ring mod",
+    "minimal rollers Minimal Rollers with fm plucks harmony, fm bass bass, ring mod melody and shaker textures."
+  ],
+  "drumfunk": [
+    "drumfunk",
+    "drumfunk with spectral at 168 bpm",
+    "drumfunk instrumental with kalimba",
+    "drumfunk Drumfunk with spectral harmony, warm sub bass, kalimba melody and shaker textures."
+  ],
+  "bossa_nova": [
+    "bossa nova",
+    "bossa nova with acoustic guitar at 132 bpm",
+    "bossa nova instrumental with flute",
+    "bossa nova Bossa Nova with acoustic guitar harmony, upright bass bass, flute melody and shaker, conga, bongo, claves textures."
+  ],
+  "samba": [
+    "samba",
+    "samba with acoustic guitar at 104 bpm",
+    "samba instrumental with flute",
+    "samba Samba with acoustic guitar harmony, upright bass bass, flute melody and shaker, conga, bongo, claves textures."
+  ],
+  "salsa": [
+    "salsa",
+    "salsa with acoustic piano at 180 bpm",
+    "salsa instrumental with trumpet",
+    "salsa Salsa with acoustic piano harmony, upright bass bass, trumpet melody and shaker, conga, bongo, claves textures."
+  ],
+  "bachata": [
+    "bachata",
+    "bachata with twelve string at 128 bpm",
+    "bachata instrumental with electric guitar",
+    "bachata Bachata with twelve string harmony, electric bass bass, electric guitar melody and shaker, conga, bongo, claves textures."
+  ],
+  "cumbia": [
+    "cumbia",
+    "cumbia with accordion at 100 bpm",
+    "cumbia instrumental with clarinet",
+    "cumbia Cumbia with accordion harmony, electric bass bass, clarinet melody and shaker, conga, bongo, claves textures."
+  ],
+  "bebop": [
+    "bebop",
+    "bebop with acoustic piano at 190 bpm",
+    "bebop instrumental with saxophone",
+    "bebop Bebop with acoustic piano harmony, upright bass bass, saxophone melody and ride textures."
+  ],
+  "hard_bop": [
+    "hard bop",
+    "hard bop with acoustic piano at 136 bpm",
+    "hard bop instrumental with trumpet",
+    "hard bop Hard Bop with acoustic piano harmony, upright bass bass, trumpet melody and ride textures."
+  ],
+  "modal_jazz": [
+    "modal jazz",
+    "modal jazz with jazz keys at 114 bpm",
+    "modal jazz instrumental with saxophone",
+    "modal jazz Modal Jazz with jazz keys harmony, upright bass bass, saxophone melody and ride textures."
+  ],
+  "jazz_fusion": [
+    "jazz fusion",
+    "jazz fusion with rhodes stabs at 122 bpm",
+    "jazz fusion instrumental with electric guitar",
+    "jazz fusion Jazz Fusion with rhodes stabs harmony, electric bass bass, electric guitar melody and ride, open_hat textures."
+  ],
+  "honky_tonk": [
+    "honky tonk",
+    "honky tonk with acoustic piano at 120 bpm",
+    "honky tonk instrumental with pedal steel",
+    "honky tonk Honky Tonk with acoustic piano harmony, upright bass bass, pedal steel melody and shaker textures."
+  ],
+  "western_swing": [
+    "western swing",
+    "western swing with electric guitar at 146 bpm",
+    "western swing instrumental with fiddle",
+    "western swing Western Swing with electric guitar harmony, upright bass bass, fiddle melody and shaker textures."
+  ],
+  "bluegrass": [
+    "bluegrass",
+    "bluegrass with acoustic guitar at 148 bpm",
+    "bluegrass instrumental with fiddle",
+    "bluegrass Bluegrass with acoustic guitar harmony, upright bass bass, fiddle melody and shaker textures."
+  ],
+  "baroque": [
+    "baroque",
+    "baroque with harp at 100 bpm",
+    "baroque instrumental with flute",
+    "baroque Baroque with harp harmony, cello bass, flute melody and acoustic ensemble textures."
+  ],
+  "romantic_classical": [
+    "romantic classical",
+    "romantic classical with acoustic piano at 72 bpm",
+    "romantic classical instrumental with fiddle",
+    "romantic classical Romantic Classical with acoustic piano harmony, cello bass, fiddle melody and acoustic ensemble textures."
+  ],
+  "chamber_classical": [
+    "chamber classical",
+    "chamber classical with bowed strings at 88 bpm",
+    "chamber classical instrumental with clarinet",
+    "chamber classical Chamber Classical with bowed strings harmony, cello bass, clarinet melody and acoustic ensemble textures."
+  ],
+  "orchestral_classical": [
+    "orchestral classical",
+    "orchestral classical with bowed strings at 96 bpm",
+    "orchestral classical instrumental with french horn",
+    "orchestral classical Orchestral Classical with bowed strings harmony, cello bass, french horn melody and acoustic ensemble textures."
+  ],
+  "botanica": [
+    "botanica",
+    "botanica with granular at 118 bpm",
+    "botanica instrumental with spectral",
+    "botanica Botanica with granular harmony, fm bass bass, spectral melody and woodblock, shaker textures."
+  ]
+}

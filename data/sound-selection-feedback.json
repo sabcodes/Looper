@@ -1,0 +1,235 @@
+{
+  "version": 1,
+  "set": "set7",
+  "engineVersion": "1.9.0",
+  "comparisonToolingCommit": "4b8da62",
+  "manifestSha256": "786fb4a5fc5310e60a5dfbdd078ef92424b64fdc9136d69ba9b29365e4ce3698",
+  "verbatim": "2) B for bass (B removed the metallic synth), C for harmony and overall\n8) A and B sound the ame to me for bass, C for harmony and overall\n9) B for bass, c for harmony, and C for overall",
+  "orderClarification": "for 2, 8,9 in that order",
+  "caseOrder": [
+    "02",
+    "08",
+    "09"
+  ],
+  "scope": "Qualitative preference for three exact sound-only comparisons with fixed phrasing. No numeric ratings, instrument bans or global palette rules.",
+  "cases": [
+    {
+      "id": "02",
+      "seed": "2961965966",
+      "profiles": {
+        "reference": {
+          "bass": "upright_bass",
+          "harmony": "pwm"
+        },
+        "alternatives": [
+          {
+            "label": "B-bass",
+            "role": "bass",
+            "profile": "warm_sub",
+            "previousProfiles": [
+              "upright_bass"
+            ]
+          },
+          {
+            "label": "C-harmony",
+            "role": "keys",
+            "profile": "rhodes_stabs",
+            "previousProfiles": [
+              "pwm"
+            ]
+          }
+        ]
+      },
+      "artifacts": [
+        {
+          "label": "A-reference",
+          "audio": "02-A-reference.mp3",
+          "score": "02-A-reference.score.json.gz",
+          "audioSha256": "2750907f8442069cbfc5554721045b659e52bf260444428f80a5015fc140a501",
+          "scoreSha256": "b2642a6b2c2302c3fd0e3033d656a3aaf19047cf754102452d0b60061a301272"
+        },
+        {
+          "label": "B-bass",
+          "audio": "02-B-bass.mp3",
+          "score": "02-B-bass.score.json.gz",
+          "audioSha256": "fa4681230282aae91dcf992f5a20b84c66cf8ea57f5efab2cdd165fb77db9a07",
+          "scoreSha256": "aa989f91cdd9f844435633606d1ba6d901c7b698ccad2ac6248ee9bb7809eef1"
+        },
+        {
+          "label": "C-harmony",
+          "audio": "02-C-harmony.mp3",
+          "score": "02-C-harmony.score.json.gz",
+          "audioSha256": "fb3cee5122da41cdca7053581212f8a670a2333e14a723f576f24a0029b8677e",
+          "scoreSha256": "20067213a3fdd4f7ecc3b40782c34c718b0c4e3cec9b6147c6a30d7dbb49b5a5"
+        }
+      ],
+      "review": {
+        "bassPreference": "B",
+        "harmonyPreference": "C",
+        "overallPreference": "C",
+        "bassPerceivedDifference": null,
+        "notes": "B for bass; user perceived that B removed the metallic synth. C for harmony and overall."
+      }
+    },
+    {
+      "id": "08",
+      "seed": "1870912561",
+      "profiles": {
+        "reference": {
+          "bass": "upright_bass",
+          "harmony": "vibraphone"
+        },
+        "alternatives": [
+          {
+            "label": "B-bass",
+            "role": "bass",
+            "profile": "electric_bass",
+            "previousProfiles": [
+              "upright_bass"
+            ]
+          },
+          {
+            "label": "C-harmony",
+            "role": "keys",
+            "profile": "acoustic_piano",
+            "previousProfiles": [
+              "vibraphone"
+            ]
+          }
+        ]
+      },
+      "artifacts": [
+        {
+          "label": "A-reference",
+          "audio": "08-A-reference.mp3",
+          "score": "08-A-reference.score.json.gz",
+          "audioSha256": "cb6080826ed7105131a58aa09016c88ddb8beda6c891952ac772d2e948df9a3e",
+          "scoreSha256": "9ef683023c845d91dfb1f252763ba69a083abc614416abbe7a7a828a3a42beec"
+        },
+        {
+          "label": "B-bass",
+          "audio": "08-B-bass.mp3",
+          "score": "08-B-bass.score.json.gz",
+          "audioSha256": "1766be52592e165fa9ae4cc609fe4485fe218300c6bb57099aa966691e90ebc5",
+          "scoreSha256": "a6186d2aa23242670c64d87ea2c0dbe6b268abb239373fd9f733788356333484"
+        },
+        {
+          "label": "C-harmony",
+          "audio": "08-C-harmony.mp3",
+          "score": "08-C-harmony.score.json.gz",
+          "audioSha256": "87a8b6ea3bd39b8425dc05c22539d3843682951e97ebd2cbed99b6ec64a49c3a",
+          "scoreSha256": "6ac3e03c49bed3e364606798727a68e0faad995db7371be2c04271bd61c17794"
+        }
+      ],
+      "review": {
+        "bassPreference": null,
+        "harmonyPreference": "C",
+        "overallPreference": "C",
+        "bassPerceivedDifference": "sounds_the_same",
+        "notes": "A and B sound the same for bass. C for harmony and overall."
+      }
+    },
+    {
+      "id": "09",
+      "seed": "4093001357",
+      "profiles": {
+        "reference": {
+          "bass": "acid_bass",
+          "harmony": "vibraphone"
+        },
+        "alternatives": [
+          {
+            "label": "B-bass",
+            "role": "bass",
+            "profile": "dark_analog_bass",
+            "previousProfiles": [
+              "acid_bass"
+            ]
+          },
+          {
+            "label": "C-harmony",
+            "role": "keys",
+            "profile": "organ",
+            "previousProfiles": [
+              "vibraphone"
+            ]
+          }
+        ]
+      },
+      "artifacts": [
+        {
+          "label": "A-reference",
+          "audio": "09-A-reference.mp3",
+          "score": "09-A-reference.score.json.gz",
+          "audioSha256": "c617aa6f16de8011bd9a0559f2cf4e1de3886e27764bea2d460ace20c197e138",
+          "scoreSha256": "e5a3a5fd375be62d103618e94649636a5b81b145a8a0f8397db276ac58aa49b7"
+        },
+        {
+          "label": "B-bass",
+          "audio": "09-B-bass.mp3",
+          "score": "09-B-bass.score.json.gz",
+          "audioSha256": "eb72d152524d88b2dbd9b82cc0f90a524556f11e5720521e679a31d862a84172",
+          "scoreSha256": "934f476c37ce6936ebdbc9ea87f5d9ba7b26b01f5d181307b8fdab4b70a45a69"
+        },
+        {
+          "label": "C-harmony",
+          "audio": "09-C-harmony.mp3",
+          "score": "09-C-harmony.score.json.gz",
+          "audioSha256": "e502d39c92932992ef7272301d193c19a8c812e0903f3fbb5b5d482bc4529326",
+          "scoreSha256": "730691e06c0a45bb45bbe2363c4e07610e2867f691d8bcc6d594dcefbecfa367"
+        }
+      ],
+      "review": {
+        "bassPreference": "B",
+        "harmonyPreference": "C",
+        "overallPreference": "C",
+        "bassPerceivedDifference": null,
+        "notes": "B for bass. C for harmony and overall."
+      }
+    }
+  ],
+  "summary": {
+    "preferredBassB": [
+      "02",
+      "09"
+    ],
+    "bassSoundsTheSame": [
+      "08"
+    ],
+    "preferredHarmonyC": [
+      "02",
+      "08",
+      "09"
+    ],
+    "preferredOverallC": [
+      "02",
+      "08",
+      "09"
+    ]
+  },
+  "findings": {
+    "supported": [
+      "Rhodes is preferred over PWM for 02 harmony and overall.",
+      "Acoustic piano is preferred over vibraphone for 08 harmony and overall.",
+      "Organ is preferred over vibraphone for 09 harmony and overall.",
+      "Warm sub is preferred over upright bass for 02 bass; dark analog is preferred over acid bass for 09 bass.",
+      "Upright and electric bass in 08 sound the same to the user."
+    ],
+    "perceivedMetallicSound": {
+      "case": "02",
+      "verbatim": "B removed the metallic synth",
+      "actualChangedRole": "bass",
+      "from": "upright_bass",
+      "to": "warm_sub",
+      "unchangedHarmony": "pwm",
+      "interpretation": "Perceptual report about the complete mix. The controlled bass-only swap reduced a metallic-sounding impression; this does not identify a synth voice or establish a universal cause."
+    },
+    "limits": [
+      "C retains the original bass; a combined preferred-bass plus preferred-harmony version has not been heard.",
+      "No isolated stems were rated.",
+      "No automatic selector accuracy or general genre preference was measured."
+    ]
+  },
+  "nextUse": "Keep these exact profiles/performances as preference examples. If testing combinations next, use warm sub + Rhodes for 02, current upright bass + acoustic piano for 08 (bass was indistinguishable), and dark analog bass + organ for 09. Compare combinations against preferred C versions before changing defaults.",
+  "originalMediaScoresAndManifestUnchanged": true
+}

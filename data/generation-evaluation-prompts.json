@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "purpose": "Fixed ten-style generation and listening-evaluation set. Prompts and expected intents are frozen before evaluation; model estimates are diagnostic and human reviews start unfilled.",
+  "cases": [
+    {
+      "id": "garage",
+      "label": "UK garage",
+      "expectedIntent": "uk_garage_2step",
+      "prompt": "shuffled UK garage in F minor at 134bpm, 32 bars, with skipping syncopated kicks, warm Rhodes stabs, deep sub and swinging hats",
+      "seed": "101",
+      "sauce": 0.35
+    },
+    {
+      "id": "footwork",
+      "label": "Chicago footwork",
+      "expectedIntent": "chicago_footwork",
+      "prompt": "Chicago footwork in C minor at 160bpm, 32 bars, with rapid triplet percussion, erratic kicks, chopped synth fragments and sub bursts",
+      "seed": "102",
+      "sauce": 0.65
+    },
+    {
+      "id": "jersey",
+      "label": "Jersey club",
+      "expectedIntent": "jersey_club",
+      "prompt": "bouncy Jersey club in D minor at 136bpm, 32 bars, with a five-kick gallop, crisp claps and punchy 808 bass",
+      "seed": "103",
+      "sauce": 0.55
+    },
+    {
+      "id": "amapiano",
+      "label": "Amapiano",
+      "expectedIntent": "amapiano_log",
+      "prompt": "warm amapiano in A dorian at 113bpm, 32 bars, with jazz keys, rolling shakers and resonant FM log drums",
+      "seed": "104",
+      "sauce": 0.3
+    },
+    {
+      "id": "drill",
+      "label": "Drill",
+      "expectedIntent": "drill_sliding",
+      "prompt": "dark drill in F harmonic minor at 142bpm, 32 bars, with hollow bells, half-time snares, fast hats and gliding saturated 808s",
+      "seed": "105",
+      "sauce": 0.6
+    },
+    {
+      "id": "baile",
+      "label": "Baile funk",
+      "expectedIntent": "baile_funk_tambor",
+      "prompt": "raw baile funk tamborzao in E phrygian at 130bpm, 32 bars, with syncopated surdo, tom fills and brass stabs",
+      "seed": "106",
+      "sauce": 0.6
+    },
+    {
+      "id": "synthwave",
+      "label": "Synthwave",
+      "expectedIntent": "synthwave_retro",
+      "prompt": "nostalgic synthwave in D minor at 110bpm, 32 bars, with analog saw pads, rolling sixteenth-note bass and steady electronic drums",
+      "seed": "107",
+      "sauce": 0.2
+    },
+    {
+      "id": "idm",
+      "label": "IDM glitch",
+      "expectedIntent": "idm_glitch",
+      "prompt": "dense IDM glitch in C dorian at 147bpm, 32 bars, with polymetric percussion, metallic FM plucks, ratchets and abrupt air pockets",
+      "seed": "108",
+      "sauce": 0.9
+    },
+    {
+      "id": "lofi",
+      "label": "Lo-fi",
+      "expectedIntent": "lofi_chill",
+      "prompt": "mellow lo-fi in G minor at 84bpm, 32 bars, with dusty Rhodes, lazy swung boom-bap drums and warm sub bass",
+      "seed": "109",
+      "sauce": 0.15
+    },
+    {
+      "id": "house",
+      "label": "House",
+      "expectedIntent": "house_bright",
+      "prompt": "happy house in F major at 128bpm, 32 bars, with bright piano chords, four-on-the-floor kicks, open upbeat hats and offbeat plucked bass",
+      "seed": "110",
+      "sauce": 0.4
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "set": "set7/combined",
+  "verbatim": "D for both",
+  "manifestSha256": "f369d185c69c2d7d5ff5ee013924b348972168949ba1ba5b49c75cc87cba54b5",
+  "comparisonToolingCommit": "7e36ccb",
+  "scope": "Preference for the two exact combined-sound excerpts over their C references. No global instrument rules or numeric ratings.",
+  "cases": [
+    {
+      "id": "02",
+      "seed": "2961965966",
+      "preference": "D",
+      "comparison": {
+        "C": {
+          "audio": "02-C-reference.mp3",
+          "score": "02-C-reference.score.json.gz",
+          "audioSha256": "fb3cee5122da41cdca7053581212f8a670a2333e14a723f576f24a0029b8677e",
+          "scoreSha256": "20067213a3fdd4f7ecc3b40782c34c718b0c4e3cec9b6147c6a30d7dbb49b5a5",
+          "bass": "upright_bass",
+          "harmony": "rhodes_stabs",
+          "level": {
+            "integratedLufs": -18,
+            "truePeakDbfs": -4.9
+          }
+        },
+        "D": {
+          "audio": "02-D-combined.mp3",
+          "score": "02-D-combined.score.json.gz",
+          "audioSha256": "c14737adb9dd2d5e2df9c089f238581dc1f039d7b2467d3c7e455b49a227f2df",
+          "scoreSha256": "bf4e51778a56e1d028e5edd68ebe0ff41ba04202b0bbac74c05afa180ad31839",
+          "bass": "warm_sub",
+          "harmony": "rhodes_stabs"
+        }
+      },
+      "dimensionRatings": {
+        "bassBalance": null,
+        "groove": null,
+        "overallFeel": null
+      },
+      "notes": "D preferred; no separate dimension ratings or preference strength supplied."
+    },
+    {
+      "id": "09",
+      "seed": "4093001357",
+      "preference": "D",
+      "comparison": {
+        "C": {
+          "audio": "09-C-reference.mp3",
+          "score": "09-C-reference.score.json.gz",
+          "audioSha256": "e502d39c92932992ef7272301d193c19a8c812e0903f3fbb5b5d482bc4529326",
+          "scoreSha256": "730691e06c0a45bb45bbe2363c4e07610e2867f691d8bcc6d594dcefbecfa367",
+          "bass": "acid_bass",
+          "harmony": "organ",
+          "level": {
+            "integratedLufs": -18,
+            "truePeakDbfs": -5
+          }
+        },
+        "D": {
+          "audio": "09-D-combined.mp3",
+          "score": "09-D-combined.score.json.gz",
+          "audioSha256": "cfb8480ce4fa813d1fa005a8d2dbb3e9daa1bd992a63a4ab714bbcad0234c6de",
+          "scoreSha256": "3085466b1bc4e33596c834744448104008f8cb4e4e0137f9b40e4eaea0ef027d",
+          "bass": "dark_analog_bass",
+          "harmony": "organ"
+        }
+      },
+      "dimensionRatings": {
+        "bassBalance": null,
+        "groove": null,
+        "overallFeel": null
+      },
+      "notes": "D preferred; no separate dimension ratings or preference strength supplied."
+    }
+  ],
+  "confirmedRecipes": [
+    {
+      "id": "02",
+      "bass": "warm_sub",
+      "harmony": "rhodes_stabs",
+      "version": "D"
+    },
+    {
+      "id": "09",
+      "bass": "dark_analog_bass",
+      "harmony": "organ",
+      "version": "D"
+    }
+  ],
+  "retainedEarlierChoice": {
+    "id": "08",
+    "bass": "upright_bass",
+    "harmony": "acoustic_piano",
+    "version": "set7 C",
+    "reason": "Prior harmony/overall preference; A/B bass sounded the same. Not re-evaluated here."
+  },
+  "interpretation": "The separately preferred bass and harmony sounds also work better together in these two fixed arrangements. Preserve exact prompts, seed performances and profiles as positive references. Do not infer a universal preference or change explicit instrument requests.",
+  "mediaAndScoresVerified": true,
+  "engineDefaultsChanged": false
+}

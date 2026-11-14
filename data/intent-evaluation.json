@@ -1,0 +1,122 @@
+{
+  "version": 2,
+  "purpose": "Separate regression prompts; these become development cases once used for tuning, not an unbiased held-out benchmark.",
+  "cases": [
+    {
+      "id": "intent-01",
+      "prompt": "pirate radio shuffle with skipping kicks, organ stabs and a deep sub",
+      "expected": "uk_garage_2step"
+    },
+    {
+      "id": "intent-02",
+      "prompt": "nostalgic London bounce with swung hats and lush electric piano",
+      "expected": "uk_garage_2step"
+    },
+    {
+      "id": "intent-03",
+      "prompt": "Chicago dance battle at 160bpm with rapid triplet toms and erratic kicks",
+      "expected": "chicago_footwork"
+    },
+    {
+      "id": "intent-04",
+      "prompt": "frantic juke rhythm with fast sub bursts and gated sample chops",
+      "expected": "chicago_footwork"
+    },
+    {
+      "id": "intent-05",
+      "prompt": "Newark bounce with five kick hits, galloping triplets and sharp claps",
+      "expected": "jersey_club"
+    },
+    {
+      "id": "intent-06",
+      "prompt": "jersey dance instrumental with abrupt stops and punchy low end",
+      "expected": "jersey_club"
+    },
+    {
+      "id": "intent-07",
+      "prompt": "South African jazz keys, woody low percussion and rolling shakers",
+      "expected": "amapiano_log"
+    },
+    {
+      "id": "intent-08",
+      "prompt": "deep Pretoria groove with resonant log drums and airy pads",
+      "expected": "amapiano_log"
+    },
+    {
+      "id": "intent-09",
+      "prompt": "Brooklyn sliding subs with half time snares and hollow bells",
+      "expected": "drill_sliding"
+    },
+    {
+      "id": "intent-10",
+      "prompt": "ominous UK drill with gliding 808 notes and a menacing melody",
+      "expected": "drill_sliding"
+    },
+    {
+      "id": "intent-11",
+      "prompt": "Rio favela surdo calls and agogo bells",
+      "expected": "baile_funk_tambor"
+    },
+    {
+      "id": "intent-12",
+      "prompt": "raw funk carioca tamborzao with syncopated brass stabs",
+      "expected": "baile_funk_tambor"
+    },
+    {
+      "id": "intent-13",
+      "prompt": "neon highway arpeggios and vintage saw pads",
+      "expected": "synthwave_retro"
+    },
+    {
+      "id": "intent-14",
+      "prompt": "retro outrun with driving sixteenth bass and gated snares",
+      "expected": "synthwave_retro"
+    },
+    {
+      "id": "intent-15",
+      "prompt": "fractured modular percussion, polymetric clicks and metallic FM plucks",
+      "expected": "idm_glitch"
+    },
+    {
+      "id": "intent-16",
+      "prompt": "abstract braindance with irregular ghost notes and granular stutters",
+      "expected": "idm_glitch"
+    },
+    {
+      "id": "intent-17",
+      "prompt": "rainy late night drive",
+      "expected": "lofi_chill"
+    },
+    {
+      "id": "intent-18",
+      "prompt": "dusty piano and lazy boom bap for a quiet study session",
+      "expected": "boom_bap",
+      "note": "Version 1.6 separates explicit boom bap from the lo-fi preset."
+    },
+    {
+      "id": "intent-19",
+      "prompt": "sunny piano chords, four on the floor kicks and open upbeat hats",
+      "expected": "house_bright"
+    },
+    {
+      "id": "intent-20",
+      "prompt": "uplifting house with a plucked offbeat bassline",
+      "expected": "house_bright"
+    },
+    {
+      "id": "intent-21",
+      "prompt": "house, not garage",
+      "expected": "house_bright"
+    },
+    {
+      "id": "intent-22",
+      "prompt": "house without trap or drill influences",
+      "expected": "house_bright"
+    },
+    {
+      "id": "intent-23",
+      "prompt": "lofi, no house drums",
+      "expected": "lofi_chill"
+    }
+  ]
+}

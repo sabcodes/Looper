@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "set": "set8/deep-bass",
+  "recordedDate": "2026-10-29",
+  "verbatim": "9E, 10 R, 11S",
+  "manifestSha256": "27bade5fbb9c7ee67fe805b13f934d1343c1d675bbaa7d9cb026e9c159a08af2",
+  "scope": "Qualitative choices among three exact bass-only comparison excerpts. Separate bass/overall ratings, preference strength and remaining metallic impression were not specified.",
+  "cases": [
+    {
+      "id": "09",
+      "sourceCase": "09-B",
+      "seed": "generalization-20261029-b",
+      "selectedVariant": "E",
+      "bassProfile": "saturated_808",
+      "harmonyProfile": "pwm",
+      "audio": "09-E.mp3",
+      "score": "09-E.score.json.gz",
+      "audioSha256": "baddef5135d1743570abc2365efa0890d0421c79a8ca53083313e50d7d20e05d",
+      "scoreSha256": "898dc55d0f8b3e4ce0138fd616b7fe5306192b4ba67edb05627f931c2a0192c5",
+      "dimensionRatings": {
+        "bass": null,
+        "overall": null,
+        "metallicImpressionRemaining": null
+      },
+      "notes": "Variant selected; no separate dimension ratings or explanation provided."
+    },
+    {
+      "id": "10",
+      "sourceCase": "10-A",
+      "seed": "generalization-20261029-a",
+      "selectedVariant": "R",
+      "bassProfile": "garage_sub",
+      "harmonyProfile": "organ",
+      "audio": "10-R-reference.mp3",
+      "score": "10-R-reference.score.json.gz",
+      "audioSha256": "e87e42da4f4bf22e5a837d95ebac26c73949a86c0aebae915d88df9f8f20aefc",
+      "scoreSha256": "1ad9310d18dfbe40e0e1ade95f3ca43171d9efde027767ac3ca8359b66e2f932",
+      "dimensionRatings": {
+        "bass": null,
+        "overall": null,
+        "metallicImpressionRemaining": null
+      },
+      "notes": "Variant selected; no separate dimension ratings or explanation provided."
+    },
+    {
+      "id": "11",
+      "sourceCase": "11-A",
+      "seed": "generalization-20261029-a",
+      "selectedVariant": "S",
+      "bassProfile": "dark_analog_bass",
+      "harmonyProfile": "dark_pad",
+      "audio": "11-S.mp3",
+      "score": "11-S.score.json.gz",
+      "audioSha256": "1bbb24ca412c3dc50bc8c88a0d860fe9988e8064c879c019bf30850c4324a276",
+      "scoreSha256": "c36283b2c8bd4e312b8fda721b369ad59db2a36692f34f39607117f1c37ea363",
+      "dimensionRatings": {
+        "bass": null,
+        "overall": null,
+        "metallicImpressionRemaining": null
+      },
+      "notes": "Variant selected; no separate dimension ratings or explanation provided."
+    }
+  ],
+  "interpretation": "Selections vary across arrangements: saturated 808 for 09, original garage sub for 10, rounded dark analog for 11. Keep these as contextual preference examples rather than a universal 808 default or metallic-timbre ban.",
+  "engineDefaultsChanged": false,
+  "originalMediaScoresAndManifestUnchanged": true,
+  "selectedArtifactsVerified": true,
+  "wholeSet8RetainedBytesAfterFeedback": 10864994
+}

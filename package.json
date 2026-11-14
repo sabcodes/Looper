@@ -1,0 +1,32 @@
+{
+  "name": "local-beat-generator",
+  "productName": "Looper",
+  "version": "2.0.0-beta.2",
+  "description": "Offline seeded procedural rhythm, harmony and PCM synthesis",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "makebeats": "bin/makebeats.js",
+    "analyzebeats": "bin/analyzebeats.js"
+  },
+  "exports": "./src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "makebeats": "node bin/makebeats.js",
+    "analyze": "node bin/analyzebeats.js",
+    "vocalmix": "node bin/vocalmix.js",
+    "evaluate:intents": "node scripts/evaluate-intents.js",
+    "desktop": "node desktop/launch.js",
+    "desktop:build": "python3 desktop/build-macos.py --staging-dir /private/tmp/local-beat-generator-build",
+    "desktop:verify": "node desktop/verify-package.js",
+    "test:desktop": "node --test test/desktop.test.js test/desktop-startup.test.js"
+  },
+  "license": "MIT",
+  "main": "desktop/main.js",
+  "devDependencies": {
+    "electron": "45.2.1"
+  }
+}

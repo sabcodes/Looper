@@ -1,0 +1,206 @@
+{
+  "version": 1,
+  "set": "set6",
+  "engineVersion": "1.9.0",
+  "engineCommit": "f1fe07d",
+  "comparisonToolingCommit": "a8b327f",
+  "manifestSha256": "1ec6bac13c68b337e108371d008dcad6a3519219e7ffb4604bc6b752ac11ac61",
+  "verbatim": "8 - B\n12- B for rep, A for groove, B for overall feel\n20-A only a little more\n\n2 - B \n9 - B (has more funk/groove to it)\n13 - A and B honestly sound about the same to me",
+  "scope": "Qualitative feedback for six specific 16-second matched pairs; phrasing changes span multiple voices. Not instrument bans, numeric quality scores, or population-level evidence.",
+  "cases": [
+    {
+      "id": "08",
+      "seed": "1870912561",
+      "priorFeedback": "disliked",
+      "before": {
+        "audio": "08-A-before.mp3",
+        "audioSha256": "fa67812eab90eb063815c2fca69de020428c3c58ecade7660372dc5038ec3ab8",
+        "score": "08-A-before.score.json.gz",
+        "scoreSha256": "812a771cf4120bec90116645aeb9d1c5a430e4e6586d950d8f742fd523b8fd53"
+      },
+      "after": {
+        "audio": "08-B-after.mp3",
+        "audioSha256": "cb6080826ed7105131a58aa09016c88ddb8beda6c891952ac772d2e948df9a3e",
+        "score": "08-B-after.score.json.gz",
+        "scoreSha256": "9ef683023c845d91dfb1f252763ba69a083abc614416abbe7a7a828a3a42beec"
+      },
+      "review": {
+        "groove": null,
+        "sound": null,
+        "repetition": null,
+        "overallPreference": "B",
+        "preferenceStrength": null,
+        "perceivedDifference": null,
+        "notes": "B preferred; individual dimensions not specified."
+      }
+    },
+    {
+      "id": "12",
+      "seed": "2858271316",
+      "priorFeedback": "disliked",
+      "before": {
+        "audio": "12-A-before.mp3",
+        "audioSha256": "7acb6318eb3f7fb392990047a4a49f2426daa83c1adc80ebf7aa2deff716fcc8",
+        "score": "12-A-before.score.json.gz",
+        "scoreSha256": "2c4eb743b50b3ceded1a5f8869d3bfc146a43e7c8f2e9c75e6974bd4064aedad"
+      },
+      "after": {
+        "audio": "12-B-after.mp3",
+        "audioSha256": "0f9c9d82668598459083cc687199926d3d6909c92226dec0d4188297b09ffe78",
+        "score": "12-B-after.score.json.gz",
+        "scoreSha256": "40d99fda414c052c8adb51134ffa9155022488012c794ce53027f14b2784c66d"
+      },
+      "review": {
+        "groove": "A",
+        "sound": null,
+        "repetition": "B",
+        "overallPreference": "B",
+        "preferenceStrength": null,
+        "perceivedDifference": null,
+        "notes": "B for repetition and overall feel; A for groove. Repetition preference does not establish whether more or less repetition was preferred."
+      }
+    },
+    {
+      "id": "20",
+      "seed": "2730281480",
+      "priorFeedback": "disliked",
+      "before": {
+        "audio": "20-A-before.mp3",
+        "audioSha256": "e5713a960d8de84256dc89fa96d734de4a89bd459820a669a012940e7f50f5e1",
+        "score": "20-A-before.score.json.gz",
+        "scoreSha256": "c15ddb8f05087c628fda5ade8897f46766309608885cb6e611faeb8e752e680f"
+      },
+      "after": {
+        "audio": "20-B-after.mp3",
+        "audioSha256": "264ec5739466f3edbec0fb9457a75600ca467221025778954d00fdce08cf9c0f",
+        "score": "20-B-after.score.json.gz",
+        "scoreSha256": "29f489f798e4dc0937330e7a354008e9d59897f6268756201089c5d00a622ab9"
+      },
+      "review": {
+        "groove": null,
+        "sound": null,
+        "repetition": null,
+        "overallPreference": "A",
+        "preferenceStrength": "slight",
+        "perceivedDifference": null,
+        "notes": "A preferred only a little more; individual dimensions not specified."
+      }
+    },
+    {
+      "id": "02",
+      "seed": "2961965966",
+      "priorFeedback": "favorite",
+      "before": {
+        "audio": "02-A-before.mp3",
+        "audioSha256": "86d9fef906cfa6c3bae03d051d71b52b6a0fef3f69ba13da5061fdf0a47348d9",
+        "score": "02-A-before.score.json.gz",
+        "scoreSha256": "19fab5cefa3a4045ae0d5695308389742d814f6126ccd1f7067e26aa0e62ae22"
+      },
+      "after": {
+        "audio": "02-B-after.mp3",
+        "audioSha256": "2750907f8442069cbfc5554721045b659e52bf260444428f80a5015fc140a501",
+        "score": "02-B-after.score.json.gz",
+        "scoreSha256": "b2642a6b2c2302c3fd0e3033d656a3aaf19047cf754102452d0b60061a301272"
+      },
+      "review": {
+        "groove": null,
+        "sound": null,
+        "repetition": null,
+        "overallPreference": "B",
+        "preferenceStrength": null,
+        "perceivedDifference": null,
+        "notes": "B preferred; individual dimensions not specified."
+      }
+    },
+    {
+      "id": "09",
+      "seed": "4093001357",
+      "priorFeedback": "favorite",
+      "before": {
+        "audio": "09-A-before.mp3",
+        "audioSha256": "77bd6994b375ddedceddde93e781bacec2e384da2646c3ccf9f459b6873b05e3",
+        "score": "09-A-before.score.json.gz",
+        "scoreSha256": "7ec774f92e0878ab955642c7c1c3ae02b82748a9f2d2bc8138fe3f392b1f6930"
+      },
+      "after": {
+        "audio": "09-B-after.mp3",
+        "audioSha256": "c617aa6f16de8011bd9a0559f2cf4e1de3886e27764bea2d460ace20c197e138",
+        "score": "09-B-after.score.json.gz",
+        "scoreSha256": "e5a3a5fd375be62d103618e94649636a5b81b145a8a0f8397db276ac58aa49b7"
+      },
+      "review": {
+        "groove": "B",
+        "sound": null,
+        "repetition": null,
+        "overallPreference": "B",
+        "preferenceStrength": null,
+        "perceivedDifference": null,
+        "notes": "B has more funk/groove."
+      }
+    },
+    {
+      "id": "13",
+      "seed": "1259808245",
+      "priorFeedback": "favorite",
+      "before": {
+        "audio": "13-A-before.mp3",
+        "audioSha256": "e474f7ed5202ee3e13e2b0fee6842b81b39a3ff169a0e8ea0488370420e5ec25",
+        "score": "13-A-before.score.json.gz",
+        "scoreSha256": "30ebd2f187dfa1d1658a346ec6d44b89126ab878764698b90ba2b687ea7cf3fe"
+      },
+      "after": {
+        "audio": "13-B-after.mp3",
+        "audioSha256": "79dda949c43a70c7b5522745485b755b7edb9dc0195693b565f10da854bbb952",
+        "score": "13-B-after.score.json.gz",
+        "scoreSha256": "f5caf89406b45f453a4cb7ae47faccba4d635278894b15b65a5d555375534436"
+      },
+      "review": {
+        "groove": null,
+        "sound": null,
+        "repetition": null,
+        "overallPreference": null,
+        "preferenceStrength": null,
+        "perceivedDifference": "about_the_same",
+        "notes": "A and B sound about the same. No separate preference supplied."
+      }
+    }
+  ],
+  "summary": {
+    "preferredB": [
+      "08",
+      "12",
+      "02",
+      "09"
+    ],
+    "preferredA": [
+      {
+        "id": "20",
+        "strength": "slight"
+      }
+    ],
+    "aboutTheSame": [
+      "13"
+    ],
+    "dimensionTradeoff": {
+      "id": "12",
+      "groove": "A",
+      "repetition": "B",
+      "overallPreference": "B"
+    }
+  },
+  "interpretation": {
+    "supported": [
+      "The v1.9 phrasing is preferred overall in four of these six comparisons.",
+      "Case 12 separates groove preference from repetition/overall preference.",
+      "Case 20 slightly favors the archived phrasing; 13 has no clear audible difference reported.",
+      "Case 09 explicitly gains perceived funk/groove."
+    ],
+    "notEstablished": [
+      "No individual voice or algorithm has been isolated as the cause.",
+      "No sound-only comparison or small-LLM decision follows from this set.",
+      "A B-for-repetition response does not tell us the desired direction or amount of repetition."
+    ],
+    "nextUse": "Keep B-favored phrasing as positive examples, preserve the A groove in 12 as a reference, and retain 20 as a regression case with a slight A preference. Treat 13 as perceptually similar. Compare sound selection separately with phrases fixed; no global instrument or genre rules."
+  },
+  "originalMediaAndScoreHashesVerified": true
+}
